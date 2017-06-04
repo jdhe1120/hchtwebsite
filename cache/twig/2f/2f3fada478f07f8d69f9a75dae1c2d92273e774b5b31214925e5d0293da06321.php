@@ -16,7 +16,7 @@ class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "921049846")->display($context);
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "1463234905")->display($context);
     }
 
     public function getTemplateName()
@@ -61,19 +61,22 @@ class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58
     </div>
   </div>
 </div>
+
+
 <div class=\"row\">
   <div id=\"primary\" class=\"content-area\">
-    <div class=\"large-{% if not page.header.fullwidth %}8{% else %}12{% endif %} columns\">
+    <div class=\"large-12 columns\">
       <main id=\"main\" class=\"site-main\" role=\"main\">
         {% for child in collection %}
-        <div class=\"row\">
-          {% include 'partials/blog_item.html.twig' with {'page':child, 'truncate':true} %}
+        <div class=\"large-4 columns\">
+          {% include 'partials/blog_item.html.twig' with {'page':child, 'truncate':true, 'readmore': false} %}
         </div>
         {% endfor %}
 
         {% if config.plugins.pagination.enabled and collection.params.pagination %}
         {% include 'partials/pagination.html.twig' with {'base_url': page.url, 'pagination':collection.params.pagination} %}
         {% endif %}
+
       </main>
     </div>
     {% if not page.header.fullwidth %}
@@ -88,13 +91,13 @@ class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58
 {% endblock %}
 
 {% endembed %}
-", "blog.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/themes/gateway/templates/blog.html.twig");
+", "blog.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/themes/gateway/templates/blog.html.twig");
     }
 }
 
 
 /* blog.html.twig */
-class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58e787c_921049846 extends Twig_Template
+class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58e787c_1463234905 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -147,19 +150,14 @@ class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58
     </div>
   </div>
 </div>
+
+
 <div class=\"row\">
   <div id=\"primary\" class=\"content-area\">
-    <div class=\"large-";
-        // line 25
-        if ( !$this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "fullwidth", array())) {
-            echo "8";
-        } else {
-            echo "12";
-        }
-        echo " columns\">
+    <div class=\"large-12 columns\">
       <main id=\"main\" class=\"site-main\" role=\"main\">
         ";
-        // line 27
+        // line 29
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
         $context['loop'] = array(
@@ -176,12 +174,12 @@ class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 28
-            echo "        <div class=\"row\">
-          ";
-            // line 29
-            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 29)->display(array_merge($context, array("page" => $context["child"], "truncate" => true)));
             // line 30
+            echo "        <div class=\"large-4 columns\">
+          ";
+            // line 31
+            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 31)->display(array_merge($context, array("page" => $context["child"], "truncate" => true, "readmore" => false)));
+            // line 32
             echo "        </div>
         ";
             ++$context['loop']['index0'];
@@ -196,35 +194,36 @@ class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 32
+        // line 34
         echo "
         ";
-        // line 33
+        // line 35
         if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "pagination", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))) {
-            // line 34
+            // line 36
             echo "        ";
-            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 34)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
-            // line 35
+            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 36)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
+            // line 37
             echo "        ";
         }
-        // line 36
-        echo "      </main>
+        // line 38
+        echo "
+      </main>
     </div>
     ";
-        // line 38
+        // line 41
         if ( !$this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "fullwidth", array())) {
-            // line 39
+            // line 42
             echo "    <!-- <div class=\"large-3 large-offset-1 columns\">
       <div id=\"secondary\" class=\"widget-area\">
         ";
-            // line 41
-            $this->loadTemplate("partials/sidebar.html.twig", "blog.html.twig", 41)->display($context);
-            // line 42
+            // line 44
+            $this->loadTemplate("partials/sidebar.html.twig", "blog.html.twig", 44)->display($context);
+            // line 45
             echo "      </div>
     </div> -->
     ";
         }
-        // line 45
+        // line 48
         echo "  </div>
 </div>
 ";
@@ -242,7 +241,7 @@ class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58
 
     public function getDebugInfo()
     {
-        return array (  228 => 45,  223 => 42,  221 => 41,  217 => 39,  215 => 38,  211 => 36,  208 => 35,  205 => 34,  203 => 33,  200 => 32,  185 => 30,  183 => 29,  180 => 28,  163 => 27,  154 => 25,  145 => 19,  140 => 16,  137 => 15,  133 => 1,  130 => 12,  128 => 11,  125 => 8,  123 => 7,  121 => 5,  119 => 4,  117 => 3,  19 => 1,);
+        return array (  227 => 48,  222 => 45,  220 => 44,  216 => 42,  214 => 41,  209 => 38,  206 => 37,  203 => 36,  201 => 35,  198 => 34,  183 => 32,  181 => 31,  178 => 30,  161 => 29,  148 => 19,  143 => 16,  140 => 15,  136 => 1,  133 => 12,  131 => 11,  128 => 8,  126 => 7,  124 => 5,  122 => 4,  120 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -277,19 +276,22 @@ class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58
     </div>
   </div>
 </div>
+
+
 <div class=\"row\">
   <div id=\"primary\" class=\"content-area\">
-    <div class=\"large-{% if not page.header.fullwidth %}8{% else %}12{% endif %} columns\">
+    <div class=\"large-12 columns\">
       <main id=\"main\" class=\"site-main\" role=\"main\">
         {% for child in collection %}
-        <div class=\"row\">
-          {% include 'partials/blog_item.html.twig' with {'page':child, 'truncate':true} %}
+        <div class=\"large-4 columns\">
+          {% include 'partials/blog_item.html.twig' with {'page':child, 'truncate':true, 'readmore': false} %}
         </div>
         {% endfor %}
 
         {% if config.plugins.pagination.enabled and collection.params.pagination %}
         {% include 'partials/pagination.html.twig' with {'base_url': page.url, 'pagination':collection.params.pagination} %}
         {% endif %}
+
       </main>
     </div>
     {% if not page.header.fullwidth %}
@@ -304,6 +306,6 @@ class __TwigTemplate_e2baa905e9517dacb35c48f95f1a898702903aa2b5f09f5377041f85e58
 {% endblock %}
 
 {% endembed %}
-", "blog.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/themes/gateway/templates/blog.html.twig");
+", "blog.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/themes/gateway/templates/blog.html.twig");
     }
 }

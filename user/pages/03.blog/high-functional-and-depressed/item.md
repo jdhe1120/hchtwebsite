@@ -2,10 +2,14 @@
 title: 'High-Functional and Depressed'
 date: '17:34 12/24/2016'
 taxonomy:
+    category:
+        - Featured
     tag:
         - Depression
         - 'High Functional Depression'
         - 'Mental Health'
+    featured:
+        - '1'
 body_classes: 'single single-post postid-15 single-format-standard group-blog'
 author: 'Rescue Themes'
 ---

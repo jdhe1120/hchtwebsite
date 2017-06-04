@@ -51,7 +51,3 @@ form:
         -
             display: thankyou
 ---
-
-A contact form is a great way to offer your readers the ability to get in touch, without giving out your personal email address. You can add a contact form to any post or page from the editor.
-
-Each contact form can easily be customized to fit your needs too. When a user submits your contact form, the feedback will be filtered through Akismet (if it is active on your site) to make sure it’s not spam. Any legitimate feedback will then be emailed to you, and added to your feedback management area.

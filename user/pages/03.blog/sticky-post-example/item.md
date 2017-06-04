@@ -1,7 +1,8 @@
 ---
-title: Sticky Post Example
-date: 14:55 07/11/2014
-body_classes: single single-post postid-15 single-format-standard group-blog
+title: 'Sticky Post Example'
+published: false
+date: '14:55 07/11/2014'
+body_classes: 'single single-post postid-15 single-format-standard group-blog'
 post_class: sticky
 continue_link: false
 ---

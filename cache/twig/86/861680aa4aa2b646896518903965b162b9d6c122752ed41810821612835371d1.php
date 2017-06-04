@@ -58,7 +58,7 @@ class __TwigTemplate_e8dab157aa8c2ec10efc21bc75ce094b8fa39c2ac1baf8096e818c49ad1
     ";
             // line 19
             $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable(twig_array_batch((isset($context["featured"]) ? $context["featured"] : null), 3));
+            $context['_seq'] = twig_ensure_traversable(twig_array_batch((isset($context["featured"]) ? $context["featured"] : null), 4));
             $context['loop'] = array(
               'parent' => $context['_parent'],
               'index0' => 0,
@@ -94,7 +94,7 @@ class __TwigTemplate_e8dab157aa8c2ec10efc21bc75ce094b8fa39c2ac1baf8096e818c49ad1
                 }
                 foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
                     // line 22
-                    echo "    <div class=\"large-4 columns\">
+                    echo "    <div class=\"large-3 columns\">
       ";
                     // line 23
                     $this->loadTemplate("partials/blog_item.html.twig", "modular.html.twig", 23)->display(array_merge($context, array("page" => $context["child"], "truncate" => true, "readmore" => false)));
@@ -194,10 +194,10 @@ class __TwigTemplate_e8dab157aa8c2ec10efc21bc75ce094b8fa39c2ac1baf8096e818c49ad1
 </div>
 {% if featured %}
 <div class=\"featured-posts\">
-    {% for row in featured|batch(3) %}
+    {% for row in featured|batch(4) %}
     <div class=\"row\">
     {% for child in row %}
-    <div class=\"large-4 columns\">
+    <div class=\"large-3 columns\">
       {% include 'partials/blog_item.html.twig' with {'page':child, 'truncate':true, 'readmore': false} %}
     </div>
     {% endfor %}
@@ -212,6 +212,6 @@ class __TwigTemplate_e8dab157aa8c2ec10efc21bc75ce094b8fa39c2ac1baf8096e818c49ad1
 {{ module.content }}
 {% endfor %}
 {% endblock %}
-", "modular.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/themes/gateway/templates/modular.html.twig");
+", "modular.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/themes/gateway/templates/modular.html.twig");
     }
 }
