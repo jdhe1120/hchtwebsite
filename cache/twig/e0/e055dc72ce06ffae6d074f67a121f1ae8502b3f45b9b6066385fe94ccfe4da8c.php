@@ -37,6 +37,6 @@ class __TwigTemplate_c8f89b65c7df4b9b589cd5b69972916f57f576f6cb273d723720a6c9892
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "empty.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/empty.html.twig");
+        return new Twig_Source("", "empty.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/empty.html.twig");
     }
 }

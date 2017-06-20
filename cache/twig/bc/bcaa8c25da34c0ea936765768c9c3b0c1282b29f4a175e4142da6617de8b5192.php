@@ -80,6 +80,6 @@ class __TwigTemplate_87658c75a41573df19782e33c3a14dda4ed05824f61fbacf6d119f72c13
             <a class=\"button\" data-leave-action=\"continue\" href=\"#\"><i class=\"fa fa-fw fa-check\"></i> {{ \"PLUGIN_ADMIN.CONTINUE\"|tu }}</a>
         </div>
     </form>
-</div>", "partials/modal-changes-detected.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
+</div>", "partials/modal-changes-detected.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
     }
 }

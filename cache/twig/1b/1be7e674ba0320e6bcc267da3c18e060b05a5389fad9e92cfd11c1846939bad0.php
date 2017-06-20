@@ -457,6 +457,6 @@ class __TwigTemplate_9b1b8e51be1f96e39685218b45a27535ed6036b3e1a5f01f8eff68a26b3
     {% endblock body %}
     </html>
 {% endif %}
-", "partials/base.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/base.html.twig");
     }
 }

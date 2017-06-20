@@ -86,6 +86,6 @@ class __TwigTemplate_5a39ad7cb079539057de1e26d99002aee0f1a2ee1b68bcc5d948320c590
     <div class=\"error alert\">{{ form_message|raw }}</div>
     {%- endif -%}
 </div>
-", "partials/messages.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/messages.html.twig");
+", "partials/messages.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/messages.html.twig");
     }
 }

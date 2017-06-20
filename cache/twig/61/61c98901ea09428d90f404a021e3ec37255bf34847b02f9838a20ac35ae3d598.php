@@ -45,6 +45,6 @@ class __TwigTemplate_091b8b38696fa0072c203ed736f6b80892884f5f647822acbd992d740f8
         return new Twig_Source("<button class=\"lines-button x\" type=\"button\" role=\"button\" aria-label=\"Toggle Navigation\" data-sidebar-mobile-toggle>
     <span class=\"lines\"></span>
 </button>
-", "partials/nav-toggle.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
+", "partials/nav-toggle.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
     }
 }

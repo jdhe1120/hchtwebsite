@@ -50,6 +50,175 @@ class __TwigTemplate_de32dc6fc0d111528174603ecd9d98f892c34c3367c00bd4966c2c96e9c
           </header>
           <div class=\"entry-content\">
 
+            ";
+        // line 16
+        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array())) {
+            // line 17
+            echo "            <hr class=\"rescue-spacing \" style=\"height: 10px\">
+            <div class=\"rescue-column rescue-all\">
+            ";
+            // line 19
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array()));
+            foreach ($context['_seq'] as $context["_key"] => $context["bar"]) {
+                // line 20
+                echo "                ";
+                if (($this->getAttribute($context["bar"], "position", array()) == "top")) {
+                    // line 21
+                    echo "               <div class=\"rescue-progressbar rescue-clearfix  rescue-all\" data-percent=\"";
+                    echo $this->getAttribute($context["bar"], "percent", array());
+                    echo "%\">
+                  <div class=\"rescue-progressbar-title\" style=\"background: ";
+                    // line 22
+                    echo $this->getAttribute($context["bar"], "background", array());
+                    echo ";\"><span>";
+                    echo $this->getAttribute($context["bar"], "title", array());
+                    echo "</span></div>
+                  <div class=\"rescue-progressbar-bar\" style=\"background: ";
+                    // line 23
+                    echo $this->getAttribute($context["bar"], "background", array());
+                    echo ";\"></div>
+                  <div class=\"rescue-progress-bar-percent\">";
+                    // line 24
+                    echo $this->getAttribute($context["bar"], "percent", array());
+                    echo "%</div>
+               </div>
+               ";
+                }
+                // line 27
+                echo "            ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['bar'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 28
+            echo "            </div>
+            <hr class=\"rescue-spacing \" style=\"height: 10px\">
+            ";
+        }
+        // line 31
+        echo "
+            ";
+        // line 32
+        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array())) {
+            // line 33
+            echo "              ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array()));
+            foreach ($context['_seq'] as $context["_key"] => $context["toggle"]) {
+                // line 34
+                echo "                ";
+                if (($this->getAttribute($context["toggle"], "position", array()) == "top")) {
+                    // line 35
+                    echo "                  <div class=\"rescue-toggle  rescue-all\">
+                    <h3 class=\"rescue-toggle-trigger\">";
+                    // line 36
+                    echo $this->getAttribute($context["toggle"], "title", array());
+                    echo "</h3>
+                    <div class=\"rescue-toggle-container\">";
+                    // line 37
+                    echo $this->getAttribute($context["toggle"], "description", array());
+                    echo "</div>
+                  </div>
+                ";
+                }
+                // line 40
+                echo "              ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['toggle'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 41
+            echo "            <hr class=\"rescue-spacing \" style=\"height: 30px\">
+            ";
+        }
+        // line 43
+        echo "            ";
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
+        echo "
+            <div class=\"entry-content\">
+              ";
+        // line 45
+        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array())) {
+            // line 46
+            echo "              <hr class=\"rescue-spacing \" style=\"height: 10px\">
+              <div class=\"rescue-column rescue-all\">
+              ";
+            // line 48
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array()));
+            foreach ($context['_seq'] as $context["_key"] => $context["bar"]) {
+                // line 49
+                echo "                  ";
+                if (($this->getAttribute($context["bar"], "position", array()) == "bottom")) {
+                    // line 50
+                    echo "                 <div class=\"rescue-progressbar rescue-clearfix  rescue-all\" data-percent=\"";
+                    echo $this->getAttribute($context["bar"], "percent", array());
+                    echo "%\">
+                    <div class=\"rescue-progressbar-title\" style=\"background: ";
+                    // line 51
+                    echo $this->getAttribute($context["bar"], "background", array());
+                    echo ";\"><span>";
+                    echo $this->getAttribute($context["bar"], "title", array());
+                    echo "</span></div>
+                    <div class=\"rescue-progressbar-bar\" style=\"background: ";
+                    // line 52
+                    echo $this->getAttribute($context["bar"], "background", array());
+                    echo ";\"></div>
+                    <div class=\"rescue-progress-bar-percent\">";
+                    // line 53
+                    echo $this->getAttribute($context["bar"], "percent", array());
+                    echo "%</div>
+                 </div>
+                 ";
+                }
+                // line 56
+                echo "              ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['bar'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 57
+            echo "              </div>
+              <hr class=\"rescue-spacing \" style=\"height: 10px\">
+              ";
+        }
+        // line 60
+        echo "              ";
+        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array())) {
+            // line 61
+            echo "                ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array()));
+            foreach ($context['_seq'] as $context["_key"] => $context["toggle"]) {
+                // line 62
+                echo "                  ";
+                if (($this->getAttribute($context["toggle"], "position", array()) == "bottom")) {
+                    // line 63
+                    echo "                    <div class=\"rescue-toggle  rescue-all\">
+                      <h3 class=\"rescue-toggle-trigger\">";
+                    // line 64
+                    echo $this->getAttribute($context["toggle"], "title", array());
+                    echo "</h3>
+                      <div class=\"rescue-toggle-container\">";
+                    // line 65
+                    echo $this->getAttribute($context["toggle"], "description", array());
+                    echo "</div>
+                    </div>
+                  ";
+                }
+                // line 68
+                echo "                ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['toggle'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 69
+            echo "              <hr class=\"rescue-spacing \" style=\"height: 30px\">
+              ";
+        }
+        // line 71
+        echo "
             <form name=\"my-nice-form\" action=\"https://formspree.io/jhe1120@gmail.com\" method=\"POST\" id=\"my-nice-form\" class=\" contact-form commentsblock\">
 
               <div class=\"form-field  \">
@@ -119,20 +288,20 @@ class __TwigTemplate_de32dc6fc0d111528174603ecd9d98f892c34c3367c00bd4966c2c96e9c
       </main>
     </div>
     <!-- ";
-        // line 84
+        // line 140
         if ( !$this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "fullwidth", array())) {
-            // line 85
+            // line 141
             echo "    <div class=\"large-3 large-offset-1 columns\">
       <div id=\"secondary\" class=\"widget-area\">
         ";
-            // line 87
-            $this->loadTemplate("partials/sidebar.html.twig", "form.html.twig", 87)->display($context);
-            // line 88
+            // line 143
+            $this->loadTemplate("partials/sidebar.html.twig", "form.html.twig", 143)->display($context);
+            // line 144
             echo "      </div>
     </div>
     ";
         }
-        // line 90
+        // line 146
         echo " -->
   </div>
 </div>
@@ -151,7 +320,7 @@ class __TwigTemplate_de32dc6fc0d111528174603ecd9d98f892c34c3367c00bd4966c2c96e9c
 
     public function getDebugInfo()
     {
-        return array (  136 => 90,  131 => 88,  129 => 87,  125 => 85,  123 => 84,  47 => 11,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  305 => 146,  300 => 144,  298 => 143,  294 => 141,  292 => 140,  221 => 71,  217 => 69,  211 => 68,  205 => 65,  201 => 64,  198 => 63,  195 => 62,  190 => 61,  187 => 60,  182 => 57,  176 => 56,  170 => 53,  166 => 52,  160 => 51,  155 => 50,  152 => 49,  148 => 48,  144 => 46,  142 => 45,  136 => 43,  132 => 41,  126 => 40,  120 => 37,  116 => 36,  113 => 35,  110 => 34,  105 => 33,  103 => 32,  100 => 31,  95 => 28,  89 => 27,  83 => 24,  79 => 23,  73 => 22,  68 => 21,  65 => 20,  61 => 19,  57 => 17,  55 => 16,  47 => 11,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -178,6 +347,62 @@ class __TwigTemplate_de32dc6fc0d111528174603ecd9d98f892c34c3367c00bd4966c2c96e9c
             </h2>
           </header>
           <div class=\"entry-content\">
+
+            {% if page.header.progressbar %}
+            <hr class=\"rescue-spacing \" style=\"height: 10px\">
+            <div class=\"rescue-column rescue-all\">
+            {% for bar in page.header.progressbar %}
+                {% if bar.position == 'top' %}
+               <div class=\"rescue-progressbar rescue-clearfix  rescue-all\" data-percent=\"{{ bar.percent }}%\">
+                  <div class=\"rescue-progressbar-title\" style=\"background: {{ bar.background }};\"><span>{{ bar.title }}</span></div>
+                  <div class=\"rescue-progressbar-bar\" style=\"background: {{ bar.background }};\"></div>
+                  <div class=\"rescue-progress-bar-percent\">{{ bar.percent }}%</div>
+               </div>
+               {% endif %}
+            {% endfor %}
+            </div>
+            <hr class=\"rescue-spacing \" style=\"height: 10px\">
+            {% endif %}
+
+            {% if page.header.toggles %}
+              {% for toggle in page.header.toggles %}
+                {% if toggle.position == 'top' %}
+                  <div class=\"rescue-toggle  rescue-all\">
+                    <h3 class=\"rescue-toggle-trigger\">{{ toggle.title }}</h3>
+                    <div class=\"rescue-toggle-container\">{{ toggle.description }}</div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            <hr class=\"rescue-spacing \" style=\"height: 30px\">
+            {% endif %}
+            {{ page.content }}
+            <div class=\"entry-content\">
+              {% if page.header.progressbar %}
+              <hr class=\"rescue-spacing \" style=\"height: 10px\">
+              <div class=\"rescue-column rescue-all\">
+              {% for bar in page.header.progressbar %}
+                  {% if bar.position == 'bottom' %}
+                 <div class=\"rescue-progressbar rescue-clearfix  rescue-all\" data-percent=\"{{ bar.percent }}%\">
+                    <div class=\"rescue-progressbar-title\" style=\"background: {{ bar.background }};\"><span>{{ bar.title }}</span></div>
+                    <div class=\"rescue-progressbar-bar\" style=\"background: {{ bar.background }};\"></div>
+                    <div class=\"rescue-progress-bar-percent\">{{ bar.percent }}%</div>
+                 </div>
+                 {% endif %}
+              {% endfor %}
+              </div>
+              <hr class=\"rescue-spacing \" style=\"height: 10px\">
+              {% endif %}
+              {% if page.header.toggles %}
+                {% for toggle in page.header.toggles %}
+                  {% if toggle.position == 'bottom' %}
+                    <div class=\"rescue-toggle  rescue-all\">
+                      <h3 class=\"rescue-toggle-trigger\">{{ toggle.title }}</h3>
+                      <div class=\"rescue-toggle-container\">{{ toggle.description }}</div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              <hr class=\"rescue-spacing \" style=\"height: 30px\">
+              {% endif %}
 
             <form name=\"my-nice-form\" action=\"https://formspree.io/jhe1120@gmail.com\" method=\"POST\" id=\"my-nice-form\" class=\" contact-form commentsblock\">
 

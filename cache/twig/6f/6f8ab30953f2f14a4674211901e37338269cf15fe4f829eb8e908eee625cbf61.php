@@ -261,6 +261,6 @@ class __TwigTemplate_4feb54b8d6bfbc0e8708a669af5e63d492151f7081f228226018fe6d4bb
 {% include 'partials/modal-update-packages.html.twig' with { type: 'plugin' } %}
 {% include 'partials/modal-remove-package.html.twig' with { type: 'plugin', package: plugin } %}
 {% include 'partials/modal-reinstall-package.html.twig' with { type: 'plugin', package: plugin } %}
-", "partials/plugins-details.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/plugins-details.html.twig");
+", "partials/plugins-details.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/plugins-details.html.twig");
     }
 }

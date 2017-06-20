@@ -70,6 +70,6 @@ class __TwigTemplate_1f49c4ac522fcd9af039cafbbf613995be1f76ee3fffca2574b3fd27b88
     {% if field.disabled or isDisabledToggleable %}disabled=\"disabled\"{% endif %}
     name=\"{{ (scope ~ field.name)|fieldName }}\"
     value=\"{{ blueprints.name }}\" />
-", "forms/fields/blueprint/blueprint.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
+", "forms/fields/blueprint/blueprint.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
     }
 }

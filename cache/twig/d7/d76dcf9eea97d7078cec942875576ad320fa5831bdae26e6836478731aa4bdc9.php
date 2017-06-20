@@ -66,6 +66,6 @@ class __TwigTemplate_fd173b0ccb8a96f0ad09b1c298f417ea80ec9453d40de732d928437dc05
     {% set codemirrorOptions = codemirrorOptions|merge({'ignore': []}) %}
 {% endif %}
 {# end backward compatibility #}
-", "forms/fields/markdown/markdown.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/forms/fields/markdown/markdown.html.twig");
+", "forms/fields/markdown/markdown.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/forms/fields/markdown/markdown.html.twig");
     }
 }

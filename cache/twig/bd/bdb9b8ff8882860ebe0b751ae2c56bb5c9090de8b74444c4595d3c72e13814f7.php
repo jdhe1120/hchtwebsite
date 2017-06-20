@@ -1336,6 +1336,6 @@ $context["p"], "published", array())) ? (($this->env->getExtension('Grav\Plugin\
     {% include 'partials/admin-pro-pages-addons.html.twig' ignore missing %}
 
 {% endblock %}
-", "pages.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/pages.html.twig");
+", "pages.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/pages.html.twig");
     }
 }

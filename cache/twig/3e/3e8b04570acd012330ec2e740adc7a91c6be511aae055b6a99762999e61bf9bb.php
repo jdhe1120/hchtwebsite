@@ -96,6 +96,6 @@ class __TwigTemplate_27953e69a836a3aa1fb2cc59953b1507fc7dac8a321a6227d48f2cafc80
     </select>
     <div class=\"sort-icon\"><i class=\"fa fa-fw fa-sort-amount-asc\"></i></div>
 </div>
-", "partials/list-sort.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
+", "partials/list-sort.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
     }
 }

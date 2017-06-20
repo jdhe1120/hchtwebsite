@@ -84,6 +84,6 @@ class __TwigTemplate_73d0ca01cacebbcbf9d10240c97f8a9f0db9bf0dc6f8c3ebc0e1004ea36
     {% endfor %}
 </div>
 {% endif %}
-", "partials/taxonomylist.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/themes/gateway/templates/partials/taxonomylist.html.twig");
+", "partials/taxonomylist.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/themes/gateway/templates/partials/taxonomylist.html.twig");
     }
 }

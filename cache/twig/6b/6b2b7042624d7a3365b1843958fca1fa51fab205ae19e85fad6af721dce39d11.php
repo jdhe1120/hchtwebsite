@@ -48,6 +48,6 @@ class __TwigTemplate_7e93a8ff46c5a28b7a72444191d89b2727026dd60319518625de50f41d5
     public function getSourceContext()
     {
         return new Twig_Source("<img src=\"{{ admin.user.avatarUrl() }}?s=47\" />
-", "partials/nav-user-avatar.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
+", "partials/nav-user-avatar.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
     }
 }

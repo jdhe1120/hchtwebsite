@@ -272,6 +272,6 @@ class __TwigTemplate_5291d3df60405c61f9dfa8ea6ec808aa8880cfa027f4c8eedc65537730b
         </div>
 
     </form>
-</div>", "partials/modal-add-package.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/modal-add-package.html.twig");
+</div>", "partials/modal-add-package.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/modal-add-package.html.twig");
     }
 }

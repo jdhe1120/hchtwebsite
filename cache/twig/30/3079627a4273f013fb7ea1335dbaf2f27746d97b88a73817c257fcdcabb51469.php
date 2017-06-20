@@ -159,6 +159,6 @@ class __TwigTemplate_22ffa49def57a4496263ad04737a503032d586239d324d76cbf58125f27
         </div>
     </form>
 </div>
-", "partials/modal-reinstall-package.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/modal-reinstall-package.html.twig");
+", "partials/modal-reinstall-package.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/modal-reinstall-package.html.twig");
     }
 }

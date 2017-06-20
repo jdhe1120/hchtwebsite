@@ -56,6 +56,6 @@ class __TwigTemplate_dcb9d097f30a1fb056a8c3f9c9e11c20174003f330c00cc33d703c88723
         return new Twig_Source("{% set value = (value is null ? (field.evaluate ? evaluate(field.default) : field.default) : value) %}
 
 <input data-grav-field=\"hidden\" data-grav-disabled=\"false\" type=\"hidden\" class=\"input\" name=\"{{ (scope ~ field.name)|fieldName }}\" value=\"{{ value|join(', ') }}\" />
-", "forms/fields/hidden/hidden.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/form/templates/forms/fields/hidden/hidden.html.twig");
+", "forms/fields/hidden/hidden.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/form/templates/forms/fields/hidden/hidden.html.twig");
     }
 }

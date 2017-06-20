@@ -106,6 +106,6 @@ class __TwigTemplate_08d813f24e2f1a8a33acad3841f66630a646804e0498c04a5c1eea977e5
     {% endfor %}
     </div>
 {% endif %}
-", "forms/fields/column/column.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/forms/fields/column/column.html.twig");
+", "forms/fields/column/column.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/forms/fields/column/column.html.twig");
     }
 }

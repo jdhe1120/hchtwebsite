@@ -84,6 +84,6 @@ class __TwigTemplate_53ac13bd36fca331390dcc4e800aca0d04c7c08f6864a615a0a57a1223f
 </div>
 
 
-", "partials/page-legend.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
+", "partials/page-legend.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
     }
 }

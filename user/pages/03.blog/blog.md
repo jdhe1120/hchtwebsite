@@ -1,8 +1,8 @@
 ---
 title: Blog
-blog_url: blog
-menu: Blog
 body_classes: 'blog group-blog infinite-scroll'
+menu: Blog
+blog_url: blog
 sitemap:
     changefreq: monthly
     priority: 1.03
@@ -20,4 +20,4 @@ pagination: true
 ---
 
 ## Latest Blog Posts
-### To submit a blog post, head to the submissions page.
+### Written by the Harvard community, the purpose of the blog is to start conversations on different mental health topics. To submit a post, head to the submissions page.

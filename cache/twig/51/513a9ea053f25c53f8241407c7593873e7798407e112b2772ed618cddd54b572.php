@@ -173,6 +173,6 @@ class __TwigTemplate_cd4d9013c884d6e7ae344f4779211c4bd262df6867ebf06a43d0df0a4ec
         </div>
     </form>
 </div>
-", "partials/modal-remove-package.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/modal-remove-package.html.twig");
+", "partials/modal-remove-package.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/modal-remove-package.html.twig");
     }
 }

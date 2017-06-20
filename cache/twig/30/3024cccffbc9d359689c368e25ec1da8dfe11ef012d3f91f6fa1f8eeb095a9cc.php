@@ -141,6 +141,6 @@ class __TwigTemplate_0f3cb677ab3f5b7e67ea5edc47fb76a2e4371c27a70ef4f291025fc7a60
     {{ nonce_field('admin-form', 'admin-nonce')|raw }}
 
 </form>
-", "partials/blueprints-new-folder.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/blueprints-new-folder.html.twig");
+", "partials/blueprints-new-folder.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/blueprints-new-folder.html.twig");
     }
 }

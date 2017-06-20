@@ -265,6 +265,6 @@ class __TwigTemplate_7eaf471077d09b58fc89bf07979d10751c01289732b6a53838c4a851e22
 {% endif %}
 </div>
 
-", "forms/fields/tabs/tabs.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig");
+", "forms/fields/tabs/tabs.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig");
     }
 }

@@ -106,6 +106,6 @@ class __TwigTemplate_db41463e045a7966d02301cd51f6f1fc6729ec6e484a5a9a94cfe81629b
     {% endfor %}
 </ul>
 {% endif %}
-", "partials/categorylist.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/themes/gateway/templates/partials/categorylist.html.twig");
+", "partials/categorylist.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/themes/gateway/templates/partials/categorylist.html.twig");
     }
 }

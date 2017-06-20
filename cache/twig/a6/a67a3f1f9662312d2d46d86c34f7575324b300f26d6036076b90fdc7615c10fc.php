@@ -160,6 +160,6 @@ class __TwigTemplate_c1cff525297a0cf341a758b0469f129384404c2a6428f6f8dbe48588471
     {% set field = field|merge({'wrapper_classes': 'form-input-addon-wrapper'}) %}
 {% endif %}
 {{ parent() }}
-{% endblock %}", "forms/fields/text/text.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/form/templates/forms/fields/text/text.html.twig");
+{% endblock %}", "forms/fields/text/text.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/form/templates/forms/fields/text/text.html.twig");
     }
 }

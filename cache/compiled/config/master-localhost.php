@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1496576180,
-    'checksum' => '022b1747812dd97e2cc019ef923083bb',
+    'timestamp' => 1497975797,
+    'checksum' => '28b66875bff48ffa9116778f1fc125d2',
     'files' => [
         'user/config' => [
             'media' => [
@@ -43,7 +43,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1496555649
+                'modified' => 1497975600
             ]
         ],
         'system/config' => [
@@ -87,7 +87,7 @@ return [
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/feed.yaml',
-                'modified' => 1496563993
+                'modified' => 1497975796
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
@@ -112,6 +112,10 @@ return [
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
                 'modified' => 1493004996
+            ],
+            'plugins/youtube' => [
+                'file' => 'user/plugins/youtube/youtube.yaml',
+                'modified' => 1497975759
             ]
         ]
     ],
@@ -444,6 +448,30 @@ return [
             'taxonomylist' => [
                 'enabled' => true,
                 'route' => '/blog'
+            ],
+            'youtube' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'add_editor_button' => true,
+                'player_parameters' => [
+                    'autoplay' => 0,
+                    'cc_load_policy' => 0,
+                    'color' => 'red',
+                    'controls' => 1,
+                    'disablekb' => 0,
+                    'enablejsapi' => 0,
+                    'fs' => 1,
+                    'hl' => '',
+                    'iv_load_policy' => 1,
+                    'loop' => 0,
+                    'modestbranding' => 0,
+                    'origin' => '',
+                    'playsinline' => 0,
+                    'rel' => 1,
+                    'showinfo' => 1,
+                    'vq' => 'default'
+                ],
+                'privacy_enhanced_mode' => false
             ],
             'jscomments' => [
                 'enabled' => false,

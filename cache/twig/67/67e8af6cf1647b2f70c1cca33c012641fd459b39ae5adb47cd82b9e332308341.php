@@ -30,7 +30,7 @@ class __TwigTemplate_a2d7dd90956136bae0f462cfb53bef827a2e6cab439d91a9074000d949b
         // line 5
         if ((isset($context["plugin_slug"]) ? $context["plugin_slug"] : null)) {
             // line 6
-            $context["installing"] = (is_string($__internal_69418248557ee4ee069a89f556aebfd6cbbb83bbb8e0f27b389f2403b79a6db8 = (isset($context["plugin_slug"]) ? $context["plugin_slug"] : null)) && is_string($__internal_74feb9f22a1c62602672803dbe527ce44102e43d0f2347b2ec722c833e5a3db6 = "install") && ('' === $__internal_74feb9f22a1c62602672803dbe527ce44102e43d0f2347b2ec722c833e5a3db6 || 0 === strpos($__internal_69418248557ee4ee069a89f556aebfd6cbbb83bbb8e0f27b389f2403b79a6db8, $__internal_74feb9f22a1c62602672803dbe527ce44102e43d0f2347b2ec722c833e5a3db6)));
+            $context["installing"] = (is_string($__internal_8d2b6d9ad6131980bc505e0154fc899842905e613501eb071bde5de67c9e1105 = (isset($context["plugin_slug"]) ? $context["plugin_slug"] : null)) && is_string($__internal_0a875c29faf955b17c056c11811bcf46d565f9ae81dd7671b955c7eecdbe1bbd = "install") && ('' === $__internal_0a875c29faf955b17c056c11811bcf46d565f9ae81dd7671b955c7eecdbe1bbd || 0 === strpos($__internal_8d2b6d9ad6131980bc505e0154fc899842905e613501eb071bde5de67c9e1105, $__internal_0a875c29faf955b17c056c11811bcf46d565f9ae81dd7671b955c7eecdbe1bbd)));
             // line 8
             if ((isset($context["installing"]) ? $context["installing"] : null)) {
                 // line 9
@@ -351,6 +351,6 @@ class __TwigTemplate_a2d7dd90956136bae0f462cfb53bef827a2e6cab439d91a9074000d949b
         {% endif %}
     </div>
 {% endblock %}
-", "plugins.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/plugins.html.twig");
+", "plugins.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/plugins.html.twig");
     }
 }

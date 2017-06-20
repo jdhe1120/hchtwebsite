@@ -142,6 +142,6 @@ class __TwigTemplate_a15b9cfc1ffcbfc8f5c5c7f9fdd74f2e003a98d2525d37364702bbeeb17
         <button class=\"button primary\" name=\"task\" value=\"save\">{{ \"PLUGIN_ADMIN.CONTINUE\"|tu }}</button>
     </div>
 </form>
-", "partials/page-move.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/page-move.html.twig");
+", "partials/page-move.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/page-move.html.twig");
     }
 }

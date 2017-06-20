@@ -91,6 +91,6 @@ class __TwigTemplate_6f41f007a8d1b00cc8a55824378973235998f7ebd29b5eaad4dd193b550
     {% do assets.addCss(theme_url~'/css/nucleus-ie9.css') %}
     {% do assets.addCss(theme_url~'/css/pure-0.5.0/grids-min.css') %}
 {% endif %}
-", "partials/stylesheets.html.twig", "/Users/jdhe1120/Documents/Harvard/Freshman/Clubs/HCHT/New Website/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
+", "partials/stylesheets.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
     }
 }
