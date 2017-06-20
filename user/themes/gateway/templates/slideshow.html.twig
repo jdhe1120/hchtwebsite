@@ -1,0 +1,140 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<div class="row">
+  <div id="primary" class="content-area">
+    <div class="large-{% if not page.header.fullwidth %}8{% else %}12{% endif %} columns">
+      <main id="main" class="site-main" role="main">
+        <article class="page type-page status-publish hentry">
+          <header class="entry-header">
+            <h2 class="entry-title">
+              {{ page.header.title }}
+            </h2>
+          </header>
+
+          <div id="slideshow">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                <img src="{{ theme_url }}/img/hero-bg.jpg" style="width:100%">
+                <div class="text"></div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <img src="{{ theme_url }}/img/background.jpg" style="width:100%">
+                <div class="text"></div>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <br>
+
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+
+          <div class="entry-content">
+            {% if page.header.progressbar %}
+            <hr class="rescue-spacing " style="height: 10px">
+            <div class="rescue-column rescue-all">
+            {% for bar in page.header.progressbar %}
+                {% if bar.position == 'top' %}
+               <div class="rescue-progressbar rescue-clearfix  rescue-all" data-percent="{{ bar.percent }}%">
+                  <div class="rescue-progressbar-title" style="background: {{ bar.background }};"><span>{{ bar.title }}</span></div>
+                  <div class="rescue-progressbar-bar" style="background: {{ bar.background }};"></div>
+                  <div class="rescue-progress-bar-percent">{{ bar.percent }}%</div>
+               </div>
+               {% endif %}
+            {% endfor %}
+            </div>
+            <hr class="rescue-spacing " style="height: 10px">
+            {% endif %}
+
+            {% if page.header.toggles %}
+              {% for toggle in page.header.toggles %}
+                {% if toggle.position == 'top' %}
+                  <div class="rescue-toggle  rescue-all">
+                    <h3 class="rescue-toggle-trigger">{{ toggle.title }}</h3>
+                    <div class="rescue-toggle-container">{{ toggle.description }}</div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            <hr class="rescue-spacing " style="height: 30px">
+            {% endif %}
+            {{ page.content }}
+            <div class="entry-content">
+              {% if page.header.progressbar %}
+              <hr class="rescue-spacing " style="height: 10px">
+              <div class="rescue-column rescue-all">
+              {% for bar in page.header.progressbar %}
+                  {% if bar.position == 'bottom' %}
+                 <div class="rescue-progressbar rescue-clearfix  rescue-all" data-percent="{{ bar.percent }}%">
+                    <div class="rescue-progressbar-title" style="background: {{ bar.background }};"><span>{{ bar.title }}</span></div>
+                    <div class="rescue-progressbar-bar" style="background: {{ bar.background }};"></div>
+                    <div class="rescue-progress-bar-percent">{{ bar.percent }}%</div>
+                 </div>
+                 {% endif %}
+              {% endfor %}
+              </div>
+              <hr class="rescue-spacing " style="height: 10px">
+              {% endif %}
+              {% if page.header.toggles %}
+                {% for toggle in page.header.toggles %}
+                  {% if toggle.position == 'bottom' %}
+                    <div class="rescue-toggle  rescue-all">
+                      <h3 class="rescue-toggle-trigger">{{ toggle.title }}</h3>
+                      <div class="rescue-toggle-container">{{ toggle.description }}</div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              <hr class="rescue-spacing " style="height: 30px">
+              {% endif %}
+          </div>
+        </article>
+      </main>
+    </div>
+    {% if not page.header.fullwidth %}
+    <div class="large-3 large-offset-1 columns">
+      <div id="secondary" class="widget-area">
+        {% include 'partials/sidebar.html.twig' %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  }
+</script>
+
+{% endblock %}
