@@ -108,7 +108,7 @@
 
 /* Add some shadows to create a card effect */
 .card {
-    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 /* Some left and right padding inside the container */
@@ -127,7 +127,7 @@
     color: grey;
 }
 
-.button {
+/*.button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -137,8 +137,14 @@
     text-align: center;
     cursor: pointer;
     width: 100%;
-}
+}*/
 
-.button:hover {
+/*.button:hover {
     background-color: #555;
+}*/
+
+.blog_page_titles h3 {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }

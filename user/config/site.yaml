@@ -33,17 +33,14 @@ header:
       class: 'button radius'
 social:
   -
-    url: 'https://twitter.com/'
-    icon: twitter
-  -
-    url: '#'
+    url: 'https://www.facebook.com/harvardcollegehealingthoughts/'
     icon: facebook
   -
-    url: 'http://www.vimeo.com'
-    icon: vimeo-square
+    url: 'mailto:harvardhealingthoughts@gmail.com'
+    icon: envelope
   -
-    url: 'http://www.pinterest.com'
-    icon: pinterest
+    url: 'www.hcs.harvard.edu/~hcht/'
+    icon: info-circle
 footer:
   widget:
     title: 'Harvard College Healing Thoughts'

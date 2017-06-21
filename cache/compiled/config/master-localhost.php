@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1497975797,
-    'checksum' => '28b66875bff48ffa9116778f1fc125d2',
+    'timestamp' => 1498037422,
+    'checksum' => '159973b4440d64ed16f27f194c5c4a76',
     'files' => [
         'user/config' => [
             'media' => [
@@ -35,7 +35,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1496563280
+                'modified' => 1498037419
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -807,20 +807,16 @@ return [
             ],
             'social' => [
                 0 => [
-                    'url' => 'https://twitter.com/',
-                    'icon' => 'twitter'
-                ],
-                1 => [
-                    'url' => '#',
+                    'url' => 'https://www.facebook.com/harvardcollegehealingthoughts/',
                     'icon' => 'facebook'
                 ],
-                2 => [
-                    'url' => 'http://www.vimeo.com',
-                    'icon' => 'vimeo-square'
+                1 => [
+                    'url' => 'mailto:harvardhealingthoughts@gmail.com',
+                    'icon' => 'envelope'
                 ],
-                3 => [
-                    'url' => 'http://www.pinterest.com',
-                    'icon' => 'pinterest'
+                2 => [
+                    'url' => 'www.hcs.harvard.edu/~hcht/',
+                    'icon' => 'info-circle'
                 ]
             ],
             'footer' => [

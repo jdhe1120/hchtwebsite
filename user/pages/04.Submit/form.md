@@ -53,4 +53,6 @@ form:
             display: thankyou
 ---
 
-Submit your blog post below! If you have any questions, please feel free to email harvardhealingthoughts@gmail.com
+From short informative pieces to personal essays, all types of literary work are welcome. Just as long as it contributes to the conversation about mental health in some shape or form. While we encourage shorter submissions (300 – 600 words), pieces of all lengths are accepted. Only members of the Harvard community are eligible for submission.
+
+Please submit your blog post via the form below. Also, feel free to contact us at harvardhealingthoughts@gmail.com with any questions about the submission process or about us as an organization. We are always happy to chat with you about anything and everything.

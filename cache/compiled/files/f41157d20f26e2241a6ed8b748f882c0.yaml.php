@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/config/site.yaml',
-    'modified' => 1496563280,
+    'modified' => 1498037419,
     'data' => [
         'title' => 'Harvard College Healing Thoughts',
         'default_lang' => 'en',
@@ -48,20 +48,16 @@ return [
         ],
         'social' => [
             0 => [
-                'url' => 'https://twitter.com/',
-                'icon' => 'twitter'
-            ],
-            1 => [
-                'url' => '#',
+                'url' => 'https://www.facebook.com/harvardcollegehealingthoughts/',
                 'icon' => 'facebook'
             ],
-            2 => [
-                'url' => 'http://www.vimeo.com',
-                'icon' => 'vimeo-square'
+            1 => [
+                'url' => 'mailto:harvardhealingthoughts@gmail.com',
+                'icon' => 'envelope'
             ],
-            3 => [
-                'url' => 'http://www.pinterest.com',
-                'icon' => 'pinterest'
+            2 => [
+                'url' => 'www.hcs.harvard.edu/~hcht/',
+                'icon' => 'info-circle'
             ]
         ],
         'footer' => [

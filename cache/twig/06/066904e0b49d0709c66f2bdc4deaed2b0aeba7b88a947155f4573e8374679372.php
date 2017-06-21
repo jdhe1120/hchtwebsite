@@ -79,29 +79,17 @@ class __TwigTemplate_390955b06dd73ee0fb0054405ba89112a9a8ddb0a29e73d2e8ad6b907fb
 </aside>
 ";
         // line 29
-        if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "taxonomylist", array()), "enabled", array())) {
-            // line 30
-            echo "<aside class=\"widget widget_tag_cloud\">
-    <h1 class=\"widget-title\">Popular Tags</h1>
-    ";
-            // line 32
-            $this->loadTemplate("partials/taxonomylist.html.twig", "partials/sidebar.html.twig", 32)->display(array_merge($context, array("taxonomy" => "tag")));
-            // line 33
-            echo "</aside>
-";
-        }
-        // line 35
         if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "feed", array()), "enabled", array())) {
-            // line 36
+            // line 30
             echo "<aside class=\"widget widget_meta\">
     <h1 class=\"widget-title\">Syndicate</h1>
     <ul>
       <li><a href=\"";
-            // line 39
+            // line 33
             echo (isset($context["feed_url"]) ? $context["feed_url"] : null);
             echo ".atom\">Atom 1.0</a></li>
       <li><a href=\"";
-            // line 40
+            // line 34
             echo (isset($context["feed_url"]) ? $context["feed_url"] : null);
             echo ".rss\">RSS</a></li>
     </ul>
@@ -122,7 +110,7 @@ class __TwigTemplate_390955b06dd73ee0fb0054405ba89112a9a8ddb0a29e73d2e8ad6b907fb
 
     public function getDebugInfo()
     {
-        return array (  105 => 40,  101 => 39,  96 => 36,  94 => 35,  90 => 33,  88 => 32,  84 => 30,  82 => 29,  78 => 27,  67 => 24,  64 => 23,  60 => 22,  55 => 19,  49 => 16,  45 => 14,  43 => 13,  39 => 11,  37 => 10,  33 => 8,  31 => 7,  27 => 5,  25 => 4,  21 => 2,  19 => 1,);
+        return array (  93 => 34,  89 => 33,  84 => 30,  82 => 29,  78 => 27,  67 => 24,  64 => 23,  60 => 22,  55 => 19,  49 => 16,  45 => 14,  43 => 13,  39 => 11,  37 => 10,  33 => 8,  31 => 7,  27 => 5,  25 => 4,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -163,12 +151,6 @@ class __TwigTemplate_390955b06dd73ee0fb0054405ba89112a9a8ddb0a29e73d2e8ad6b907fb
 {% endfor %}
 </ul>
 </aside>
-{% if config.plugins.taxonomylist.enabled %}
-<aside class=\"widget widget_tag_cloud\">
-    <h1 class=\"widget-title\">Popular Tags</h1>
-    {% include 'partials/taxonomylist.html.twig' with {'taxonomy':'tag'} %}
-</aside>
-{% endif %}
 {% if config.plugins.feed.enabled %}
 <aside class=\"widget widget_meta\">
     <h1 class=\"widget-title\">Syndicate</h1>

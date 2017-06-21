@@ -8,7 +8,6 @@
     {% include 'partials/metadata.html.twig' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="{{ theme_url }}/img/favicon.png" />
-    <link rel='stylesheet' href="{{ theme_url }}/css/custom.css" />
 
     {% block stylesheets %}
         {% do assets.addCss('theme://css/animate.min.css') %}
@@ -22,6 +21,9 @@
 
     {{ assets.css() }}
     <link rel='stylesheet' id='gateway-fonts-css'  href='//fonts.googleapis.com/css?family=Quattrocento%3A400%2C700%7CFanwood+Text%3A400%2C400italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+
+    <link rel='stylesheet' href="{{ theme_url }}/css/custom.css" />
+    
     {% block javascripts %}
         {% do assets.add('jquery', 101) %}
         {% do assets.addJs('theme://js/foundation.js') %}

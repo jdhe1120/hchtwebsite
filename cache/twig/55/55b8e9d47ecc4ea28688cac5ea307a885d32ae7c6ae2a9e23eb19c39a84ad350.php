@@ -53,7 +53,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Jennier Bi</h2>
                     <p class=\"title\">Co-President</p>
-                    <p>Jennifer is a junior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Harvard College Healing Thoughts, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
+                    <p>Jennifer is a senior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Harvard College Healing Thoughts, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
                   </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Mingu Kim</h2>
                     <p class=\"title\">Co-President</p>
-                    <p>Hi, I’m Mingu Kim, and I’m a junior in Leverett House studying Applied Mathematics with a focus in biology. I’m from Columbia, Missouri, and I’ve been interested in both the biological basis and the social factors that impact mental health. In my spare time, I enjoy coding, playing violin, and hanging out with friends.</p>
+                    <p>Hi, I’m Mingu Kim, and I’m a senior in Leverett House studying Applied Mathematics with a focus in biology. I’m from Columbia, Missouri, and I’ve been interested in both the biological basis and the social factors that impact mental health. In my spare time, I enjoy coding, playing violin, and hanging out with friends.</p>
                   </div>
               </div>
             </div>
@@ -81,13 +81,13 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <img src=\"";
         // line 45
         echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
-        echo "/img/people/ej-kim.jpg\" alt=\"EJ Kim\" style=\"width:100%; float:left; \">
+        echo "/img/people/katherine-venturo-conerly.jpg\" alt=\"Katherine Venturo-conerly\" style=\"width:100%; float:left; \">
               </div>
               <div class=\"large-9 columns\">
                   <div class=\"container\">
-                    <h2 style=\"padding-top: 15px\">EJ Kim</h2>
-                    <p class=\"title\">Social Chair</p>
-                    <p>My name is EJ, and I am a current sophomore hailing from Seoul, South Korea. Having grown up in a culture where mental health issues were prevalent yet seldom addressed, I have always wanted to contribute to the dialogue around mental illnesses, both from as a neurobiology concentrator from the biological perspective and from a more holistic, culture perspective.</p>
+                    <h2 style=\"padding-top: 15px\">Katherine Venturo-conerly</h2>
+                    <p class=\"title\">Vice President</p>
+                    <p>I am very excited to be secretary for HCHT. I live near Princeton, NJ, and am a potential concentrator in History and Science, Mind Brain and Behavior track, with a minor in Psychology. My goal is to study the metal health system and its impact on patients, and to serve in my professional life as a patient advocate and educator. Outside of HCHT, I sing Soprano in Radcliffe Choral Society, work as a citizenship tutor, and act as a Student Mental Health Liaison.</p>
                   </div>
               </div>
             </div>
@@ -115,13 +115,13 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <img src=\"";
         // line 73
         echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
-        echo "/img/people/katherine-venturo-conerly.jpg\" alt=\"Katherine Venturo-conerly\" style=\"width:100%; float:left; \">
+        echo "/img/people/ej-kim.jpg\" alt=\"EJ Kim\" style=\"width:100%; float:left; \">
               </div>
               <div class=\"large-9 columns\">
                   <div class=\"container\">
-                    <h2 style=\"padding-top: 15px\">Katherine Venturo-conerly</h2>
-                    <p class=\"title\">Secretary</p>
-                    <p>I am very excited to be secretary for HCHT. I live near Princeton, NJ, and am a potential concentrator in History and Science, Mind Brain and Behavior track, with a minor in Psychology. My goal is to study the metal health system and its impact on patients, and to serve in my professional life as a patient advocate and educator. Outside of HCHT, I sing Soprano in Radcliffe Choral Society, work as a citizenship tutor, and act as a Student Mental Health Liaison.</p>
+                    <h2 style=\"padding-top: 15px\">EJ Kim</h2>
+                    <p class=\"title\">Blog Manager</p>
+                    <p>My name is EJ, and I am a current junior hailing from Seoul, South Korea. Having grown up in a culture where mental health issues were prevalent yet seldom addressed, I have always wanted to contribute to the dialogue around mental illnesses, both from as a neurobiology concentrator from the biological perspective and from a more holistic, culture perspective.</p>
                   </div>
               </div>
             </div>
@@ -132,13 +132,13 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <img src=\"";
         // line 87
         echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
-        echo "/img/people/jeongmin-lee.jpg\" alt=\"Jeongmin Lee\" style=\"width:100%; float:left; \">
+        echo "/img/people/kai-trepka.jpg\" alt=\"Kai Trepka\" style=\"width:100%; float:left; \">
               </div>
               <div class=\"large-9 columns\">
                   <div class=\"container\">
-                    <h2 style=\"padding-top: 15px\">Jeongmin Lee</h2>
-                    <p class=\"title\">Treasurer</p>
-                    <p>Over the past year, I came to realize how exciting the current state that science is in. I have always loved and appreciated all forms of science, and at college I was able to see how far we know about ourselves and the universe but also how much we still do not know. In fields where such topics can get very intense and vocabulary-heavy, I feel like it is necessary to report and digest this information so that people who are not in the field can still understand the knowledge.</p>
+                    <h2 style=\"padding-top: 15px\">Kai Trepka</h2>
+                    <p class=\"title\">Secretary</p>
+                    <p>Hi, I'm Kai, and I'm a member of the class of 2020. I'm originally from Iowa. I'm interested in learning more about the interaction between research and treatment of mental illness. In my free time, I love playing music, dance, and card games. </p>
                   </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Jeffrey Ding He</h2>
                     <p class=\"title\">Web Administrator</p>
-                    <p>I’m a freshman in Canaday interested in computer science and economics. I’m very excited to be part of the HCHT team and hope to learn from and contribute to the research in mental health. In my free time, I play basketball, chess, and violin.</p>
+                    <p>I’m a sophomore in Mather interested in computer science and economics. I’m very excited to be part of the HCHT team and hope to learn from and contribute to the research in mental health. In my free time, I play basketball, chess, and violin.</p>
                   </div>
               </div>
             </div>
@@ -219,7 +219,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Jennier Bi</h2>
                     <p class=\"title\">Co-President</p>
-                    <p>Jennifer is a junior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Harvard College Healing Thoughts, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
+                    <p>Jennifer is a senior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Harvard College Healing Thoughts, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
                   </div>
               </div>
             </div>
@@ -233,7 +233,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Mingu Kim</h2>
                     <p class=\"title\">Co-President</p>
-                    <p>Hi, I’m Mingu Kim, and I’m a junior in Leverett House studying Applied Mathematics with a focus in biology. I’m from Columbia, Missouri, and I’ve been interested in both the biological basis and the social factors that impact mental health. In my spare time, I enjoy coding, playing violin, and hanging out with friends.</p>
+                    <p>Hi, I’m Mingu Kim, and I’m a senior in Leverett House studying Applied Mathematics with a focus in biology. I’m from Columbia, Missouri, and I’ve been interested in both the biological basis and the social factors that impact mental health. In my spare time, I enjoy coding, playing violin, and hanging out with friends.</p>
                   </div>
               </div>
             </div>
@@ -241,13 +241,13 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
 
             <div class=\"card\" style='overflow: hidden'>
               <div class=\"large-3 columns\" style=\"padding-left: 0px\">
-                  <img src=\"{{ theme_url }}/img/people/ej-kim.jpg\" alt=\"EJ Kim\" style=\"width:100%; float:left; \">
+                  <img src=\"{{ theme_url }}/img/people/katherine-venturo-conerly.jpg\" alt=\"Katherine Venturo-conerly\" style=\"width:100%; float:left; \">
               </div>
               <div class=\"large-9 columns\">
                   <div class=\"container\">
-                    <h2 style=\"padding-top: 15px\">EJ Kim</h2>
-                    <p class=\"title\">Social Chair</p>
-                    <p>My name is EJ, and I am a current sophomore hailing from Seoul, South Korea. Having grown up in a culture where mental health issues were prevalent yet seldom addressed, I have always wanted to contribute to the dialogue around mental illnesses, both from as a neurobiology concentrator from the biological perspective and from a more holistic, culture perspective.</p>
+                    <h2 style=\"padding-top: 15px\">Katherine Venturo-conerly</h2>
+                    <p class=\"title\">Vice President</p>
+                    <p>I am very excited to be secretary for HCHT. I live near Princeton, NJ, and am a potential concentrator in History and Science, Mind Brain and Behavior track, with a minor in Psychology. My goal is to study the metal health system and its impact on patients, and to serve in my professional life as a patient advocate and educator. Outside of HCHT, I sing Soprano in Radcliffe Choral Society, work as a citizenship tutor, and act as a Student Mental Health Liaison.</p>
                   </div>
               </div>
             </div>
@@ -269,13 +269,13 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
 
             <div class=\"card\" style='overflow: hidden'>
               <div class=\"large-3 columns\" style=\"padding-left: 0px\">
-                  <img src=\"{{ theme_url }}/img/people/katherine-venturo-conerly.jpg\" alt=\"Katherine Venturo-conerly\" style=\"width:100%; float:left; \">
+                  <img src=\"{{ theme_url }}/img/people/ej-kim.jpg\" alt=\"EJ Kim\" style=\"width:100%; float:left; \">
               </div>
               <div class=\"large-9 columns\">
                   <div class=\"container\">
-                    <h2 style=\"padding-top: 15px\">Katherine Venturo-conerly</h2>
-                    <p class=\"title\">Secretary</p>
-                    <p>I am very excited to be secretary for HCHT. I live near Princeton, NJ, and am a potential concentrator in History and Science, Mind Brain and Behavior track, with a minor in Psychology. My goal is to study the metal health system and its impact on patients, and to serve in my professional life as a patient advocate and educator. Outside of HCHT, I sing Soprano in Radcliffe Choral Society, work as a citizenship tutor, and act as a Student Mental Health Liaison.</p>
+                    <h2 style=\"padding-top: 15px\">EJ Kim</h2>
+                    <p class=\"title\">Blog Manager</p>
+                    <p>My name is EJ, and I am a current junior hailing from Seoul, South Korea. Having grown up in a culture where mental health issues were prevalent yet seldom addressed, I have always wanted to contribute to the dialogue around mental illnesses, both from as a neurobiology concentrator from the biological perspective and from a more holistic, culture perspective.</p>
                   </div>
               </div>
             </div>
@@ -283,13 +283,13 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
 
             <div class=\"card\" style='overflow: hidden'>
               <div class=\"large-3 columns\" style=\"padding-left: 0px\">
-                  <img src=\"{{ theme_url }}/img/people/jeongmin-lee.jpg\" alt=\"Jeongmin Lee\" style=\"width:100%; float:left; \">
+                  <img src=\"{{ theme_url }}/img/people/kai-trepka.jpg\" alt=\"Kai Trepka\" style=\"width:100%; float:left; \">
               </div>
               <div class=\"large-9 columns\">
                   <div class=\"container\">
-                    <h2 style=\"padding-top: 15px\">Jeongmin Lee</h2>
-                    <p class=\"title\">Treasurer</p>
-                    <p>Over the past year, I came to realize how exciting the current state that science is in. I have always loved and appreciated all forms of science, and at college I was able to see how far we know about ourselves and the universe but also how much we still do not know. In fields where such topics can get very intense and vocabulary-heavy, I feel like it is necessary to report and digest this information so that people who are not in the field can still understand the knowledge.</p>
+                    <h2 style=\"padding-top: 15px\">Kai Trepka</h2>
+                    <p class=\"title\">Secretary</p>
+                    <p>Hi, I'm Kai, and I'm a member of the class of 2020. I'm originally from Iowa. I'm interested in learning more about the interaction between research and treatment of mental illness. In my free time, I love playing music, dance, and card games. </p>
                   </div>
               </div>
             </div>
@@ -303,7 +303,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Jeffrey Ding He</h2>
                     <p class=\"title\">Web Administrator</p>
-                    <p>I’m a freshman in Canaday interested in computer science and economics. I’m very excited to be part of the HCHT team and hope to learn from and contribute to the research in mental health. In my free time, I play basketball, chess, and violin.</p>
+                    <p>I’m a sophomore in Mather interested in computer science and economics. I’m very excited to be part of the HCHT team and hope to learn from and contribute to the research in mental health. In my free time, I play basketball, chess, and violin.</p>
                   </div>
               </div>
             </div>

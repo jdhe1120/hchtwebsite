@@ -20,4 +20,4 @@ pagination: true
 ---
 
 ## Latest Blog Posts
-### Written by the Harvard community, the purpose of the blog is to start conversations on different mental health topics. To submit a post, head to the submissions page.
+### Harvard College Healing Thoughts: A Global Mental Health Initiative (HCHT) is a student run organization dedicated to building a community of student learners devoted to raising awareness about global mental health issues. Through the Healing Thoughts blog, we hope to share informative, thought-provoking, and personal pieces that will bring new perspective to the campus dialogue about mental health.
