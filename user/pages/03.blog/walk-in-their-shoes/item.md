@@ -5,10 +5,11 @@ publish_date: '28-07-2017 13:35'
 taxonomy:
     category:
         - Featured
+        - Blog
     tag:
         - 'Mental Health'
-        - Stigma
         - homeless
+        - Stigma
         - Personal
     featured:
         - '1'

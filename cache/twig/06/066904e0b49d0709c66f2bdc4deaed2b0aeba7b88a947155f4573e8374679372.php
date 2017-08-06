@@ -19,7 +19,7 @@ class __TwigTemplate_390955b06dd73ee0fb0054405ba89112a9a8ddb0a29e73d2e8ad6b907fb
         if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "simplesearch", array()), "enabled", array())) {
             // line 2
             echo "<aside class=\"widget widget_search\">
-    <h1 class=\"widget-title\">SimpleSearch</h1>
+    <h1 class=\"widget-title\">Search</h1>
     ";
             // line 4
             $this->loadTemplate("partials/simplesearch_searchbox.html.twig", "partials/sidebar.html.twig", 4)->display($context);
@@ -125,7 +125,7 @@ class __TwigTemplate_390955b06dd73ee0fb0054405ba89112a9a8ddb0a29e73d2e8ad6b907fb
     {
         return new Twig_Source("{% if config.plugins.simplesearch.enabled %}
 <aside class=\"widget widget_search\">
-    <h1 class=\"widget-title\">SimpleSearch</h1>
+    <h1 class=\"widget-title\">Search</h1>
     {% include 'partials/simplesearch_searchbox.html.twig' %}
 </aside>
 {% endif %}
@@ -160,6 +160,6 @@ class __TwigTemplate_390955b06dd73ee0fb0054405ba89112a9a8ddb0a29e73d2e8ad6b907fb
     </ul>
 </aside>
 {% endif %}
-", "partials/sidebar.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/themes/gateway/templates/partials/sidebar.html.twig");
+", "partials/sidebar.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/MHRG/mhrgwebsite/user/themes/gateway/templates/partials/sidebar.html.twig");
     }
 }

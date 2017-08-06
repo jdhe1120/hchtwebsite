@@ -5,6 +5,7 @@ date: '31-07-2017 16:56'
 taxonomy:
     category:
         - Featured
+        - Blog
     tag:
         - 'Mental Health'
         - homeless

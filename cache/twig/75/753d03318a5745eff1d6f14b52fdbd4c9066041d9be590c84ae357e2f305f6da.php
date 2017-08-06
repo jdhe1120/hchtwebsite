@@ -103,36 +103,23 @@ class __TwigTemplate_8c04c4790a29440232b44a8da59aab96822bba4fbcae3e39abb4d21a3fe
                   ";
         }
         // line 42
-        echo "                  ";
-        if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "simplesearch", array()), "enabled", array())) {
-            // line 43
-            echo "                  <aside id=\"search-4\" class=\"widget widget_search search-form\">
-                     <h1 class=\"widget-title\">Find What You Need</h1>
-                         ";
-            // line 45
-            $this->loadTemplate("partials/simplesearch_searchbox.html.twig", "partials/footer.html.twig", 45)->display($context);
-            // line 46
-            echo "                  </aside>
-                   ";
-        }
-        // line 48
         echo "               </div>
             </div>
             ";
-        // line 50
+        // line 44
         if ($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "copyright", array())) {
-            // line 51
+            // line 45
             echo "            <div class=\"site-info\">
                <p>
                   ";
-            // line 53
+            // line 47
             echo $this->getAttribute((isset($context["site"]) ? $context["site"] : null), "copyright", array());
             echo "
                </p>
             </div>
             ";
         }
-        // line 57
+        // line 51
         echo "         </footer>
       </div>
    </div>
@@ -152,7 +139,7 @@ class __TwigTemplate_8c04c4790a29440232b44a8da59aab96822bba4fbcae3e39abb4d21a3fe
 
     public function getDebugInfo()
     {
-        return array (  136 => 57,  129 => 53,  125 => 51,  123 => 50,  119 => 48,  115 => 46,  113 => 45,  109 => 43,  106 => 42,  101 => 39,  90 => 37,  86 => 36,  81 => 33,  79 => 32,  76 => 31,  65 => 22,  63 => 21,  58 => 18,  50 => 16,  47 => 15,  41 => 13,  39 => 12,  36 => 11,  30 => 9,  28 => 8,  19 => 1,);
+        return array (  123 => 51,  116 => 47,  112 => 45,  110 => 44,  106 => 42,  101 => 39,  90 => 37,  86 => 36,  81 => 33,  79 => 32,  76 => 31,  65 => 22,  63 => 21,  58 => 18,  50 => 16,  47 => 15,  41 => 13,  39 => 12,  36 => 11,  30 => 9,  28 => 8,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -206,12 +193,6 @@ class __TwigTemplate_8c04c4790a29440232b44a8da59aab96822bba4fbcae3e39abb4d21a3fe
                      </div>
                   </aside>
                   {% endif %}
-                  {% if config.plugins.simplesearch.enabled %}
-                  <aside id=\"search-4\" class=\"widget widget_search search-form\">
-                     <h1 class=\"widget-title\">Find What You Need</h1>
-                         {% include 'partials/simplesearch_searchbox.html.twig' %}
-                  </aside>
-                   {% endif %}
                </div>
             </div>
             {% if site.copyright %}
@@ -225,6 +206,6 @@ class __TwigTemplate_8c04c4790a29440232b44a8da59aab96822bba4fbcae3e39abb4d21a3fe
       </div>
    </div>
 </div>
-", "partials/footer.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/themes/gateway/templates/partials/footer.html.twig");
+", "partials/footer.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/MHRG/mhrgwebsite/user/themes/gateway/templates/partials/footer.html.twig");
     }
 }

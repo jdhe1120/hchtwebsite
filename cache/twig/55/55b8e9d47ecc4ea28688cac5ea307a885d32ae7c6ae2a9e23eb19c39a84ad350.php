@@ -51,7 +51,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
               </div>
               <div class=\"large-9 columns\">
                   <div class=\"container\">
-                    <h2 style=\"padding-top: 15px\">Jennier Bi</h2>
+                    <h2 style=\"padding-top: 15px\">Jennifer Bi</h2>
                     <p class=\"title\">Co-President</p>
                     <p>Jennifer is a senior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Harvard College Healing Thoughts, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
                   </div>
@@ -87,7 +87,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Katherine Venturo-conerly</h2>
                     <p class=\"title\">Vice President</p>
-                    <p>I am very excited to be secretary for HCHT. I live near Princeton, NJ, and am a potential concentrator in History and Science, Mind Brain and Behavior track, with a minor in Psychology. My goal is to study the metal health system and its impact on patients, and to serve in my professional life as a patient advocate and educator. Outside of HCHT, I sing Soprano in Radcliffe Choral Society, work as a citizenship tutor, and act as a Student Mental Health Liaison.</p>
+                    <p>Hi, I’m Katherine, and I’m a junior in Currier studying Psychology and History and Science. At school, I love working in the Weisz Lab for Youth Mental Health, serving as a Student Mental Health Liaison, and, of course, learning and discussing with Healing Thoughts! I am also very excited to begin counseling with Room 13 this year. My long-term goals include doing mental health intervention research and dissemination, and working as a patient advocate and educator.</p>
                   </div>
               </div>
             </div>
@@ -217,7 +217,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
               </div>
               <div class=\"large-9 columns\">
                   <div class=\"container\">
-                    <h2 style=\"padding-top: 15px\">Jennier Bi</h2>
+                    <h2 style=\"padding-top: 15px\">Jennifer Bi</h2>
                     <p class=\"title\">Co-President</p>
                     <p>Jennifer is a senior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Harvard College Healing Thoughts, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
                   </div>
@@ -247,7 +247,7 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Katherine Venturo-conerly</h2>
                     <p class=\"title\">Vice President</p>
-                    <p>I am very excited to be secretary for HCHT. I live near Princeton, NJ, and am a potential concentrator in History and Science, Mind Brain and Behavior track, with a minor in Psychology. My goal is to study the metal health system and its impact on patients, and to serve in my professional life as a patient advocate and educator. Outside of HCHT, I sing Soprano in Radcliffe Choral Society, work as a citizenship tutor, and act as a Student Mental Health Liaison.</p>
+                    <p>Hi, I’m Katherine, and I’m a junior in Currier studying Psychology and History and Science. At school, I love working in the Weisz Lab for Youth Mental Health, serving as a Student Mental Health Liaison, and, of course, learning and discussing with Healing Thoughts! I am also very excited to begin counseling with Room 13 this year. My long-term goals include doing mental health intervention research and dissemination, and working as a patient advocate and educator.</p>
                   </div>
               </div>
             </div>
@@ -318,6 +318,6 @@ class __TwigTemplate_f57bca20ddfc51f558e65bab9ffe12334686841b4e8177d8698c66b4d17
 </div>
 
 {% endblock %}
-", "bios.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/themes/gateway/templates/bios.html.twig");
+", "bios.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/MHRG/mhrgwebsite/user/themes/gateway/templates/bios.html.twig");
     }
 }

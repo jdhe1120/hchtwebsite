@@ -4,6 +4,7 @@ date: '17:34 03/22/2017'
 taxonomy:
     category:
         - Featured
+        - Blog
     tag:
         - 'Mental Health'
         - 'Parkinson''s Disease'

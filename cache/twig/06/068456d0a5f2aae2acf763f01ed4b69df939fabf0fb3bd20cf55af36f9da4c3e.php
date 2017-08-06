@@ -49,23 +49,193 @@ class __TwigTemplate_1271a892d8de0070139de8d1dab3da49fcde66510505dd465d49274d054
             </h2>
           </header>
 
+          <div class=\"entry-content\">
+            ";
+        // line 16
+        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array())) {
+            // line 17
+            echo "            <hr class=\"rescue-spacing \" style=\"height: 10px\">
+            <div class=\"rescue-column rescue-all\">
+            ";
+            // line 19
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array()));
+            foreach ($context['_seq'] as $context["_key"] => $context["bar"]) {
+                // line 20
+                echo "                ";
+                if (($this->getAttribute($context["bar"], "position", array()) == "top")) {
+                    // line 21
+                    echo "               <div class=\"rescue-progressbar rescue-clearfix  rescue-all\" data-percent=\"";
+                    echo $this->getAttribute($context["bar"], "percent", array());
+                    echo "%\">
+                  <div class=\"rescue-progressbar-title\" style=\"background: ";
+                    // line 22
+                    echo $this->getAttribute($context["bar"], "background", array());
+                    echo ";\"><span>";
+                    echo $this->getAttribute($context["bar"], "title", array());
+                    echo "</span></div>
+                  <div class=\"rescue-progressbar-bar\" style=\"background: ";
+                    // line 23
+                    echo $this->getAttribute($context["bar"], "background", array());
+                    echo ";\"></div>
+                  <div class=\"rescue-progress-bar-percent\">";
+                    // line 24
+                    echo $this->getAttribute($context["bar"], "percent", array());
+                    echo "%</div>
+               </div>
+               ";
+                }
+                // line 27
+                echo "            ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['bar'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 28
+            echo "            </div>
+            <hr class=\"rescue-spacing \" style=\"height: 10px\">
+            ";
+        }
+        // line 31
+        echo "
+            ";
+        // line 32
+        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array())) {
+            // line 33
+            echo "              ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array()));
+            foreach ($context['_seq'] as $context["_key"] => $context["toggle"]) {
+                // line 34
+                echo "                ";
+                if (($this->getAttribute($context["toggle"], "position", array()) == "top")) {
+                    // line 35
+                    echo "                  <div class=\"rescue-toggle  rescue-all\">
+                    <h3 class=\"rescue-toggle-trigger\">";
+                    // line 36
+                    echo $this->getAttribute($context["toggle"], "title", array());
+                    echo "</h3>
+                    <div class=\"rescue-toggle-container\">";
+                    // line 37
+                    echo $this->getAttribute($context["toggle"], "description", array());
+                    echo "</div>
+                  </div>
+                ";
+                }
+                // line 40
+                echo "              ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['toggle'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 41
+            echo "            <hr class=\"rescue-spacing \" style=\"height: 30px\">
+            ";
+        }
+        // line 43
+        echo "            ";
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
+        echo "
+            <div class=\"entry-content\">
+              ";
+        // line 45
+        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array())) {
+            // line 46
+            echo "              <hr class=\"rescue-spacing \" style=\"height: 10px\">
+              <div class=\"rescue-column rescue-all\">
+              ";
+            // line 48
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array()));
+            foreach ($context['_seq'] as $context["_key"] => $context["bar"]) {
+                // line 49
+                echo "                  ";
+                if (($this->getAttribute($context["bar"], "position", array()) == "bottom")) {
+                    // line 50
+                    echo "                 <div class=\"rescue-progressbar rescue-clearfix  rescue-all\" data-percent=\"";
+                    echo $this->getAttribute($context["bar"], "percent", array());
+                    echo "%\">
+                    <div class=\"rescue-progressbar-title\" style=\"background: ";
+                    // line 51
+                    echo $this->getAttribute($context["bar"], "background", array());
+                    echo ";\"><span>";
+                    echo $this->getAttribute($context["bar"], "title", array());
+                    echo "</span></div>
+                    <div class=\"rescue-progressbar-bar\" style=\"background: ";
+                    // line 52
+                    echo $this->getAttribute($context["bar"], "background", array());
+                    echo ";\"></div>
+                    <div class=\"rescue-progress-bar-percent\">";
+                    // line 53
+                    echo $this->getAttribute($context["bar"], "percent", array());
+                    echo "%</div>
+                 </div>
+                 ";
+                }
+                // line 56
+                echo "              ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['bar'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 57
+            echo "              </div>
+              <hr class=\"rescue-spacing \" style=\"height: 10px\">
+              ";
+        }
+        // line 60
+        echo "              ";
+        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array())) {
+            // line 61
+            echo "                ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array()));
+            foreach ($context['_seq'] as $context["_key"] => $context["toggle"]) {
+                // line 62
+                echo "                  ";
+                if (($this->getAttribute($context["toggle"], "position", array()) == "bottom")) {
+                    // line 63
+                    echo "                    <div class=\"rescue-toggle  rescue-all\">
+                      <h3 class=\"rescue-toggle-trigger\">";
+                    // line 64
+                    echo $this->getAttribute($context["toggle"], "title", array());
+                    echo "</h3>
+                      <div class=\"rescue-toggle-container\">";
+                    // line 65
+                    echo $this->getAttribute($context["toggle"], "description", array());
+                    echo "</div>
+                    </div>
+                  ";
+                }
+                // line 68
+                echo "                ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['toggle'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 69
+            echo "              <hr class=\"rescue-spacing \" style=\"height: 30px\">
+              ";
+        }
+        // line 71
+        echo "          </div>
           <div id=\"slideshow\">
             <div class=\"slideshow-container\">
               <div class=\"mySlides fade\">
                 <div class=\"numbertext\">1 / 2</div>
                 <img src=\"";
-        // line 19
+        // line 76
         echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
-        echo "/img/hero-bg.jpg\" style=\"width:100%\">
+        echo "/img/4.jpg\" style=\"width:100%\">
                 <div class=\"text\"></div>
               </div>
 
               <div class=\"mySlides fade\">
                 <div class=\"numbertext\">2 / 2</div>
                 <img src=\"";
-        // line 25
+        // line 82
         echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
-        echo "/img/background.jpg\" style=\"width:100%\">
+        echo "/img/5.jpg\" style=\"width:100%\">
                 <div class=\"text\"></div>
               </div>
 
@@ -80,195 +250,24 @@ class __TwigTemplate_1271a892d8de0070139de8d1dab3da49fcde66510505dd465d49274d054
               <span class=\"dot\" onclick=\"currentSlide(2)\"></span>
             </div>
           </div>
-
-          <div class=\"entry-content\">
-            ";
-        // line 42
-        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array())) {
-            // line 43
-            echo "            <hr class=\"rescue-spacing \" style=\"height: 10px\">
-            <div class=\"rescue-column rescue-all\">
-            ";
-            // line 45
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array()));
-            foreach ($context['_seq'] as $context["_key"] => $context["bar"]) {
-                // line 46
-                echo "                ";
-                if (($this->getAttribute($context["bar"], "position", array()) == "top")) {
-                    // line 47
-                    echo "               <div class=\"rescue-progressbar rescue-clearfix  rescue-all\" data-percent=\"";
-                    echo $this->getAttribute($context["bar"], "percent", array());
-                    echo "%\">
-                  <div class=\"rescue-progressbar-title\" style=\"background: ";
-                    // line 48
-                    echo $this->getAttribute($context["bar"], "background", array());
-                    echo ";\"><span>";
-                    echo $this->getAttribute($context["bar"], "title", array());
-                    echo "</span></div>
-                  <div class=\"rescue-progressbar-bar\" style=\"background: ";
-                    // line 49
-                    echo $this->getAttribute($context["bar"], "background", array());
-                    echo ";\"></div>
-                  <div class=\"rescue-progress-bar-percent\">";
-                    // line 50
-                    echo $this->getAttribute($context["bar"], "percent", array());
-                    echo "%</div>
-               </div>
-               ";
-                }
-                // line 53
-                echo "            ";
-            }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['bar'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 54
-            echo "            </div>
-            <hr class=\"rescue-spacing \" style=\"height: 10px\">
-            ";
-        }
-        // line 57
-        echo "
-            ";
-        // line 58
-        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array())) {
-            // line 59
-            echo "              ";
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array()));
-            foreach ($context['_seq'] as $context["_key"] => $context["toggle"]) {
-                // line 60
-                echo "                ";
-                if (($this->getAttribute($context["toggle"], "position", array()) == "top")) {
-                    // line 61
-                    echo "                  <div class=\"rescue-toggle  rescue-all\">
-                    <h3 class=\"rescue-toggle-trigger\">";
-                    // line 62
-                    echo $this->getAttribute($context["toggle"], "title", array());
-                    echo "</h3>
-                    <div class=\"rescue-toggle-container\">";
-                    // line 63
-                    echo $this->getAttribute($context["toggle"], "description", array());
-                    echo "</div>
-                  </div>
-                ";
-                }
-                // line 66
-                echo "              ";
-            }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['toggle'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 67
-            echo "            <hr class=\"rescue-spacing \" style=\"height: 30px\">
-            ";
-        }
-        // line 69
-        echo "            ";
-        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
-        echo "
-            <div class=\"entry-content\">
-              ";
-        // line 71
-        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array())) {
-            // line 72
-            echo "              <hr class=\"rescue-spacing \" style=\"height: 10px\">
-              <div class=\"rescue-column rescue-all\">
-              ";
-            // line 74
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "progressbar", array()));
-            foreach ($context['_seq'] as $context["_key"] => $context["bar"]) {
-                // line 75
-                echo "                  ";
-                if (($this->getAttribute($context["bar"], "position", array()) == "bottom")) {
-                    // line 76
-                    echo "                 <div class=\"rescue-progressbar rescue-clearfix  rescue-all\" data-percent=\"";
-                    echo $this->getAttribute($context["bar"], "percent", array());
-                    echo "%\">
-                    <div class=\"rescue-progressbar-title\" style=\"background: ";
-                    // line 77
-                    echo $this->getAttribute($context["bar"], "background", array());
-                    echo ";\"><span>";
-                    echo $this->getAttribute($context["bar"], "title", array());
-                    echo "</span></div>
-                    <div class=\"rescue-progressbar-bar\" style=\"background: ";
-                    // line 78
-                    echo $this->getAttribute($context["bar"], "background", array());
-                    echo ";\"></div>
-                    <div class=\"rescue-progress-bar-percent\">";
-                    // line 79
-                    echo $this->getAttribute($context["bar"], "percent", array());
-                    echo "%</div>
-                 </div>
-                 ";
-                }
-                // line 82
-                echo "              ";
-            }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['bar'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 83
-            echo "              </div>
-              <hr class=\"rescue-spacing \" style=\"height: 10px\">
-              ";
-        }
-        // line 86
-        echo "              ";
-        if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array())) {
-            // line 87
-            echo "                ";
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "toggles", array()));
-            foreach ($context['_seq'] as $context["_key"] => $context["toggle"]) {
-                // line 88
-                echo "                  ";
-                if (($this->getAttribute($context["toggle"], "position", array()) == "bottom")) {
-                    // line 89
-                    echo "                    <div class=\"rescue-toggle  rescue-all\">
-                      <h3 class=\"rescue-toggle-trigger\">";
-                    // line 90
-                    echo $this->getAttribute($context["toggle"], "title", array());
-                    echo "</h3>
-                      <div class=\"rescue-toggle-container\">";
-                    // line 91
-                    echo $this->getAttribute($context["toggle"], "description", array());
-                    echo "</div>
-                    </div>
-                  ";
-                }
-                // line 94
-                echo "                ";
-            }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['toggle'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 95
-            echo "              <hr class=\"rescue-spacing \" style=\"height: 30px\">
-              ";
-        }
-        // line 97
-        echo "          </div>
         </article>
       </main>
     </div>
     ";
-        // line 101
+        // line 100
         if ( !$this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "fullwidth", array())) {
-            // line 102
+            // line 101
             echo "    <div class=\"large-3 large-offset-1 columns\">
-      <div id=\"secondary\" class=\"widget-area\">
-        ";
-            // line 104
-            $this->loadTemplate("partials/sidebar.html.twig", "slideshow.html.twig", 104)->display($context);
-            // line 105
-            echo "      </div>
+      <aside class=\"widget widget_categories\">
+        <h1 class=\"widget-title\">Categories</h1>
+        <ul>
+          <li class=\"cat-item cat-item-1\"><a href=\"/speaker-series/2017-speaker-series\">2017 Speaker Series</a></li>
+        </ul>
+      </aside>
     </div>
     ";
         }
-        // line 108
+        // line 110
         echo "  </div>
 </div>
 
@@ -316,7 +315,7 @@ class __TwigTemplate_1271a892d8de0070139de8d1dab3da49fcde66510505dd465d49274d054
 
     public function getDebugInfo()
     {
-        return array (  272 => 108,  267 => 105,  265 => 104,  261 => 102,  259 => 101,  253 => 97,  249 => 95,  243 => 94,  237 => 91,  233 => 90,  230 => 89,  227 => 88,  222 => 87,  219 => 86,  214 => 83,  208 => 82,  202 => 79,  198 => 78,  192 => 77,  187 => 76,  184 => 75,  180 => 74,  176 => 72,  174 => 71,  168 => 69,  164 => 67,  158 => 66,  152 => 63,  148 => 62,  145 => 61,  142 => 60,  137 => 59,  135 => 58,  132 => 57,  127 => 54,  121 => 53,  115 => 50,  111 => 49,  105 => 48,  100 => 47,  97 => 46,  93 => 45,  89 => 43,  87 => 42,  67 => 25,  58 => 19,  47 => 11,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  271 => 110,  260 => 101,  258 => 100,  237 => 82,  228 => 76,  221 => 71,  217 => 69,  211 => 68,  205 => 65,  201 => 64,  198 => 63,  195 => 62,  190 => 61,  187 => 60,  182 => 57,  176 => 56,  170 => 53,  166 => 52,  160 => 51,  155 => 50,  152 => 49,  148 => 48,  144 => 46,  142 => 45,  136 => 43,  132 => 41,  126 => 40,  120 => 37,  116 => 36,  113 => 35,  110 => 34,  105 => 33,  103 => 32,  100 => 31,  95 => 28,  89 => 27,  83 => 24,  79 => 23,  73 => 22,  68 => 21,  65 => 20,  61 => 19,  57 => 17,  55 => 16,  47 => 11,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -342,32 +341,6 @@ class __TwigTemplate_1271a892d8de0070139de8d1dab3da49fcde66510505dd465d49274d054
               {{ page.header.title }}
             </h2>
           </header>
-
-          <div id=\"slideshow\">
-            <div class=\"slideshow-container\">
-              <div class=\"mySlides fade\">
-                <div class=\"numbertext\">1 / 2</div>
-                <img src=\"{{ theme_url }}/img/hero-bg.jpg\" style=\"width:100%\">
-                <div class=\"text\"></div>
-              </div>
-
-              <div class=\"mySlides fade\">
-                <div class=\"numbertext\">2 / 2</div>
-                <img src=\"{{ theme_url }}/img/background.jpg\" style=\"width:100%\">
-                <div class=\"text\"></div>
-              </div>
-
-              <a class=\"prev\" onclick=\"plusSlides(-1)\">&#10094;</a>
-              <a class=\"next\" onclick=\"plusSlides(1)\">&#10095;</a>
-            </div>
-
-            <br>
-
-            <div style=\"text-align:center\">
-              <span class=\"dot\" onclick=\"currentSlide(1)\"></span>
-              <span class=\"dot\" onclick=\"currentSlide(2)\"></span>
-            </div>
-          </div>
 
           <div class=\"entry-content\">
             {% if page.header.progressbar %}
@@ -426,14 +399,42 @@ class __TwigTemplate_1271a892d8de0070139de8d1dab3da49fcde66510505dd465d49274d054
               <hr class=\"rescue-spacing \" style=\"height: 30px\">
               {% endif %}
           </div>
+          <div id=\"slideshow\">
+            <div class=\"slideshow-container\">
+              <div class=\"mySlides fade\">
+                <div class=\"numbertext\">1 / 2</div>
+                <img src=\"{{ theme_url }}/img/4.jpg\" style=\"width:100%\">
+                <div class=\"text\"></div>
+              </div>
+
+              <div class=\"mySlides fade\">
+                <div class=\"numbertext\">2 / 2</div>
+                <img src=\"{{ theme_url }}/img/5.jpg\" style=\"width:100%\">
+                <div class=\"text\"></div>
+              </div>
+
+              <a class=\"prev\" onclick=\"plusSlides(-1)\">&#10094;</a>
+              <a class=\"next\" onclick=\"plusSlides(1)\">&#10095;</a>
+            </div>
+
+            <br>
+
+            <div style=\"text-align:center\">
+              <span class=\"dot\" onclick=\"currentSlide(1)\"></span>
+              <span class=\"dot\" onclick=\"currentSlide(2)\"></span>
+            </div>
+          </div>
         </article>
       </main>
     </div>
     {% if not page.header.fullwidth %}
     <div class=\"large-3 large-offset-1 columns\">
-      <div id=\"secondary\" class=\"widget-area\">
-        {% include 'partials/sidebar.html.twig' %}
-      </div>
+      <aside class=\"widget widget_categories\">
+        <h1 class=\"widget-title\">Categories</h1>
+        <ul>
+          <li class=\"cat-item cat-item-1\"><a href=\"/speaker-series/2017-speaker-series\">2017 Speaker Series</a></li>
+        </ul>
+      </aside>
     </div>
     {% endif %}
   </div>
@@ -469,6 +470,6 @@ class __TwigTemplate_1271a892d8de0070139de8d1dab3da49fcde66510505dd465d49274d054
 </script>
 
 {% endblock %}
-", "slideshow.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/HCHT/hchtwebsite/user/themes/gateway/templates/slideshow.html.twig");
+", "slideshow.html.twig", "/Users/jdhe1120/Documents/Harvard/Sophomore/Clubs/MHRG/mhrgwebsite/user/themes/gateway/templates/slideshow.html.twig");
     }
 }

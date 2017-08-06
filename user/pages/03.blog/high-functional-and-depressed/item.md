@@ -4,6 +4,7 @@ date: '17:34 12/24/2016'
 taxonomy:
     category:
         - Featured
+        - Blog
     tag:
         - 'Mental Health'
         - Depression

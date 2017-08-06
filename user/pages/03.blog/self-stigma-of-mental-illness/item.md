@@ -6,6 +6,7 @@ publish_date: '07-04-2017 13:55'
 taxonomy:
     category:
         - Featured
+        - Blog
     tag:
         - 'Mental Health'
         - Stigma

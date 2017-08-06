@@ -4,6 +4,7 @@ date: '13:34 03/30/2017'
 taxonomy:
     category:
         - Featured
+        - Blog
     tag:
         - 'Mental Health'
         - 'Translational Research'

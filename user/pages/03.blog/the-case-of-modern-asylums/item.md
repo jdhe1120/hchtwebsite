@@ -3,6 +3,7 @@ title: 'The Case for Modern "Asylums"'
 taxonomy:
     category:
         - Featured
+        - Blog
     tag:
         - homeless
     featured:
