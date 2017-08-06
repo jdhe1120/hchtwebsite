@@ -1,0 +1,20 @@
+---
+title: 'The Case for Modern "Asylums"'
+taxonomy:
+    category:
+        - Featured
+    tag:
+        - homeless
+    featured:
+        - '1'
+---
+
+Fifty years ago, there weren’t nearly as many homeless mentally ill people on the streets.  Many of the same people who are now homeless lived in asylums, long-term inpatient homes for the mentally ill.  [Starting in the early 1800s](http://www.sciencemuseum.org.uk/broughttolife/themes/menalhealthandillness/mentalinstitutions), a number of beautiful, safe, and therapeutic public asylums were built.   They served people with [serious mental illness](http://www.bhevolution.org/public/severe_mental_illness.page), treating them with everything from [hydrotherapy](https://www.lib.uwo.ca/archives/virtualexhibits/londonasylum/hydrotherapy.html) to farm work.  These asylums were created to house and care for mentally ill people, and would often do so for many years or even a lifetime. 
+
+Despite the good intentions of their creators, these asylums developed a poor reputation by the mid-1900s.  Asylums were high-cost institutions that became known for serious underfunding, personal abuses, and ineffective or even harmful treatments such as [lobotomies](http://www.bbc.com/news/magazine-15629160). Their usefulness declined as the availability of antipsychotics and other psychiatric medications allowed some people with serious mental illness to safely live in the community.  These factors and others combined to result in [deinstitutionalization](https://en.wikipedia.org/wiki/Deinstitutionalisation), or the movement of psychiatric patients out of asylums and into the community.  Once released, these patients were supposed to be offered community treatment funded by the federal government such as outpatient mental health and substance use disorder treatment, supported employment, and supported housing.  
+
+The idea of offering community treatment, if executed very carefully, can be quite successful.  For example, Assertive Community Treatment is a highly evidence-based approach for supporting, housing, and treating those with severe mental illness.  Unfortunately, use of such successful programs is quite rare.  People with mental illness living in the community may not know of the services available to them, may not seek out those services, or may not find them sufficiently supportive even when accessed.  Community treatment programs are too frequently underfunded and overloaded, and they vary greatly in content and quality from institution to institution.  For these reasons, community services often fail to sufficiently meet the needs of people with severe mental illness, leaving them cycling in and out of emergency rooms, homeless, jobless, imprisoned, and/or in poor health.  
+
+These concerns raise the important question: what infrastructure should we use to treat severe mental illness?  Highly successful programs such as [Assertive Community Treatment](https://en.wikipedia.org/wiki/Assertive_community_treatment) are also highly expensive – nearly as expensive as full-time inpatient hospitalization by some [reports](http://www.sciencedirect.com/science/article/pii/S1476179307001085?via%3Dihub).  They will, however, reduce costs to the community in other areas by improving clinical outcomes and reducing homelessness, inpatient hospitalizations, emergency room visits, and time in jail.  By achieving these outcomes, they will even increase the capacity of people with serious mental illness to be happy and productive.  These highly effective new programs incorporate perhaps the most essential element of asylum life: highly intensive full-time treatment and supervision by clinicians.  While asylums no longer exist by name, modern programs such as Assertive Community Treatment should be prioritized over less intensive and less effective community treatment programs.  Once in place, these new intensive programs should be monitored rigorously for quality of care to avoid the deterioration suffered by asylums.  
+
+By Katherine Venturo-Conerly '19 | Staff Writer
