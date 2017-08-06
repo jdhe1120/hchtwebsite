@@ -5,9 +5,9 @@ taxonomy:
     category:
         - Featured
     tag:
+        - 'Mental Health'
         - 'Parkinson''s Disease'
         - Schizophrenia
-        - 'Mental Health'
     featured:
         - '1'
 body_classes: 'single single-post postid-15 single-format-standard group-blog'
@@ -23,6 +23,8 @@ To further illustrate my point, a case report published by Lan and colleagues in
 
 Even if one specific prescription of drugs work out for the patient, there is no guarantee that such a routine is generalizable to current and future patients that are comorbid for Parkinson’s and Schizophrenia.
 Undoubtedly, the significance of finding better, more effective treatments that can ease Parkinson’s and Schizophrenic symptoms is immense. Currently, the main drugs, such as L-DOPA, that are being used to treat people affected by Parkinson’s are inefficient in ensuring that there are no risks for developing Schizophrenic symptoms or vice versa. Furthermore, the lack of treatments available for those who are comorbid for both Parkinson’s and Schizophrenia is more alarming and raises the question of whether the generalizability of current treatments are also overlooked. Certainly, we should not simply settle for our current treatments which simply mitigate symptoms, but be more meticulous in our continued search for more effective treatment options. 
+
+By Jennifer Bi '18 | Staff Writer
 
 Citations
 

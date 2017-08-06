@@ -5,9 +5,9 @@ taxonomy:
     category:
         - Featured
     tag:
+        - 'Mental Health'
         - Depression
         - 'High Functional Depression'
-        - 'Mental Health'
     featured:
         - '1'
 body_classes: 'single single-post postid-15 single-format-standard group-blog'
@@ -26,9 +26,10 @@ But what remains unknown to many people is that these are not the only defining 
 Harvard attracts the brightest and the best students from all over the world. In some sense, this means that it is a meeting place of overachievers and perfectionists. It is a place where sleep deprivation and unmitigated drive are glorified. But what we often fail to recognize is that these people can also be suffering from depression.
 
 “If we keep allowing our perception of what mental illness looks like to dictate how we go about recognizing and treating it, we will continue to overlook people who don’t fit the mold”
-
 – Amanda Leventhal
+
 While the stigma towards mental illnesses – specifically depression and anxiety – has undoubtedly decreased especially in the recent years, we as a society still lack the comprehensive understanding of the complexities and diversity of the illnesses.!
  
+By EJ Kim '19 | Staff Writer 
 
 For more information on persistent and high-functioning depression, check out this great article on themighty.com: https://themighty.com/2016/05/high-functioning-depression-we-cant-overlook-the-overachievers/

@@ -24,3 +24,5 @@ While there are no easy answers to solving self-stigma, Corrigan (2012) has prov
 While the solutions are not immediately clear on how to reduce self-stigma, we must start by recognizing that the issue exists and that more research needs to be done on the area.
 
 ![](screen-shot-2017-04-07-at-5-51-54-pm.png?cropResize=300)
+
+By Jeffrey He '20 | Staff Writer

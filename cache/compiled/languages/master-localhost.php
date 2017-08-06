@@ -1,289 +1,289 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1497975602,
-    'checksum' => '6dedd716e16ed663e964c1d862b73a50',
+    'timestamp' => 1501260068,
+    'checksum' => '5ba6b901340a7efdab07a28d635bdd89',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034868
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1493004990
+                'modified' => 1498034869
             ]
         ],
         'user/plugins' => [
-            'plugins/comments' => [
-                'file' => 'user/plugins/comments/languages.yaml',
-                'modified' => 1496563983
+            'plugins/relatedpages' => [
+                'file' => 'user/plugins/relatedpages/languages.yaml',
+                'modified' => 1498034883
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1496105432
+                'modified' => 1498034878
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
-                'modified' => 1493004992
+                'modified' => 1498034881
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1496105424
+                'modified' => 1498034882
+            ],
+            'plugins/comments' => [
+                'file' => 'user/plugins/comments/languages.yaml',
+                'modified' => 1498034877
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/languages.yaml',
-                'modified' => 1496105398
-            ],
-            'plugins/relatedpages' => [
-                'file' => 'user/plugins/relatedpages/languages.yaml',
-                'modified' => 1493004996
+                'modified' => 1498034882
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/languages.yaml',
-                'modified' => 1496564011
+                'modified' => 1498034883
             ]
         ],
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'bg' => [
                 'file' => 'user/plugins/admin/languages/bg.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'br' => [
                 'file' => 'user/plugins/admin/languages/br.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'vi' => [
                 'file' => 'user/plugins/admin/languages/vi.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1496105451
+                'modified' => 1498034871
             ]
         ]
     ],
@@ -4049,26 +4049,36 @@ Sti: `%2$s`
                 'ERROR_SIMPLE' => 'Einfacher Fehler',
                 'ERROR_SYSTEM' => 'Systemfehler'
             ],
-            'PLUGIN_COMMENTS' => [
-                'ADD_COMMENT' => 'Kommentar hinzufügen',
-                'COMMENTS' => 'Kommentare',
-                'EMAIL_NOT_CONFIGURED' => 'Email nicht konfiguriert',
-                'NEW_COMMENT_EMAIL_SUBJECT' => 'Neuer Kommentar für %1$s',
-                'NEW_COMMENT_EMAIL_BODY' => '<p>Ein neuer Kommentar am %1$s von %3$s (%4$s).</p><p>Seite: %2$s</p><p>Text: %5$s</p>',
-                'EMAIL_FOOTER' => '',
-                'NAME' => 'Name:',
-                'EMAIL' => 'Email:',
-                'WRITTEN_ON' => 'geschrieben am',
-                'BY' => 'von',
-                'NAME_LABEL' => 'Name',
-                'NAME_PLACEHOLDER' => 'Namen eingeben',
-                'EMAIL_LABEL' => 'Email',
-                'EMAIL_PLACEHOLDER' => 'Email-Adresse eingeben',
-                'MESSAGE_LABEL' => 'Kommentar',
-                'MESSAGE_PLACEHOLDER' => 'Kommentar eingeben',
-                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Absenden',
-                'EMAIL_NEW_COMMENT_SUBJECT' => '[Neuer Kommentar] von {{ form.value.name|e }}',
-                'THANK_YOU_MESSAGE' => 'Vielen Dank für den Kommentar!'
+            'PLUGIN_REL_PAGES' => [
+                'PLUGIN_STATUS' => 'Plugin-Status',
+                'BASICS' => 'Grundeinstellungen',
+                'LIMIT' => 'Angezeigt',
+                'LIMIT_HELP' => 'Die Anzahl der angezeigten verwandten Seiten',
+                'ORDER' => 'Reihenfolge',
+                'ORDER_BY' => 'Sortiert nach',
+                'SHOW_SCORE' => 'Zeige Bewertung',
+                'SHOW_SCORE_HELP' => 'Umschalter, ob die Bewertung in der Ausgabe angezeigt werden soll',
+                'ITEMS' => 'Elemente',
+                'ITEMS_HELP' => 'Unterstützt `@self`, `@page`, und `@taxonomy` basierte Sammlungen (collections)',
+                'PAGE_IN_FILTER' => 'Seite \'drin\' Filter',
+                'PAGE_IN_FILTER_HELP' => 'Aktiviert, wenn die aktuelle Seite in der gefilterten Sammlung (collection) enthalten sein muss',
+                'EXPLICIT_PROCESS' => 'Verarbeite explizite Seiten',
+                'EXPLICIT_PROCESS_HELP' => 'Aktiviere diesen Abgleich der expliziten Seiten',
+                'EXPLICIT_SCORE' => 'Bewertung der expliziten Seiten',
+                'EXPLICIT_SCORE_HELP' => 'Eine Bewertung von (0 - 100) um expliziten Seiten eine Gewichtung zu geben',
+                'TAXONOMY_MATCH' => 'Abgleich der Taxonomie-Typen',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Welcher Taxonomie-Typ soll für den Seiten-Abgleich genutzt werden',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-Taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Taxonomie-Abgleich',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-Inhalt',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Inhalts-Abgleich',
+                'CONTENT_MATCH' => 'Abgleich der Inhalts-Typen',
+                'CONTENT_PROCESS' => 'Inhalt-Inhalt',
+                'CONTENT_PROCESS_HELP' => 'Aktiviere den Inhalt-zu-Inhalt-Abgleich (Beachte: Deaktivieren bei viel Inhalt)',
+                'ADVANCED' => 'Erweitert',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-Taxonomie Bewertungsskala',
+                'CONTENT_SCORE_SCALE' => 'Taxonomie-Inhalt Bewertungsskala'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
@@ -4090,6 +4100,27 @@ Sti: `%2$s`
                 'ACCEPT' => 'Erlaube MIME-Typen',
                 'ACCEPT_HELP' => 'Eine Liste von MIME-Typen, die hochgeladen werden dürfen.',
                 'ERROR_VALIDATING_CAPTCHA' => 'Die Überprüfung des Captcha ist fehlgeschlagen.'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Kommentar hinzufügen',
+                'COMMENTS' => 'Kommentare',
+                'EMAIL_NOT_CONFIGURED' => 'Email nicht konfiguriert',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Neuer Kommentar für %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Ein neuer Kommentar am %1$s von %3$s (%4$s).</p><p>Seite: %2$s</p><p>Text: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Name:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'geschrieben am',
+                'BY' => 'von',
+                'NAME_LABEL' => 'Name',
+                'NAME_PLACEHOLDER' => 'Namen eingeben',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Email-Adresse eingeben',
+                'MESSAGE_LABEL' => 'Kommentar',
+                'MESSAGE_PLACEHOLDER' => 'Kommentar eingeben',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Absenden',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Neuer Kommentar] von {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Vielen Dank für den Kommentar!'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Benutzername',
@@ -4135,37 +4166,6 @@ Sti: `%2$s`
                 'REDIRECT_AFTER_REGISTRATION' => 'Umleitung nach Registrierung',
                 'OPTIONS' => 'Optionen',
                 'EMAIL_VALIDATION_MESSAGE' => 'Muss eine gültige E-Mail Adresse sein'
-            ],
-            'PLUGIN_REL_PAGES' => [
-                'PLUGIN_STATUS' => 'Plugin-Status',
-                'BASICS' => 'Grundeinstellungen',
-                'LIMIT' => 'Angezeigt',
-                'LIMIT_HELP' => 'Die Anzahl der angezeigten verwandten Seiten',
-                'ORDER' => 'Reihenfolge',
-                'ORDER_BY' => 'Sortiert nach',
-                'SHOW_SCORE' => 'Zeige Bewertung',
-                'SHOW_SCORE_HELP' => 'Umschalter, ob die Bewertung in der Ausgabe angezeigt werden soll',
-                'ITEMS' => 'Elemente',
-                'ITEMS_HELP' => 'Unterstützt `@self`, `@page`, und `@taxonomy` basierte Sammlungen (collections)',
-                'PAGE_IN_FILTER' => 'Seite \'drin\' Filter',
-                'PAGE_IN_FILTER_HELP' => 'Aktiviert, wenn die aktuelle Seite in der gefilterten Sammlung (collection) enthalten sein muss',
-                'EXPLICIT_PROCESS' => 'Verarbeite explizite Seiten',
-                'EXPLICIT_PROCESS_HELP' => 'Aktiviere diesen Abgleich der expliziten Seiten',
-                'EXPLICIT_SCORE' => 'Bewertung der expliziten Seiten',
-                'EXPLICIT_SCORE_HELP' => 'Eine Bewertung von (0 - 100) um expliziten Seiten eine Gewichtung zu geben',
-                'TAXONOMY_MATCH' => 'Abgleich der Taxonomie-Typen',
-                'TAXONOMY' => 'Taxonomie',
-                'TAXONOMY_HELP' => 'Welcher Taxonomie-Typ soll für den Seiten-Abgleich genutzt werden',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-Taxonomie',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Taxonomie-Abgleich',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-Inhalt',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Inhalts-Abgleich',
-                'CONTENT_MATCH' => 'Abgleich der Inhalts-Typen',
-                'CONTENT_PROCESS' => 'Inhalt-Inhalt',
-                'CONTENT_PROCESS_HELP' => 'Aktiviere den Inhalt-zu-Inhalt-Abgleich (Beachte: Deaktivieren bei viel Inhalt)',
-                'ADVANCED' => 'Erweitert',
-                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-Taxonomie Bewertungsskala',
-                'CONTENT_SCORE_SCALE' => 'Taxonomie-Inhalt Bewertungsskala'
             ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => 'Suche...',
@@ -5318,26 +5318,35 @@ Pfad: `%2$s`
                 'CONTENT_PADDING' => 'Content padding',
                 'CONTENT_PADDING_HELP' => 'Enable/Disable content padding around content area to provide more space'
             ],
-            'PLUGIN_COMMENTS' => [
-                'ADD_COMMENT' => 'Add a comment',
-                'COMMENTS' => 'Comments',
-                'EMAIL_NOT_CONFIGURED' => 'Email not configured',
-                'NEW_COMMENT_EMAIL_SUBJECT' => 'New comment on %1$s',
-                'NEW_COMMENT_EMAIL_BODY' => '<p>A new comment was made on %1$s by %3$s (%4$s).</p><p>Page: %2$s</p><p>Text: %5$s</p>',
-                'EMAIL_FOOTER' => '',
-                'NAME' => 'Name:',
-                'EMAIL' => 'Email:',
-                'WRITTEN_ON' => 'Written on',
-                'BY' => 'by',
-                'NAME_LABEL' => 'Name',
-                'NAME_PLACEHOLDER' => 'Enter your name',
-                'EMAIL_LABEL' => 'Email',
-                'EMAIL_PLACEHOLDER' => 'Enter your email address',
-                'MESSAGE_LABEL' => 'Comment',
-                'MESSAGE_PLACEHOLDER' => 'Enter your comment',
-                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Submit',
-                'EMAIL_NEW_COMMENT_SUBJECT' => '[New Comment] from {{ form.value.name|e }}',
-                'THANK_YOU_MESSAGE' => 'Thank you for writing your comment!'
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Basic Settings',
+                'LIMIT' => 'Limit',
+                'LIMIT_HELP' => 'The number of related pages to display',
+                'ORDER' => 'Order',
+                'ORDER_BY' => 'Ordery by',
+                'SHOW_SCORE' => 'Show score',
+                'SHOW_SCORE_HELP' => 'Toggle to determine if scores should be displayed in output',
+                'ITEMS' => 'Items',
+                'ITEMS_HELP' => 'Supports `@self`, `@page`, and `@taxonomy` based collections',
+                'PAGE_IN_FILTER' => 'Page \'in\' filter',
+                'PAGE_IN_FILTER_HELP' => 'Enabled if the current page must be in the filtered collection',
+                'EXPLICIT_PROCESS' => 'Process explicit pages',
+                'EXPLICIT_PROCESS_HELP' => 'Enable this explicit page matching',
+                'EXPLICIT_SCORE' => 'Explicit page score',
+                'EXPLICIT_SCORE_HELP' => 'A score ranging from (0 - 100) to give explicit pages a weight',
+                'TAXONOMY_MATCH' => 'Taxonomy Type Matching',
+                'TAXONOMY' => 'Taxonomy',
+                'TAXONOMY_HELP' => 'Which taxonomy type to use for page matching',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomy-taxonomy',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Enable taxonomy to taxonomy matching',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomy-content',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Enable taxonomy to Content matching',
+                'CONTENT_MATCH' => 'Content Type Matching',
+                'CONTENT_PROCESS' => 'Content-content',
+                'CONTENT_PROCESS_HELP' => 'Enable content to content matching (NOTE: Disable if you have lots of content)',
+                'ADVANCED' => 'Advanced',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomy-taxonomy score scale',
+                'CONTENT_SCORE_SCALE' => 'Taxonomy-content score scale'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Email not configured',
@@ -5386,6 +5395,27 @@ Pfad: `%2$s`
                 'DROPZONE_RESPONSE_ERROR' => 'Server responded with {{statusCode}} code.',
                 'YES' => 'Yes',
                 'NO' => 'No'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Add a comment',
+                'COMMENTS' => 'Comments',
+                'EMAIL_NOT_CONFIGURED' => 'Email not configured',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'New comment on %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>A new comment was made on %1$s by %3$s (%4$s).</p><p>Page: %2$s</p><p>Text: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Name:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Written on',
+                'BY' => 'by',
+                'NAME_LABEL' => 'Name',
+                'NAME_PLACEHOLDER' => 'Enter your name',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Enter your email address',
+                'MESSAGE_LABEL' => 'Comment',
+                'MESSAGE_PLACEHOLDER' => 'Enter your comment',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Submit',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[New Comment] from {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Thank you for writing your comment!'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Username',
@@ -5495,36 +5525,6 @@ Pfad: `%2$s`
                 'ROUTE_RESET' => 'Reset password route',
                 'ROUTE_PROFILE' => 'User profile route',
                 'ROUTE_ACTIVATE' => 'User activation route'
-            ],
-            'PLUGIN_REL_PAGES' => [
-                'BASICS' => 'Basic Settings',
-                'LIMIT' => 'Limit',
-                'LIMIT_HELP' => 'The number of related pages to display',
-                'ORDER' => 'Order',
-                'ORDER_BY' => 'Ordery by',
-                'SHOW_SCORE' => 'Show score',
-                'SHOW_SCORE_HELP' => 'Toggle to determine if scores should be displayed in output',
-                'ITEMS' => 'Items',
-                'ITEMS_HELP' => 'Supports `@self`, `@page`, and `@taxonomy` based collections',
-                'PAGE_IN_FILTER' => 'Page \'in\' filter',
-                'PAGE_IN_FILTER_HELP' => 'Enabled if the current page must be in the filtered collection',
-                'EXPLICIT_PROCESS' => 'Process explicit pages',
-                'EXPLICIT_PROCESS_HELP' => 'Enable this explicit page matching',
-                'EXPLICIT_SCORE' => 'Explicit page score',
-                'EXPLICIT_SCORE_HELP' => 'A score ranging from (0 - 100) to give explicit pages a weight',
-                'TAXONOMY_MATCH' => 'Taxonomy Type Matching',
-                'TAXONOMY' => 'Taxonomy',
-                'TAXONOMY_HELP' => 'Which taxonomy type to use for page matching',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomy-taxonomy',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Enable taxonomy to taxonomy matching',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomy-content',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Enable taxonomy to Content matching',
-                'CONTENT_MATCH' => 'Content Type Matching',
-                'CONTENT_PROCESS' => 'Content-content',
-                'CONTENT_PROCESS_HELP' => 'Enable content to content matching (NOTE: Disable if you have lots of content)',
-                'ADVANCED' => 'Advanced',
-                'TAXONOMY_SCORE_SCALE' => 'Taxonomy-taxonomy score scale',
-                'CONTENT_SCORE_SCALE' => 'Taxonomy-content score scale'
             ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => 'Search...',
@@ -6317,27 +6317,6 @@ Path: `%2$s`
                 'ALLOW_WEBSERVER_GZIP_HELP' => 'Desactivado de forma predeterminada. Cuando esté activado, Webserver-configured compresión Gzip/Deflate funcionará, pero las conexiones http no serán cerradas antes del evento onShutDown() causando una carga más lenta de la página',
                 'OFFLINE_WARNING' => 'No se puede establecer la conexión con GPM'
             ],
-            'PLUGIN_COMMENTS' => [
-                'ADD_COMMENT' => 'Agregar un comentario',
-                'COMMENTS' => 'Comentarios',
-                'EMAIL_NOT_CONFIGURED' => 'El Email no está configurado',
-                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nuevo comentario en %1$s',
-                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nuevo comentario se hizo en %1$s por %3$s (%4$s).</p><p>Page: %2$s</p><p>Text: %5$s</p>',
-                'EMAIL_FOOTER' => '',
-                'NAME' => 'Nombre:',
-                'EMAIL' => 'Email:',
-                'WRITTEN_ON' => 'Escrito en',
-                'BY' => 'por',
-                'NAME_LABEL' => 'Nombre',
-                'NAME_PLACEHOLDER' => 'Escriba su nombre',
-                'EMAIL_LABEL' => 'Email',
-                'EMAIL_PLACEHOLDER' => 'Escriba su email',
-                'MESSAGE_LABEL' => 'Comentario',
-                'MESSAGE_PLACEHOLDER' => 'Escriba su comentario',
-                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Enviar',
-                'EMAIL_NEW_COMMENT_SUBJECT' => '[Nuevo comentario] de {{ form.value.name|e }}',
-                'THANK_YOU_MESSAGE' => 'Gracias por escribir su comentario!'
-            ],
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
@@ -6358,6 +6337,27 @@ Path: `%2$s`
                 'RECAPTCHA_SITE_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha',
                 'RECAPTCHA_SECRET_KEY' => 'Secret key',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Agregar un comentario',
+                'COMMENTS' => 'Comentarios',
+                'EMAIL_NOT_CONFIGURED' => 'El Email no está configurado',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nuevo comentario en %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nuevo comentario se hizo en %1$s por %3$s (%4$s).</p><p>Page: %2$s</p><p>Text: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Nombre:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Escrito en',
+                'BY' => 'por',
+                'NAME_LABEL' => 'Nombre',
+                'NAME_PLACEHOLDER' => 'Escriba su nombre',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Escriba su email',
+                'MESSAGE_LABEL' => 'Comentario',
+                'MESSAGE_PLACEHOLDER' => 'Escriba su comentario',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Enviar',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Nuevo comentario] de {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Gracias por escribir su comentario!'
             ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => 'Buscar...',
@@ -7697,26 +7697,35 @@ Ruta: `%2$s`
                 'NEVER_CACHE_TWIG' => 'Ne jamais mettre en cache Twig',
                 'ALLOW_WEBSERVER_GZIP' => 'Autorisé Gzip WebServer'
             ],
-            'PLUGIN_COMMENTS' => [
-                'ADD_COMMENT' => 'Ajouter un commentaire',
-                'COMMENTS' => 'Commentaires',
-                'EMAIL_NOT_CONFIGURED' => 'E-mail non configuré',
-                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nouveau commentaire sur %1$s',
-                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nouveau commentaire a été publié sur %1$s par %3$s (%4$s).</p><p>Page : %2$s</p><p>Texte : %5$s</p>',
-                'EMAIL_FOOTER' => '',
-                'NAME' => 'Nom :',
-                'EMAIL' => 'E-mail :',
-                'WRITTEN_ON' => 'Écrit le',
-                'BY' => 'par',
-                'NAME_LABEL' => 'Nom',
-                'NAME_PLACEHOLDER' => 'Indiquez votre nom',
-                'EMAIL_LABEL' => 'E-mail',
-                'EMAIL_PLACEHOLDER' => 'Indiquez votre adresse e-mail',
-                'MESSAGE_LABEL' => 'Commentaire',
-                'MESSAGE_PLACEHOLDER' => 'Rédigez votre commentaire',
-                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Envoyer',
-                'EMAIL_NEW_COMMENT_SUBJECT' => '[Nouveau commentaire] de {{ form.value.name|e }}',
-                'THANK_YOU_MESSAGE' => 'Merci d\'avoir rédigé votre commentaire !'
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Réglages de base',
+                'LIMIT' => 'Limite',
+                'LIMIT_HELP' => 'Le nombre de pages en relation à afficher',
+                'ORDER' => 'Classement',
+                'ORDER_BY' => 'Classement par',
+                'SHOW_SCORE' => 'Afficher le score',
+                'SHOW_SCORE_HELP' => 'Activer/désactiver afin de déterminer si les scores doivent être affichés en sortie',
+                'ITEMS' => 'Éléments',
+                'ITEMS_HELP' => 'Prise en charge des collections basées sur `@self`, `@page` et `@taxonomy`',
+                'PAGE_IN_FILTER' => 'Page \'dans\' le filtre',
+                'PAGE_IN_FILTER_HELP' => 'Activer si la page actuelle doit être présente dans la collection filtrée',
+                'EXPLICIT_PROCESS' => 'Traiter les pages explicites',
+                'EXPLICIT_PROCESS_HELP' => 'Activer la correspondance explicite pour cette page',
+                'EXPLICIT_SCORE' => 'Score explicite de la page',
+                'EXPLICIT_SCORE_HELP' => 'Un score compris entre (0 - 100) pour rendre une page explicite',
+                'TAXONOMY_MATCH' => 'Correspondance par type de taxonomie',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Quel type de taxonomie utiliser pour la correspondance des pages',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de taxonomie',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-contenu',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de contenu',
+                'CONTENT_MATCH' => 'Correspondance par type de contenu',
+                'CONTENT_PROCESS' => 'Contenu-contenu',
+                'CONTENT_PROCESS_HELP' => 'Activer la correspondance de contenu (NOTE : désactivez si vous avez beaucoup de contenu)',
+                'ADVANCED' => 'Avancés',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-niveau de score de taxonomie',
+                'CONTENT_SCORE_SCALE' => 'Taxonomie-niveau de score de contenu'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'L’e-mail n’est pas configuré',
@@ -7763,6 +7772,27 @@ Ruta: `%2$s`
                 'DROPZONE_REMOVE_FILE' => 'Supprimer le fichier',
                 'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Êtes-vous sûr de vouloir supprimer ce fichier ?',
                 'DROPZONE_RESPONSE_ERROR' => 'Le serveur a répondu avec le code {{statusCode}}.'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Ajouter un commentaire',
+                'COMMENTS' => 'Commentaires',
+                'EMAIL_NOT_CONFIGURED' => 'E-mail non configuré',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nouveau commentaire sur %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nouveau commentaire a été publié sur %1$s par %3$s (%4$s).</p><p>Page : %2$s</p><p>Texte : %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Nom :',
+                'EMAIL' => 'E-mail :',
+                'WRITTEN_ON' => 'Écrit le',
+                'BY' => 'par',
+                'NAME_LABEL' => 'Nom',
+                'NAME_PLACEHOLDER' => 'Indiquez votre nom',
+                'EMAIL_LABEL' => 'E-mail',
+                'EMAIL_PLACEHOLDER' => 'Indiquez votre adresse e-mail',
+                'MESSAGE_LABEL' => 'Commentaire',
+                'MESSAGE_PLACEHOLDER' => 'Rédigez votre commentaire',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Envoyer',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Nouveau commentaire] de {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Merci d\'avoir rédigé votre commentaire !'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Nom d’utilisateur',
@@ -7853,36 +7883,6 @@ Ruta: `%2$s`
                 'USE_PARENT_ACL_HELP' => 'Utiliser les règles d’accès parentes si aucune règle n’a été définie',
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => 'Protéger le média d\'une page par une protection par connexion',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Si activé, les médias d\'une page protégée par connexion sera également protégé par un système de connexion et ne pourra pas être visible à moins d\'être connecté.'
-            ],
-            'PLUGIN_REL_PAGES' => [
-                'BASICS' => 'Réglages de base',
-                'LIMIT' => 'Limite',
-                'LIMIT_HELP' => 'Le nombre de pages en relation à afficher',
-                'ORDER' => 'Classement',
-                'ORDER_BY' => 'Classement par',
-                'SHOW_SCORE' => 'Afficher le score',
-                'SHOW_SCORE_HELP' => 'Activer/désactiver afin de déterminer si les scores doivent être affichés en sortie',
-                'ITEMS' => 'Éléments',
-                'ITEMS_HELP' => 'Prise en charge des collections basées sur `@self`, `@page` et `@taxonomy`',
-                'PAGE_IN_FILTER' => 'Page \'dans\' le filtre',
-                'PAGE_IN_FILTER_HELP' => 'Activer si la page actuelle doit être présente dans la collection filtrée',
-                'EXPLICIT_PROCESS' => 'Traiter les pages explicites',
-                'EXPLICIT_PROCESS_HELP' => 'Activer la correspondance explicite pour cette page',
-                'EXPLICIT_SCORE' => 'Score explicite de la page',
-                'EXPLICIT_SCORE_HELP' => 'Un score compris entre (0 - 100) pour rendre une page explicite',
-                'TAXONOMY_MATCH' => 'Correspondance par type de taxonomie',
-                'TAXONOMY' => 'Taxonomie',
-                'TAXONOMY_HELP' => 'Quel type de taxonomie utiliser pour la correspondance des pages',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de taxonomie',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-contenu',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de contenu',
-                'CONTENT_MATCH' => 'Correspondance par type de contenu',
-                'CONTENT_PROCESS' => 'Contenu-contenu',
-                'CONTENT_PROCESS_HELP' => 'Activer la correspondance de contenu (NOTE : désactivez si vous avez beaucoup de contenu)',
-                'ADVANCED' => 'Avancés',
-                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-niveau de score de taxonomie',
-                'CONTENT_SCORE_SCALE' => 'Taxonomie-niveau de score de contenu'
             ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => 'Recherche...',
@@ -8579,6 +8579,26 @@ Path: `%2$s`
                 'ALL' => 'Sve',
                 'FROM' => 'od'
             ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Greška',
+                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
+            ],
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Formular nije validiran. Jedan ili više traženih polja nedostaju.',
+                'NONCE_NOT_VALIDATED' => 'Ups, došlo je do problema, molimo provjerite svoj unos i pokušajte opet.',
+                'FILES' => 'Upload Fajlova',
+                'ALLOW_MULTIPLE' => 'Dopusti više od jednog fajla',
+                'DESTINATION' => 'Destinacija',
+                'DESTINATION_HELP' => 'Lokacija gdje bi fajlovi trebali biti uploadani',
+                'ACCEPT' => 'Dopušteni MIME Tipovi',
+                'ACCEPT_HELP' => 'Lista dopuštenih MIME Tipova koji su dozvoljeni za upload',
+                'ERROR_VALIDATING_CAPTCHA' => 'Greška pri validiranju Captcha'
+            ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Dodaj komentar',
                 'COMMENTS' => 'Komentari',
@@ -8599,26 +8619,6 @@ Path: `%2$s`
                 'SUBMIT_COMMENT_BUTTON_TEXT' => 'Pošalji',
                 'EMAIL_NEW_COMMENT_SUBJECT' => '[Novi komentar] od {{ form.value.name|e }}',
                 'THANK_YOU_MESSAGE' => 'Hvala Vam što ste napisali svoj komentar!'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Greška',
-                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
-            ],
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Formular nije validiran. Jedan ili više traženih polja nedostaju.',
-                'NONCE_NOT_VALIDATED' => 'Ups, došlo je do problema, molimo provjerite svoj unos i pokušajte opet.',
-                'FILES' => 'Upload Fajlova',
-                'ALLOW_MULTIPLE' => 'Dopusti više od jednog fajla',
-                'DESTINATION' => 'Destinacija',
-                'DESTINATION_HELP' => 'Lokacija gdje bi fajlovi trebali biti uploadani',
-                'ACCEPT' => 'Dopušteni MIME Tipovi',
-                'ACCEPT_HELP' => 'Lista dopuštenih MIME Tipova koji su dozvoljeni za upload',
-                'ERROR_VALIDATING_CAPTCHA' => 'Greška pri validiranju Captcha'
             ],
             'PLUGIN_LOGIN' => [
                 'ACCESS_DENIED' => 'Pristup odbijen...',
@@ -10174,27 +10174,6 @@ Elérési út: `%2$s`
                 'ALLOW_WEBSERVER_GZIP_HELP' => 'Disattivata per impostazione predefinita. Quando attivata, la compressione configurata Gzip/Deflate WebServer, funzionerà ma la connessione http non verrà chiusa prima dell\'evento onShutDown() rallentando il caricamento della pagina',
                 'OFFLINE_WARNING' => 'Non è possibile stabilire la connessione con il GPM'
             ],
-            'PLUGIN_COMMENTS' => [
-                'ADD_COMMENT' => 'Aggiungi un commento',
-                'COMMENTS' => 'Commenti',
-                'EMAIL_NOT_CONFIGURED' => 'Email non configurata',
-                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nuovo commento su %1$s',
-                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nuovo commento è stato postato su %1$s da %3$s (%4$s).</p><p>Pagina: %2$s</p><p>Testo: %5$s</p>',
-                'EMAIL_FOOTER' => '',
-                'NAME' => 'Nome:',
-                'EMAIL' => 'Email:',
-                'WRITTEN_ON' => 'Scritto il',
-                'BY' => 'da',
-                'NAME_LABEL' => 'Nome',
-                'NAME_PLACEHOLDER' => 'Inserisci il tuo nome',
-                'EMAIL_LABEL' => 'Email',
-                'EMAIL_PLACEHOLDER' => 'Inserisci il tuo indirizzo email',
-                'MESSAGE_LABEL' => 'Messaggio',
-                'MESSAGE_PLACEHOLDER' => 'Inserisci il tuo commento',
-                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Invia',
-                'EMAIL_NEW_COMMENT_SUBJECT' => '[Nuovo commento] da {{ form.value.name|e }}',
-                'THANK_YOU_MESSAGE' => 'Grazie per il tuo commento!'
-            ],
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
@@ -10216,6 +10195,27 @@ Elérési út: `%2$s`
                 'ERROR_VALIDATING_CAPTCHA' => 'Errore durante la validazione del Captcha',
                 'YES' => 'Si',
                 'NO' => 'No'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Aggiungi un commento',
+                'COMMENTS' => 'Commenti',
+                'EMAIL_NOT_CONFIGURED' => 'Email non configurata',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nuovo commento su %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nuovo commento è stato postato su %1$s da %3$s (%4$s).</p><p>Pagina: %2$s</p><p>Testo: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Nome:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Scritto il',
+                'BY' => 'da',
+                'NAME_LABEL' => 'Nome',
+                'NAME_PLACEHOLDER' => 'Inserisci il tuo nome',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Inserisci il tuo indirizzo email',
+                'MESSAGE_LABEL' => 'Messaggio',
+                'MESSAGE_PLACEHOLDER' => 'Inserisci il tuo commento',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Invia',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Nuovo commento] da {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Grazie per il tuo commento!'
             ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => 'Cerca...',
@@ -14137,26 +14137,35 @@ Caminho: `%2$s`
                 'ALLOW_WEBSERVER_GZIP_HELP' => 'Dezactivată în mod implicit. Dacă este activată, compresia Gzip/Defflate configurată pe WebServer va funcționa dar conexiunile Http nu vor fi închise cu evenimentul onShutDown() astfel paginile se vor încarca mai greu',
                 'OFFLINE_WARNING' => 'Conexiunea la GPM nu poate fi stabilită'
             ],
-            'PLUGIN_COMMENTS' => [
-                'ADD_COMMENT' => 'Adăugați un comentariu',
-                'COMMENTS' => 'Comentarii',
-                'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
-                'NEW_COMMENT_EMAIL_SUBJECT' => 'Comentariu nou pentru %1$s',
-                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nou comentariu a fost adăugat la %1$s de către %3$s (%4$s).</p><p>Pagină: %2$s</p><p>Text: %5$s</p>',
-                'EMAIL_FOOTER' => '',
-                'NAME' => 'Nume:',
-                'EMAIL' => 'Adresă de email:',
-                'WRITTEN_ON' => 'Scris în data de',
-                'BY' => 'de către',
-                'NAME_LABEL' => 'Numele',
-                'NAME_PLACEHOLDER' => 'Introduceți numele Dvs.',
-                'EMAIL_LABEL' => 'Email',
-                'EMAIL_PLACEHOLDER' => 'Introduceți adresa Dvs. de email',
-                'MESSAGE_LABEL' => 'Comentariu',
-                'MESSAGE_PLACEHOLDER' => 'Scrieți comentariul Dvs.',
-                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Trimiteți',
-                'EMAIL_NEW_COMMENT_SUBJECT' => '[Comentariu nou] from {{ form.value.name|e }}',
-                'THANK_YOU_MESSAGE' => 'Vă mulțumim pentru comentariu!'
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Setări de bază',
+                'LIMIT' => 'Limită',
+                'LIMIT_HELP' => 'Numărul afișat al paginilor legate',
+                'ORDER' => 'Ordinea',
+                'ORDER_BY' => 'Ordonează după',
+                'SHOW_SCORE' => 'Arată scorul',
+                'SHOW_SCORE_HELP' => 'Comutați pentru afișarea scorurilor',
+                'ITEMS' => 'Articole',
+                'ITEMS_HELP' => 'Acceptă colecții bazate pe `@self`, `@page` și `@taxonomy`',
+                'PAGE_IN_FILTER' => 'Filtru \'in\' pagină',
+                'PAGE_IN_FILTER_HELP' => 'Activează dacă pagina curentă trebuie să fie în colecția filtrată',
+                'EXPLICIT_PROCESS' => 'Procesează anumite pagini specifice',
+                'EXPLICIT_PROCESS_HELP' => 'Activează pentru procesarea anumitor pagini specifice',
+                'EXPLICIT_SCORE' => 'Scorul paginilor specifice',
+                'EXPLICIT_SCORE_HELP' => 'Un scor între (0 - 100) pentru a da unor pagini specifice greutate',
+                'TAXONOMY_MATCH' => 'Potrivire după Taxonomie',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Ce fel de taxonomie să fie folosită la potrivirea paginilor',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activeazā potrivirea între taxonomii',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-conținut',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activează potrivirea după taxonomie - conținut',
+                'CONTENT_MATCH' => 'Potrivirea după conținut',
+                'CONTENT_PROCESS' => 'Conținut-conținut',
+                'CONTENT_PROCESS_HELP' => 'Activează pentru potrivire după conținut (Notă: dezactivați dacă aveți conținut mult)',
+                'ADVANCED' => 'Avansat',
+                'TAXONOMY_SCORE_SCALE' => 'Scorul scalei Taxonomie-taxonomie',
+                'CONTENT_SCORE_SCALE' => 'Scorul scalei Taxonomie-conținut'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
@@ -14185,6 +14194,27 @@ Caminho: `%2$s`
                 'RECAPTCHA_SITE_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați https://developers.google.com/recaptcha',
                 'RECAPTCHA_SECRET_KEY' => 'Cheia secretă pentru Site',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați  https://developers.google.com/recaptcha'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Adăugați un comentariu',
+                'COMMENTS' => 'Comentarii',
+                'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Comentariu nou pentru %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nou comentariu a fost adăugat la %1$s de către %3$s (%4$s).</p><p>Pagină: %2$s</p><p>Text: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Nume:',
+                'EMAIL' => 'Adresă de email:',
+                'WRITTEN_ON' => 'Scris în data de',
+                'BY' => 'de către',
+                'NAME_LABEL' => 'Numele',
+                'NAME_PLACEHOLDER' => 'Introduceți numele Dvs.',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Introduceți adresa Dvs. de email',
+                'MESSAGE_LABEL' => 'Comentariu',
+                'MESSAGE_PLACEHOLDER' => 'Scrieți comentariul Dvs.',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Trimiteți',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Comentariu nou] from {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Vă mulțumim pentru comentariu!'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Nume utilizator',
@@ -14272,36 +14302,6 @@ Caminho: `%2$s`
                 'USE_PARENT_ACL_HELP' => 'Verifică regulie de acces ale părintelui dacă nu sunt specificate alte reguli de acces',
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => ' Protejează media ce aparține paginii de logare ',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Dacă este activată, media ce aparține unei pagini de logare este protejată și nu poate fi accesată decât după logare.'
-            ],
-            'PLUGIN_REL_PAGES' => [
-                'BASICS' => 'Setări de bază',
-                'LIMIT' => 'Limită',
-                'LIMIT_HELP' => 'Numărul afișat al paginilor legate',
-                'ORDER' => 'Ordinea',
-                'ORDER_BY' => 'Ordonează după',
-                'SHOW_SCORE' => 'Arată scorul',
-                'SHOW_SCORE_HELP' => 'Comutați pentru afișarea scorurilor',
-                'ITEMS' => 'Articole',
-                'ITEMS_HELP' => 'Acceptă colecții bazate pe `@self`, `@page` și `@taxonomy`',
-                'PAGE_IN_FILTER' => 'Filtru \'in\' pagină',
-                'PAGE_IN_FILTER_HELP' => 'Activează dacă pagina curentă trebuie să fie în colecția filtrată',
-                'EXPLICIT_PROCESS' => 'Procesează anumite pagini specifice',
-                'EXPLICIT_PROCESS_HELP' => 'Activează pentru procesarea anumitor pagini specifice',
-                'EXPLICIT_SCORE' => 'Scorul paginilor specifice',
-                'EXPLICIT_SCORE_HELP' => 'Un scor între (0 - 100) pentru a da unor pagini specifice greutate',
-                'TAXONOMY_MATCH' => 'Potrivire după Taxonomie',
-                'TAXONOMY' => 'Taxonomie',
-                'TAXONOMY_HELP' => 'Ce fel de taxonomie să fie folosită la potrivirea paginilor',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activeazā potrivirea între taxonomii',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-conținut',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activează potrivirea după taxonomie - conținut',
-                'CONTENT_MATCH' => 'Potrivirea după conținut',
-                'CONTENT_PROCESS' => 'Conținut-conținut',
-                'CONTENT_PROCESS_HELP' => 'Activează pentru potrivire după conținut (Notă: dezactivați dacă aveți conținut mult)',
-                'ADVANCED' => 'Avansat',
-                'TAXONOMY_SCORE_SCALE' => 'Scorul scalei Taxonomie-taxonomie',
-                'CONTENT_SCORE_SCALE' => 'Scorul scalei Taxonomie-conținut'
             ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => 'Caută...',
@@ -15031,6 +15031,14 @@ Calea: `%2$s`
                 'ERROR_SYSTEM' => 'Системная ошибка',
                 'OFFLINE_WARNING' => 'Невозможно установить подключение к GPM'
             ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Ошибка',
+                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
+            ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Добавить комментарий',
                 'COMMENTS' => 'Комментарии',
@@ -15042,14 +15050,6 @@ Calea: `%2$s`
                 'EMAIL' => 'Email:',
                 'WRITTEN_ON' => 'Написан в',
                 'BY' => 'от'
-            ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Ошибка',
-                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
             ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => 'Найти...',
@@ -18129,6 +18129,6 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '6dedd716e16ed663e964c1d862b73a50'
+        'checksum' => '5ba6b901340a7efdab07a28d635bdd89'
     ]
 ];

@@ -5,8 +5,8 @@ taxonomy:
     category:
         - Featured
     tag:
-        - 'Translational Research'
         - 'Mental Health'
+        - 'Translational Research'
     featured:
         - '1'
 body_classes: 'single single-post postid-15 single-format-standard group-blog'
@@ -22,5 +22,8 @@ Translational research is most probably the best way to discover how to fill the
 
 Unfortunately, this sort of research is done comparatively quite infrequently.  If it is potentially so helpful to the world to perform translational research, then why is it so unusual in academia?  Translational research is often more difficult to design and get approved than non-translational research, as it involves more complex systems of individuals, organizations, and scientific measures.  Because it is performed in more “real-world” settings, translational research contains more confounds than carefully-controlled laboratory research.  In psychology research, for example, translational research, unlike more traditional laboratory research, often involves patient populations with co-morbid diagnoses.  Therefore, it is less likely to be seen as “valid” science, even when it is much more applicable to a “real-world” setting than scientific research in which as many confounds as possible are eliminated. 
 
-Translational research is difficult but it is important. 
+Translational research is difficult, but it is important and necessary.
+
+By Katherine Venturo-Conerly '19 | Staff Writer
+
 
