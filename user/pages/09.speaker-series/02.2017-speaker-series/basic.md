@@ -8,8 +8,12 @@ content:
         dir: desc
 ---
 
-In the 2017 Speaker Series, Dr. Leonard Rappaport, Dr. Holly Hodges, Dr. John Kelly, and others talked about the various factors that shape autism, substance abuse, and more.
+The 2016-2017 Speakers are as follows!
 
-![](speakerseries1.jpg?cropResize=400)
+April 7, 5-6:30 pm: Dr. Leonard Rappaport (Autism)
 
-![](speakerseries2.jpg?cropResize=400)
+April 11, 8-9:30 pm : Dr. John Weisz (Transitional Age)
+
+April 21, 5-6:30 pm: Dr. Holly Hodges (Autism)
+
+April 27, 6-7:30pm: Dr. John Kelly (Transitional Age)

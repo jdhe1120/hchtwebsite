@@ -19,7 +19,7 @@ class __TwigTemplate_0de5ca2daf97b8b52127b48c5cc2cf7268a9b289b537d10d664141095b8
         if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "simplesearch", array()), "enabled", array())) {
             // line 2
             echo "<aside class=\"widget widget_search\">
-    <h1 class=\"widget-title\">SimpleSearch</h1>
+    <h1 class=\"widget-title\">Search</h1>
     ";
             // line 4
             $this->loadTemplate("partials/simplesearch_searchbox.html.twig", "partials/sidebar.html.twig", 4)->display($context);
@@ -125,7 +125,7 @@ class __TwigTemplate_0de5ca2daf97b8b52127b48c5cc2cf7268a9b289b537d10d664141095b8
     {
         return new Twig_Source("{% if config.plugins.simplesearch.enabled %}
 <aside class=\"widget widget_search\">
-    <h1 class=\"widget-title\">SimpleSearch</h1>
+    <h1 class=\"widget-title\">Search</h1>
     {% include 'partials/simplesearch_searchbox.html.twig' %}
 </aside>
 {% endif %}

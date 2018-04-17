@@ -1,9 +1,9 @@
-title: 'Harvard College Healing Thoughts'
+title: 'Students in Mental Health Research'
 default_lang: en
 author:
   name: 'Jeffrey He'
   email: jhe1120@gmail.com
-  copyright: 'Copyright 2017 HCHT. All Rights Reserved.'
+  copyright: 'Copyright 2018 SMHR. All Rights Reserved.'
 taxonomies:
   - category
   - tag
@@ -23,27 +23,27 @@ blog:
   route: /blog
 logo: logo.png
 header:
-  title: 'Healing Thoughts'
-  description: 'Harvard College Healing Thoughts: A Global Mental Health Initiative (HCHT) is a student run organization dedicated to building a community of student learners devoted to raising awareness about global mental health issues.'
+  title: 'Students in Mental Health Research'
+  description: 'Students in Mental Health Research: A Global Mental Health Initiative (SMHR) is a student run organization dedicated to building a community of student learners devoted to raising awareness about global mental health issues.'
   background: background.jpg
   buttons:
     -
       text: 'Learn More'
-      url: 'about'
+      url: about
       class: 'button radius'
 social:
   -
-    url: 'https://www.facebook.com/harvardcollegehealingthoughts/'
+    url: 'https://www.facebook.com/harvardcollegementalhealthresearchgroup/'
     icon: facebook
   -
-    url: 'mailto:harvardhealingthoughts@gmail.com'
+    url: 'mailto:harvardmentalhealthresearch@gmail.com'
     icon: envelope
   -
-    url: 'www.hcs.harvard.edu/~hcht/'
+    url: www.hcs.harvard.edu/~hcht/
     icon: info-circle
 footer:
   widget:
-    title: 'Harvard College Healing Thoughts'
+    title: 'Students in Mental Health Research'
     description: 'A student run organization dedicated to building a community of student learners devoted to raising awareness about global mental health issues.'
     link: null
-copyright: '© 2017 Healing Thoughts. All Rights Reserved. By <a href="http://rescuethemes.com/">Rescue Themes</a> and <a href="http://www.getgrav.org">Grav</a>.'
+copyright: '© 2018 Students in Mental Health Research. All Rights Reserved. By <a href="http://rescuethemes.com/">Rescue Themes</a> and <a href="http://www.getgrav.org">Grav</a>.'

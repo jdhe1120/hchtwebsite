@@ -1,8 +1,5 @@
 ---
 title: 'Speaker Series'
-taxonomy:
-    category:
-        - 2017SpeakerSeries
 redirect: /speaker-series/2018-speaker-series
 routable: false
 ---

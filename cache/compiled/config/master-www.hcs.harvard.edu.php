@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1502025654,
-    'checksum' => 'da9be94c88ba215b0fdfc8b4d9b8ccd0',
+    'timestamp' => 1520009826,
+    'checksum' => '92ac0c01ba536ae13997c99f42a5ded6',
     'files' => [
         'user/config' => [
             'media' => [
@@ -27,7 +27,7 @@ return [
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/config/plugins/simplesearch.yaml',
-                'modified' => 1502025653
+                'modified' => 1502030252
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -35,7 +35,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1498037579
+                'modified' => 1520009823
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -404,7 +404,7 @@ return [
                 'search_content' => 'rendered',
                 'template' => 'simplesearch_results',
                 'filters' => [
-                    'category' => 'blog'
+                    'category' => 'Blog'
                 ],
                 'filter_combinator' => 'and',
                 'ignore_accented_characters' => false,
@@ -762,12 +762,12 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Harvard College Healing Thoughts',
+            'title' => 'Students in Mental Health Research',
             'default_lang' => 'en',
             'author' => [
                 'name' => 'Jeffrey He',
                 'email' => 'jhe1120@gmail.com',
-                'copyright' => 'Copyright 2017 HCHT. All Rights Reserved.'
+                'copyright' => 'Copyright 2018 SMHR. All Rights Reserved.'
             ],
             'taxonomies' => [
                 0 => 'category',
@@ -794,8 +794,8 @@ return [
             ],
             'logo' => 'logo.png',
             'header' => [
-                'title' => 'Healing Thoughts',
-                'description' => 'Harvard College Healing Thoughts: A Global Mental Health Initiative (HCHT) is a student run organization dedicated to building a community of student learners devoted to raising awareness about global mental health issues.',
+                'title' => 'Students in Mental Health Research',
+                'description' => 'Students in Mental Health Research: A Global Mental Health Initiative (SMHR) is a student run organization dedicated to building a community of student learners devoted to raising awareness about global mental health issues.',
                 'background' => 'background.jpg',
                 'buttons' => [
                     0 => [
@@ -807,11 +807,11 @@ return [
             ],
             'social' => [
                 0 => [
-                    'url' => 'https://www.facebook.com/harvardcollegehealingthoughts/',
+                    'url' => 'https://www.facebook.com/harvardcollegementalhealthresearchgroup/',
                     'icon' => 'facebook'
                 ],
                 1 => [
-                    'url' => 'mailto:harvardhealingthoughts@gmail.com',
+                    'url' => 'mailto:harvardmentalhealthresearch@gmail.com',
                     'icon' => 'envelope'
                 ],
                 2 => [
@@ -821,12 +821,12 @@ return [
             ],
             'footer' => [
                 'widget' => [
-                    'title' => 'Harvard College Healing Thoughts',
+                    'title' => 'Students in Mental Health Research',
                     'description' => 'A student run organization dedicated to building a community of student learners devoted to raising awareness about global mental health issues.',
                     'link' => NULL
                 ]
             ],
-            'copyright' => '© 2017 Healing Thoughts. All Rights Reserved. By <a href="http://rescuethemes.com/">Rescue Themes</a> and <a href="http://www.getgrav.org">Grav</a>.'
+            'copyright' => '© 2018 Students in Mental Health Research. All Rights Reserved. By <a href="http://rescuethemes.com/">Rescue Themes</a> and <a href="http://www.getgrav.org">Grav</a>.'
         ],
         'streams' => [
             'schemes' => [

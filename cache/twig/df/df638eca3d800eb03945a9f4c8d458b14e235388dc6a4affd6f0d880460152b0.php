@@ -16,7 +16,7 @@ class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d50
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "1460521479")->display($context);
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "8125686")->display($context);
     }
 
     public function getTemplateName()
@@ -58,6 +58,14 @@ class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d50
   <div class=\"row blog_page_titles\">
     <div class=\"large-12 columns\">
       {{ page.content }}
+      <br/>
+      <a style=\"font-size: 20px\" href=\"/search/query:anxiety\">Anxiety</a>
+      <a style=\"padding-left: 20px; font-size: 20px\" href=\"/search/query:depression\">Depression</a>
+      <a style=\"padding-left: 20px; font-size: 20px\" href=\"/search/query:parkinson\">Parkinson's</a>
+      <a style=\"padding-left: 20px; font-size: 20px\" href=\"/search/query:schizophrenia\">Schizophrenia</a>
+      <br/>
+      <br/>
+      {% include 'partials/simplesearch_searchbox.html.twig' %}
     </div>
   </div>
 </div>
@@ -97,7 +105,7 @@ class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d50
 
 
 /* blog.html.twig */
-class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d5078ca8_1460521479 extends Twig_Template
+class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d5078ca8_8125686 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -147,7 +155,18 @@ class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d50
         // line 19
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
-    </div>
+      <br/>
+      <a style=\"font-size: 20px\" href=\"/search/query:anxiety\">Anxiety</a>
+      <a style=\"padding-left: 20px; font-size: 20px\" href=\"/search/query:depression\">Depression</a>
+      <a style=\"padding-left: 20px; font-size: 20px\" href=\"/search/query:parkinson\">Parkinson's</a>
+      <a style=\"padding-left: 20px; font-size: 20px\" href=\"/search/query:schizophrenia\">Schizophrenia</a>
+      <br/>
+      <br/>
+      ";
+        // line 27
+        $this->loadTemplate("partials/simplesearch_searchbox.html.twig", "blog.html.twig", 27)->display($context);
+        // line 28
+        echo "    </div>
   </div>
 </div>
 
@@ -157,7 +176,7 @@ class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d50
     <div class=\"large-12 columns\">
       <main id=\"main\" class=\"site-main\" role=\"main\">
         ";
-        // line 29
+        // line 37
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
         $context['loop'] = array(
@@ -174,12 +193,12 @@ class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d50
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 30
+            // line 38
             echo "        <div class=\"large-4 columns\">
           ";
-            // line 31
-            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 31)->display(array_merge($context, array("page" => $context["child"], "truncate" => true, "readmore" => false)));
-            // line 32
+            // line 39
+            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 39)->display(array_merge($context, array("page" => $context["child"], "truncate" => true, "readmore" => false)));
+            // line 40
             echo "        </div>
         ";
             ++$context['loop']['index0'];
@@ -194,36 +213,36 @@ class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d50
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 34
+        // line 42
         echo "
         ";
-        // line 35
+        // line 43
         if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "pagination", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))) {
-            // line 36
+            // line 44
             echo "        ";
-            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 36)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
-            // line 37
+            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 44)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
+            // line 45
             echo "        ";
         }
-        // line 38
+        // line 46
         echo "
       </main>
     </div>
     ";
-        // line 41
+        // line 49
         if ( !$this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "fullwidth", array())) {
-            // line 42
+            // line 50
             echo "    <!-- <div class=\"large-3 large-offset-1 columns\">
       <div id=\"secondary\" class=\"widget-area\">
         ";
-            // line 44
-            $this->loadTemplate("partials/sidebar.html.twig", "blog.html.twig", 44)->display($context);
-            // line 45
+            // line 52
+            $this->loadTemplate("partials/sidebar.html.twig", "blog.html.twig", 52)->display($context);
+            // line 53
             echo "      </div>
     </div> -->
     ";
         }
-        // line 48
+        // line 56
         echo "  </div>
 </div>
 ";
@@ -241,7 +260,7 @@ class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d50
 
     public function getDebugInfo()
     {
-        return array (  227 => 48,  222 => 45,  220 => 44,  216 => 42,  214 => 41,  209 => 38,  206 => 37,  203 => 36,  201 => 35,  198 => 34,  183 => 32,  181 => 31,  178 => 30,  161 => 29,  148 => 19,  143 => 16,  140 => 15,  136 => 1,  133 => 12,  131 => 11,  128 => 8,  126 => 7,  124 => 5,  122 => 4,  120 => 3,  19 => 1,);
+        return array (  246 => 56,  241 => 53,  239 => 52,  235 => 50,  233 => 49,  228 => 46,  225 => 45,  222 => 44,  220 => 43,  217 => 42,  202 => 40,  200 => 39,  197 => 38,  180 => 37,  169 => 28,  167 => 27,  156 => 19,  151 => 16,  148 => 15,  144 => 1,  141 => 12,  139 => 11,  136 => 8,  134 => 7,  132 => 5,  130 => 4,  128 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -273,6 +292,14 @@ class __TwigTemplate_96c8a456f406d21604cb611c8cff26a928a95a31e721e11b8fabfc42d50
   <div class=\"row blog_page_titles\">
     <div class=\"large-12 columns\">
       {{ page.content }}
+      <br/>
+      <a style=\"font-size: 20px\" href=\"/search/query:anxiety\">Anxiety</a>
+      <a style=\"padding-left: 20px; font-size: 20px\" href=\"/search/query:depression\">Depression</a>
+      <a style=\"padding-left: 20px; font-size: 20px\" href=\"/search/query:parkinson\">Parkinson's</a>
+      <a style=\"padding-left: 20px; font-size: 20px\" href=\"/search/query:schizophrenia\">Schizophrenia</a>
+      <br/>
+      <br/>
+      {% include 'partials/simplesearch_searchbox.html.twig' %}
     </div>
   </div>
 </div>

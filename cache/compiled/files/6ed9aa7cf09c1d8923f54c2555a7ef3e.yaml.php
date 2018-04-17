@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/mnt/tank/home/groups/hcht/web/user/config/plugins/simplesearch.yaml',
-    'modified' => 1502025653,
+    'modified' => 1502030252,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -12,10 +12,9 @@ return [
         'search_content' => 'rendered',
         'template' => 'simplesearch_results',
         'filters' => [
-            'category' => 'blog'
+            'category' => 'Blog'
         ],
         'filter_combinator' => 'and',
-        'ignore_accented_characters' => false,
         'order' => [
             'by' => 'date',
             'dir' => 'desc'
