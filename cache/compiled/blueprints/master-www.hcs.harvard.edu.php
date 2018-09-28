@@ -1,79 +1,79 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1520009825,
-    'checksum' => '3126d08f3286a7f8f8c67e902e1b7a40',
+    'timestamp' => 1538157694,
+    'checksum' => 'd7b2e09d71daa01ad8cc64b38d7c5bdc',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ]
         ],
         'user/plugins' => [
-            'plugins/youtube' => [
-                'file' => 'user/plugins/youtube/blueprints.yaml',
-                'modified' => 1498034884
-            ],
-            'plugins/relatedpages' => [
-                'file' => 'user/plugins/relatedpages/blueprints.yaml',
-                'modified' => 1498034883
-            ],
-            'plugins/taxonomylist' => [
-                'file' => 'user/plugins/taxonomylist/blueprints.yaml',
-                'modified' => 1498034884
-            ],
-            'plugins/archives' => [
-                'file' => 'user/plugins/archives/blueprints.yaml',
-                'modified' => 1498034877
-            ],
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1498034883
-            ],
-            'plugins/email' => [
-                'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1498034878
-            ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1498034881
-            ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1498034881
+                'modified' => 1523972994
             ],
-            'plugins/comments' => [
-                'file' => 'user/plugins/comments/blueprints.yaml',
-                'modified' => 1498034877
-            ],
-            'plugins/login' => [
-                'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1498034882
+            'plugins/youtube' => [
+                'file' => 'user/plugins/youtube/blueprints.yaml',
+                'modified' => 1523972995
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/blueprints.yaml',
-                'modified' => 1498034883
+                'modified' => 1523972995
+            ],
+            'plugins/comments' => [
+                'file' => 'user/plugins/comments/blueprints.yaml',
+                'modified' => 1523972991
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/blueprints.yaml',
-                'modified' => 1498034881
+                'modified' => 1523972994
+            ],
+            'plugins/error' => [
+                'file' => 'user/plugins/error/blueprints.yaml',
+                'modified' => 1523972994
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/blueprints.yaml',
+                'modified' => 1523972994
+            ],
+            'plugins/email' => [
+                'file' => 'user/plugins/email/blueprints.yaml',
+                'modified' => 1523972992
+            ],
+            'plugins/archives' => [
+                'file' => 'user/plugins/archives/blueprints.yaml',
+                'modified' => 1523972991
+            ],
+            'plugins/taxonomylist' => [
+                'file' => 'user/plugins/taxonomylist/blueprints.yaml',
+                'modified' => 1523972995
+            ],
+            'plugins/login' => [
+                'file' => 'user/plugins/login/blueprints.yaml',
+                'modified' => 1523972994
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
+            ],
+            'plugins/relatedpages' => [
+                'file' => 'user/plugins/relatedpages/blueprints.yaml',
+                'modified' => 1523972995
             ]
         ]
     ],
@@ -1717,7 +1717,7 @@ return [
                 'name' => 'system.advanced',
                 'validation' => 'loose'
             ],
-            'plugins.youtube' => [
+            'plugins.form' => [
                 'form' => [
                     'validation' => 'strict'
                 ],
@@ -1727,6 +1727,108 @@ return [
             'plugins' => [
                 'type' => '_parent',
                 'name' => 'plugins',
+                'form_field' => false
+            ],
+            'plugins.form.enabled' => [
+                'type' => 'hidden',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.form.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.form.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_FORM.USE_BUILT_IN_CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.form.built_in_css',
+                'validation' => 'strict'
+            ],
+            'plugins.form.general' => [
+                'type' => 'section',
+                'name' => 'plugins.form.general',
+                'validation' => 'strict'
+            ],
+            'plugins.form.files' => [
+                'type' => 'section',
+                'name' => 'plugins.form.files',
+                'validation' => 'strict'
+            ],
+            'plugins.form.files.multiple' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_FORM.ALLOW_MULTIPLE',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.form.files.multiple',
+                'validation' => 'strict'
+            ],
+            'plugins.form.files.destination' => [
+                'type' => 'text',
+                'label' => 'PLUGIN_FORM.DESTINATION',
+                'default' => '@self',
+                'name' => 'plugins.form.files.destination',
+                'validation' => 'strict'
+            ],
+            'plugins.form.files.accept' => [
+                'type' => 'selectize',
+                'size' => 'large',
+                'label' => 'PLUGIN_FORM.ACCEPT',
+                'classes' => 'fancy',
+                'default' => [
+                    0 => 'image/*'
+                ],
+                'validate' => [
+                    'type' => 'commalist'
+                ],
+                'name' => 'plugins.form.files.accept',
+                'validation' => 'strict'
+            ],
+            'plugins.form.recaptcha' => [
+                'type' => 'section',
+                'name' => 'plugins.form.recaptcha',
+                'validation' => 'strict'
+            ],
+            'plugins.form.recaptcha.site_key' => [
+                'type' => 'text',
+                'label' => 'PLUGIN_FORM.RECAPTCHA_SITE_KEY',
+                'default' => '',
+                'name' => 'plugins.form.recaptcha.site_key',
+                'validation' => 'strict'
+            ],
+            'plugins.form.recaptcha.secret_key' => [
+                'type' => 'text',
+                'label' => 'PLUGIN_FORM.RECAPTCHA_SECRET_KEY',
+                'default' => '',
+                'name' => 'plugins.form.recaptcha.secret_key',
+                'validation' => 'strict'
+            ],
+            'plugins.youtube' => [
+                'form' => [
+                    'validation' => 'strict'
+                ],
+                'type' => '_root',
                 'form_field' => false
             ],
             'plugins.youtube.enabled' => [
@@ -2030,14 +2132,14 @@ return [
                 'name' => 'plugins.youtube.player_parameters.playsinline',
                 'validation' => 'strict'
             ],
-            'plugins.relatedpages' => [
+            'plugins.simplesearch' => [
                 'form' => [
-                    'validation' => 'loose'
+                    'validation' => 'strict'
                 ],
                 'type' => '_root',
                 'form_field' => false
             ],
-            'plugins.relatedpages.enabled' => [
+            'plugins.simplesearch.enabled' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
                 'highlight' => 1,
@@ -2049,304 +2151,23 @@ return [
                 'validate' => [
                     'type' => 'bool'
                 ],
-                'name' => 'plugins.relatedpages.enabled',
-                'validation' => 'loose'
+                'name' => 'plugins.simplesearch.enabled',
+                'validation' => 'strict'
             ],
-            'plugins.relatedpages.basics_title' => [
-                'type' => 'section',
-                'underline' => true,
-                'name' => 'plugins.relatedpages.basics_title',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.limit' => [
-                'type' => 'text',
-                'size' => 'x-small',
-                'label' => 'PLUGIN_REL_PAGES.LIMIT',
-                'validate' => [
-                    'type' => 'int',
-                    'min' => 0,
-                    'max' => 65536
-                ],
-                'name' => 'plugins.relatedpages.limit',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.show_score' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_REL_PAGES.SHOW_SCORE',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.relatedpages.show_score',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.filter' => [
-                'type' => '_parent',
-                'name' => 'plugins.relatedpages.filter',
-                'form_field' => false
-            ],
-            'plugins.relatedpages.filter.items' => [
-                'type' => 'text',
-                'yaml' => true,
-                'label' => 'PLUGIN_REL_PAGES.ITEMS',
-                'default' => '@page: /blog',
-                'name' => 'plugins.relatedpages.filter.items',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.filter.order' => [
-                'type' => '_parent',
-                'name' => 'plugins.relatedpages.filter.order',
-                'form_field' => false
-            ],
-            'plugins.relatedpages.filter.order.by' => [
+            'plugins.simplesearch.search_content' => [
                 'type' => 'select',
-                'label' => 'PLUGIN_REL_PAGES.ORDER_BY',
-                'default' => 'date',
+                'size' => 'medium',
+                'classes' => 'fancy',
+                'label' => 'Search Content',
+                'default' => 'rendered',
                 'options' => [
-                    'folder' => 'Folder',
-                    'title' => 'Title',
-                    'date' => 'Date',
-                    'default' => 'Default'
+                    'rendered' => 'Rendered Content (Slower)',
+                    'raw' => 'Raw Markdown Content (Faster)'
                 ],
-                'name' => 'plugins.relatedpages.filter.order.by',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.filter.order.dir' => [
-                'type' => 'select',
-                'label' => 'PLUGIN_REL_PAGES.ORDER',
-                'default' => 'desc',
-                'options' => [
-                    'asc' => 'Ascending',
-                    'desc' => 'Descending'
-                ],
-                'name' => 'plugins.relatedpages.filter.order.dir',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.page_in_filter' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_REL_PAGES.PAGE_IN_FILTER',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.relatedpages.page_in_filter',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.explicit_pages' => [
-                'type' => '_parent',
-                'name' => 'plugins.relatedpages.explicit_pages',
-                'form_field' => false
-            ],
-            'plugins.relatedpages.explicit_pages.process' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_REL_PAGES.EXPLICIT_PROCESS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.relatedpages.explicit_pages.process',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.explicit_pages.score' => [
-                'type' => 'text',
-                'size' => 'x-small',
-                'label' => 'PLUGIN_REL_PAGES.EXPLICIT_SCORE',
-                'validate' => [
-                    'type' => 'int',
-                    'min' => 0,
-                    'max' => 100
-                ],
-                'name' => 'plugins.relatedpages.explicit_pages.score',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.taxonomy_title' => [
-                'type' => 'section',
-                'underline' => true,
-                'name' => 'plugins.relatedpages.taxonomy_title',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.taxonomy_match' => [
-                'type' => '_parent',
-                'name' => 'plugins.relatedpages.taxonomy_match',
-                'form_field' => false
-            ],
-            'plugins.relatedpages.taxonomy_match.taxonomy' => [
-                'type' => 'text',
-                'size' => 'x-small',
-                'label' => 'PLUGIN_REL_PAGES.TAXONOMY',
-                'validate' => [
-                    'type' => 'string'
-                ],
-                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy' => [
-                'type' => '_parent',
-                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy',
-                'form_field' => false
-            ],
-            'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.process' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_REL_PAGES.TAXONOMY_TAXONOMY_PROCESS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.process',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.taxonomy_match.taxonomy_content' => [
-                'type' => '_parent',
-                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_content',
-                'form_field' => false
-            ],
-            'plugins.relatedpages.taxonomy_match.taxonomy_content.process' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_REL_PAGES.TAXONOMY_CONTENT_PROCESS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_content.process',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.content_title' => [
-                'type' => 'section',
-                'underline' => true,
-                'name' => 'plugins.relatedpages.content_title',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.content_match' => [
-                'type' => '_parent',
-                'name' => 'plugins.relatedpages.content_match',
-                'form_field' => false
-            ],
-            'plugins.relatedpages.content_match.process' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_REL_PAGES.CONTENT_PROCESS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.relatedpages.content_match.process',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.advanced_title' => [
-                'type' => 'section',
-                'underline' => true,
-                'name' => 'plugins.relatedpages.advanced_title',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.score_scale' => [
-                'type' => 'array',
-                'label' => 'PLUGIN_REL_PAGES.TAXONOMY_SCORE_SCALE',
-                'size' => 'large',
-                'default' => [
-                    0 => 50,
-                    1 => 75,
-                    2 => 100
-                ],
-                'value_only' => true,
-                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.score_scale',
-                'validation' => 'loose'
-            ],
-            'plugins.relatedpages.taxonomy_match.taxonomy_content.score_scale' => [
-                'type' => 'array',
-                'label' => 'PLUGIN_REL_PAGES.CONTENT_SCORE_SCALE',
-                'size' => 'large',
-                'default' => [
-                    0 => 50,
-                    1 => 75,
-                    2 => 100
-                ],
-                'value_only' => true,
-                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_content.score_scale',
-                'validation' => 'loose'
-            ],
-            'plugins.taxonomylist' => [
-                'form' => [
-                    'validation' => 'strict'
-                ],
-                'type' => '_root',
-                'form_field' => false
-            ],
-            'plugins.taxonomylist.enabled' => [
-                'type' => 'toggle',
-                'label' => 'Plugin status',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.taxonomylist.enabled',
+                'name' => 'plugins.simplesearch.search_content',
                 'validation' => 'strict'
             ],
-            'plugins.taxonomylist.route' => [
-                'type' => 'text',
-                'label' => 'Route to blog',
-                'validate' => [
-                    'pattern' => '/([a-z\\-_]+/?)+'
-                ],
-                'name' => 'plugins.taxonomylist.route',
-                'validation' => 'strict'
-            ],
-            'plugins.archives' => [
-                'form' => [
-                    'validation' => 'strict'
-                ],
-                'type' => '_root',
-                'form_field' => false
-            ],
-            'plugins.archives.enabled' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.archives.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.archives.built_in_css' => [
+            'plugins.simplesearch.built_in_css' => [
                 'type' => 'toggle',
                 'label' => 'Use built in CSS',
                 'highlight' => 1,
@@ -2358,98 +2179,81 @@ return [
                 'validate' => [
                     'type' => 'bool'
                 ],
-                'name' => 'plugins.archives.built_in_css',
+                'name' => 'plugins.simplesearch.built_in_css',
                 'validation' => 'strict'
             ],
-            'plugins.archives.date_display_format' => [
-                'type' => 'select',
-                'size' => 'medium',
-                'classes' => 'fancy',
-                'label' => 'Date Format',
-                'default' => 'jS M Y',
-                'options' => [
-                    'F jS Y' => 'January 1st 2014',
-                    'l jS of F' => 'Monday 1st of January',
-                    'D, m M Y' => 'Mon, 01 Jan 2014',
-                    'd-m-y' => '01-01-14',
-                    'jS M Y' => '10th Feb 2014',
-                    'F Y' => 'Jan 2015'
-                ],
-                'name' => 'plugins.archives.date_display_format',
-                'validation' => 'strict'
-            ],
-            'plugins.archives.show_count' => [
+            'plugins.simplesearch.display_button' => [
                 'type' => 'toggle',
-                'label' => 'Show Count',
-                'highlight' => 1,
-                'default' => 1,
+                'label' => 'Display Search Button',
+                'highlight' => 0,
+                'default' => 0,
                 'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
+                    1 => 'Enabled',
+                    0 => 'Disabled'
                 ],
                 'validate' => [
                     'type' => 'bool'
                 ],
-                'name' => 'plugins.archives.show_count',
+                'name' => 'plugins.simplesearch.display_button',
                 'validation' => 'strict'
             ],
-            'plugins.archives.limit' => [
+            'plugins.simplesearch.ignore_accented_characters' => [
+                'type' => 'toggle',
+                'label' => 'Ignore accented characters',
+                'highlight' => 0,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.simplesearch.ignore_accented_characters',
+                'validation' => 'strict'
+            ],
+            'plugins.simplesearch.min_query_length' => [
                 'type' => 'text',
                 'size' => 'x-small',
-                'label' => 'Count Limit',
+                'label' => 'Minimum query length',
                 'validate' => [
                     'type' => 'number',
-                    'min' => 1
+                    'min' => 0
                 ],
-                'name' => 'plugins.archives.limit',
+                'name' => 'plugins.simplesearch.min_query_length',
                 'validation' => 'strict'
             ],
-            'plugins.archives.order' => [
-                'type' => '_parent',
-                'name' => 'plugins.archives.order',
-                'form_field' => false
-            ],
-            'plugins.archives.order.dir' => [
-                'type' => 'toggle',
-                'label' => 'Order Direction',
-                'highlight' => 'asc',
-                'default' => 'desc',
-                'options' => [
-                    'asc' => 'Ascending',
-                    'desc' => 'Descending'
-                ],
-                'name' => 'plugins.archives.order.dir',
-                'validation' => 'strict'
-            ],
-            'plugins.archives.order.by' => [
-                'type' => 'select',
+            'plugins.simplesearch.route' => [
+                'type' => 'text',
                 'size' => 'medium',
-                'classes' => 'fancy',
-                'label' => 'Order Type',
-                'options' => [
-                    'default' => 'Default - based on folder name',
-                    'folder' => 'Folder - based on prefix-less folder name',
-                    'title' => 'Title - based on title field in header',
-                    'date' => 'Date - based on date field in header'
-                ],
-                'name' => 'plugins.archives.order.by',
+                'label' => 'Route',
+                'default' => '/random',
+                'name' => 'plugins.simplesearch.route',
                 'validation' => 'strict'
             ],
-            'plugins.archives.filters' => [
+            'plugins.simplesearch.template' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'Template',
+                'default' => 'simplesearch_results',
+                'name' => 'plugins.simplesearch.template',
+                'validation' => 'strict'
+            ],
+            'plugins.simplesearch.filters' => [
                 'type' => '_parent',
-                'name' => 'plugins.archives.filters',
+                'name' => 'plugins.simplesearch.filters',
                 'form_field' => false
             ],
-            'plugins.archives.filters.category' => [
+            'plugins.simplesearch.filters.category' => [
                 'type' => 'selectize',
                 'label' => 'Category filter',
                 'validate' => [
                     'type' => 'commalist'
                 ],
-                'name' => 'plugins.archives.filters.category',
+                'name' => 'plugins.simplesearch.filters.category',
                 'validation' => 'strict'
             ],
-            'plugins.archives.filter_combinator' => [
+            'plugins.simplesearch.filter_combinator' => [
                 'type' => 'select',
                 'size' => 'medium',
                 'classes' => 'fancy',
@@ -2459,7 +2263,170 @@ return [
                     'and' => 'And - Boolean &&',
                     'or' => 'Or - Boolean ||'
                 ],
-                'name' => 'plugins.archives.filter_combinator',
+                'name' => 'plugins.simplesearch.filter_combinator',
+                'validation' => 'strict'
+            ],
+            'plugins.simplesearch.order' => [
+                'type' => '_parent',
+                'name' => 'plugins.simplesearch.order',
+                'form_field' => false
+            ],
+            'plugins.simplesearch.order.by' => [
+                'type' => 'select',
+                'size' => 'long',
+                'classes' => 'fancy',
+                'label' => 'PLUGIN_ADMIN.DEFAULT_ORDERING',
+                'options' => [
+                    'default' => 'PLUGIN_ADMIN.DEFAULT_ORDERING_DEFAULT',
+                    'folder' => 'PLUGIN_ADMIN.DEFAULT_ORDERING_FOLDER',
+                    'title' => 'PLUGIN_ADMIN.DEFAULT_ORDERING_TITLE',
+                    'date' => 'PLUGIN_ADMIN.DEFAULT_ORDERING_DATE'
+                ],
+                'name' => 'plugins.simplesearch.order.by',
+                'validation' => 'strict'
+            ],
+            'plugins.simplesearch.order.dir' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.DEFAULT_ORDER_DIRECTION',
+                'highlight' => 'asc',
+                'default' => 'desc',
+                'options' => [
+                    'asc' => 'PLUGIN_ADMIN.ASCENDING',
+                    'desc' => 'PLUGIN_ADMIN.DESCENDING'
+                ],
+                'name' => 'plugins.simplesearch.order.dir',
+                'validation' => 'strict'
+            ],
+            'plugins.comments' => [
+                'form' => [
+                    'validation' => 'loose'
+                ],
+                'type' => '_root',
+                'form_field' => false
+            ],
+            'plugins.comments.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.comments.enabled',
+                'validation' => 'loose'
+            ],
+            'plugins.feed' => [
+                'form' => [
+                    'validation' => 'strict'
+                ],
+                'type' => '_root',
+                'form_field' => false
+            ],
+            'plugins.feed.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin status',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.feed.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.feed.limit' => [
+                'type' => 'text',
+                'label' => 'Feed count',
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 10,
+                    'max' => 1000
+                ],
+                'name' => 'plugins.feed.limit',
+                'validation' => 'strict'
+            ],
+            'plugins.feed.description' => [
+                'type' => 'textarea',
+                'label' => 'Description',
+                'name' => 'plugins.feed.description',
+                'validation' => 'strict'
+            ],
+            'plugins.feed.lang' => [
+                'type' => 'text',
+                'label' => 'Feed language code',
+                'default' => 'en',
+                'validate' => [
+                    'pattern' => '[a-zA-Z]{2,3}(-[a-zA-Z]{2,3})?'
+                ],
+                'name' => 'plugins.feed.lang',
+                'validation' => 'strict'
+            ],
+            'plugins.feed.length' => [
+                'type' => 'text',
+                'label' => 'Feed Length',
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 10,
+                    'max' => 10000
+                ],
+                'name' => 'plugins.feed.length',
+                'validation' => 'strict'
+            ],
+            'plugins.feed.enable_json_feed' => [
+                'type' => 'toggle',
+                'label' => 'JSON feed support',
+                'highlight' => 0,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.feed.enable_json_feed',
+                'validation' => 'strict'
+            ],
+            'plugins.error' => [
+                'form' => [
+                    'validation' => 'strict'
+                ],
+                'type' => '_root',
+                'form_field' => false
+            ],
+            'plugins.error.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.error.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.error.routes' => [
+                'type' => '_parent',
+                'name' => 'plugins.error.routes',
+                'form_field' => false
+            ],
+            'plugins.error.routes.404' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => '404 Route',
+                'default' => '/error',
+                'name' => 'plugins.error.routes.404',
                 'validation' => 'strict'
             ],
             'plugins.problems' => [
@@ -2726,68 +2693,156 @@ return [
                 'name' => 'plugins.email.debug',
                 'validation' => 'loose'
             ],
-            'plugins.error' => [
+            'plugins.archives' => [
                 'form' => [
                     'validation' => 'strict'
                 ],
                 'type' => '_root',
                 'form_field' => false
             ],
-            'plugins.error.enabled' => [
+            'plugins.archives.enabled' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.error.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.error.routes' => [
-                'type' => '_parent',
-                'name' => 'plugins.error.routes',
-                'form_field' => false
-            ],
-            'plugins.error.routes.404' => [
-                'type' => 'text',
-                'size' => 'medium',
-                'label' => '404 Route',
-                'default' => '/error',
-                'name' => 'plugins.error.routes.404',
-                'validation' => 'strict'
-            ],
-            'plugins.form' => [
-                'form' => [
-                    'validation' => 'strict'
-                ],
-                'type' => '_root',
-                'form_field' => false
-            ],
-            'plugins.form.enabled' => [
-                'type' => 'hidden',
-                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.form.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.form.built_in_css' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_FORM.USE_BUILT_IN_CSS',
                 'highlight' => 1,
                 'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.archives.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.archives.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'Use built in CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.archives.built_in_css',
+                'validation' => 'strict'
+            ],
+            'plugins.archives.date_display_format' => [
+                'type' => 'select',
+                'size' => 'medium',
+                'classes' => 'fancy',
+                'label' => 'Date Format',
+                'default' => 'jS M Y',
+                'options' => [
+                    'F jS Y' => 'January 1st 2014',
+                    'l jS of F' => 'Monday 1st of January',
+                    'D, m M Y' => 'Mon, 01 Jan 2014',
+                    'd-m-y' => '01-01-14',
+                    'jS M Y' => '10th Feb 2014',
+                    'F Y' => 'Jan 2015'
+                ],
+                'name' => 'plugins.archives.date_display_format',
+                'validation' => 'strict'
+            ],
+            'plugins.archives.show_count' => [
+                'type' => 'toggle',
+                'label' => 'Show Count',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.archives.show_count',
+                'validation' => 'strict'
+            ],
+            'plugins.archives.limit' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'Count Limit',
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 1
+                ],
+                'name' => 'plugins.archives.limit',
+                'validation' => 'strict'
+            ],
+            'plugins.archives.order' => [
+                'type' => '_parent',
+                'name' => 'plugins.archives.order',
+                'form_field' => false
+            ],
+            'plugins.archives.order.dir' => [
+                'type' => 'toggle',
+                'label' => 'Order Direction',
+                'highlight' => 'asc',
+                'default' => 'desc',
+                'options' => [
+                    'asc' => 'Ascending',
+                    'desc' => 'Descending'
+                ],
+                'name' => 'plugins.archives.order.dir',
+                'validation' => 'strict'
+            ],
+            'plugins.archives.order.by' => [
+                'type' => 'select',
+                'size' => 'medium',
+                'classes' => 'fancy',
+                'label' => 'Order Type',
+                'options' => [
+                    'default' => 'Default - based on folder name',
+                    'folder' => 'Folder - based on prefix-less folder name',
+                    'title' => 'Title - based on title field in header',
+                    'date' => 'Date - based on date field in header'
+                ],
+                'name' => 'plugins.archives.order.by',
+                'validation' => 'strict'
+            ],
+            'plugins.archives.filters' => [
+                'type' => '_parent',
+                'name' => 'plugins.archives.filters',
+                'form_field' => false
+            ],
+            'plugins.archives.filters.category' => [
+                'type' => 'selectize',
+                'label' => 'Category filter',
+                'validate' => [
+                    'type' => 'commalist'
+                ],
+                'name' => 'plugins.archives.filters.category',
+                'validation' => 'strict'
+            ],
+            'plugins.archives.filter_combinator' => [
+                'type' => 'select',
+                'size' => 'medium',
+                'classes' => 'fancy',
+                'label' => 'Filter Combinator',
+                'default' => 'and',
+                'options' => [
+                    'and' => 'And - Boolean &&',
+                    'or' => 'Or - Boolean ||'
+                ],
+                'name' => 'plugins.archives.filter_combinator',
+                'validation' => 'strict'
+            ],
+            'plugins.taxonomylist' => [
+                'form' => [
+                    'validation' => 'strict'
+                ],
+                'type' => '_root',
+                'form_field' => false
+            ],
+            'plugins.taxonomylist.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin status',
+                'highlight' => 1,
+                'default' => 0,
                 'options' => [
                     1 => 'Enabled',
                     0 => 'Disabled'
@@ -2795,95 +2850,17 @@ return [
                 'validate' => [
                     'type' => 'bool'
                 ],
-                'name' => 'plugins.form.built_in_css',
+                'name' => 'plugins.taxonomylist.enabled',
                 'validation' => 'strict'
             ],
-            'plugins.form.general' => [
-                'type' => 'section',
-                'name' => 'plugins.form.general',
-                'validation' => 'strict'
-            ],
-            'plugins.form.files' => [
-                'type' => 'section',
-                'name' => 'plugins.form.files',
-                'validation' => 'strict'
-            ],
-            'plugins.form.files.multiple' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_FORM.ALLOW_MULTIPLE',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.form.files.multiple',
-                'validation' => 'strict'
-            ],
-            'plugins.form.files.destination' => [
+            'plugins.taxonomylist.route' => [
                 'type' => 'text',
-                'label' => 'PLUGIN_FORM.DESTINATION',
-                'default' => '@self',
-                'name' => 'plugins.form.files.destination',
-                'validation' => 'strict'
-            ],
-            'plugins.form.files.accept' => [
-                'type' => 'selectize',
-                'size' => 'large',
-                'label' => 'PLUGIN_FORM.ACCEPT',
-                'classes' => 'fancy',
-                'default' => [
-                    0 => 'image/*'
-                ],
+                'label' => 'Route to blog',
                 'validate' => [
-                    'type' => 'commalist'
+                    'pattern' => '/([a-z\\-_]+/?)+'
                 ],
-                'name' => 'plugins.form.files.accept',
+                'name' => 'plugins.taxonomylist.route',
                 'validation' => 'strict'
-            ],
-            'plugins.form.recaptcha' => [
-                'type' => 'section',
-                'name' => 'plugins.form.recaptcha',
-                'validation' => 'strict'
-            ],
-            'plugins.form.recaptcha.site_key' => [
-                'type' => 'text',
-                'label' => 'PLUGIN_FORM.RECAPTCHA_SITE_KEY',
-                'default' => '',
-                'name' => 'plugins.form.recaptcha.site_key',
-                'validation' => 'strict'
-            ],
-            'plugins.form.recaptcha.secret_key' => [
-                'type' => 'text',
-                'label' => 'PLUGIN_FORM.RECAPTCHA_SECRET_KEY',
-                'default' => '',
-                'name' => 'plugins.form.recaptcha.secret_key',
-                'validation' => 'strict'
-            ],
-            'plugins.comments' => [
-                'form' => [
-                    'validation' => 'loose'
-                ],
-                'type' => '_root',
-                'form_field' => false
-            ],
-            'plugins.comments.enabled' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.comments.enabled',
-                'validation' => 'loose'
             ],
             'plugins.login' => [
                 'form' => [
@@ -3285,246 +3262,6 @@ return [
                 'class' => 'subtle',
                 'name' => 'plugins.login.tabs',
                 'validation' => 'loose'
-            ],
-            'plugins.simplesearch' => [
-                'form' => [
-                    'validation' => 'strict'
-                ],
-                'type' => '_root',
-                'form_field' => false
-            ],
-            'plugins.simplesearch.enabled' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.simplesearch.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.search_content' => [
-                'type' => 'select',
-                'size' => 'medium',
-                'classes' => 'fancy',
-                'label' => 'Search Content',
-                'default' => 'rendered',
-                'options' => [
-                    'rendered' => 'Rendered Content (Slower)',
-                    'raw' => 'Raw Markdown Content (Faster)'
-                ],
-                'name' => 'plugins.simplesearch.search_content',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.built_in_css' => [
-                'type' => 'toggle',
-                'label' => 'Use built in CSS',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.simplesearch.built_in_css',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.display_button' => [
-                'type' => 'toggle',
-                'label' => 'Display Search Button',
-                'highlight' => 0,
-                'default' => 0,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.simplesearch.display_button',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.ignore_accented_characters' => [
-                'type' => 'toggle',
-                'label' => 'Ignore accented characters',
-                'highlight' => 0,
-                'default' => 0,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.simplesearch.ignore_accented_characters',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.min_query_length' => [
-                'type' => 'text',
-                'size' => 'x-small',
-                'label' => 'Minimum query length',
-                'validate' => [
-                    'type' => 'number',
-                    'min' => 0
-                ],
-                'name' => 'plugins.simplesearch.min_query_length',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.route' => [
-                'type' => 'text',
-                'size' => 'medium',
-                'label' => 'Route',
-                'default' => '/random',
-                'name' => 'plugins.simplesearch.route',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.template' => [
-                'type' => 'text',
-                'size' => 'medium',
-                'label' => 'Template',
-                'default' => 'simplesearch_results',
-                'name' => 'plugins.simplesearch.template',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.filters' => [
-                'type' => '_parent',
-                'name' => 'plugins.simplesearch.filters',
-                'form_field' => false
-            ],
-            'plugins.simplesearch.filters.category' => [
-                'type' => 'selectize',
-                'label' => 'Category filter',
-                'validate' => [
-                    'type' => 'commalist'
-                ],
-                'name' => 'plugins.simplesearch.filters.category',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.filter_combinator' => [
-                'type' => 'select',
-                'size' => 'medium',
-                'classes' => 'fancy',
-                'label' => 'Filter Combinator',
-                'default' => 'and',
-                'options' => [
-                    'and' => 'And - Boolean &&',
-                    'or' => 'Or - Boolean ||'
-                ],
-                'name' => 'plugins.simplesearch.filter_combinator',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.order' => [
-                'type' => '_parent',
-                'name' => 'plugins.simplesearch.order',
-                'form_field' => false
-            ],
-            'plugins.simplesearch.order.by' => [
-                'type' => 'select',
-                'size' => 'long',
-                'classes' => 'fancy',
-                'label' => 'PLUGIN_ADMIN.DEFAULT_ORDERING',
-                'options' => [
-                    'default' => 'PLUGIN_ADMIN.DEFAULT_ORDERING_DEFAULT',
-                    'folder' => 'PLUGIN_ADMIN.DEFAULT_ORDERING_FOLDER',
-                    'title' => 'PLUGIN_ADMIN.DEFAULT_ORDERING_TITLE',
-                    'date' => 'PLUGIN_ADMIN.DEFAULT_ORDERING_DATE'
-                ],
-                'name' => 'plugins.simplesearch.order.by',
-                'validation' => 'strict'
-            ],
-            'plugins.simplesearch.order.dir' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.DEFAULT_ORDER_DIRECTION',
-                'highlight' => 'asc',
-                'default' => 'desc',
-                'options' => [
-                    'asc' => 'PLUGIN_ADMIN.ASCENDING',
-                    'desc' => 'PLUGIN_ADMIN.DESCENDING'
-                ],
-                'name' => 'plugins.simplesearch.order.dir',
-                'validation' => 'strict'
-            ],
-            'plugins.feed' => [
-                'form' => [
-                    'validation' => 'strict'
-                ],
-                'type' => '_root',
-                'form_field' => false
-            ],
-            'plugins.feed.enabled' => [
-                'type' => 'toggle',
-                'label' => 'Plugin status',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.feed.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.feed.limit' => [
-                'type' => 'text',
-                'label' => 'Feed count',
-                'validate' => [
-                    'type' => 'number',
-                    'min' => 10,
-                    'max' => 1000
-                ],
-                'name' => 'plugins.feed.limit',
-                'validation' => 'strict'
-            ],
-            'plugins.feed.description' => [
-                'type' => 'textarea',
-                'label' => 'Description',
-                'name' => 'plugins.feed.description',
-                'validation' => 'strict'
-            ],
-            'plugins.feed.lang' => [
-                'type' => 'text',
-                'label' => 'Feed language code',
-                'default' => 'en',
-                'validate' => [
-                    'pattern' => '[a-zA-Z]{2,3}(-[a-zA-Z]{2,3})?'
-                ],
-                'name' => 'plugins.feed.lang',
-                'validation' => 'strict'
-            ],
-            'plugins.feed.length' => [
-                'type' => 'text',
-                'label' => 'Feed Length',
-                'validate' => [
-                    'type' => 'number',
-                    'min' => 10,
-                    'max' => 10000
-                ],
-                'name' => 'plugins.feed.length',
-                'validation' => 'strict'
-            ],
-            'plugins.feed.enable_json_feed' => [
-                'type' => 'toggle',
-                'label' => 'JSON feed support',
-                'highlight' => 0,
-                'default' => 0,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.feed.enable_json_feed',
-                'validation' => 'strict'
             ],
             'plugins.admin' => [
                 'form' => [
@@ -3988,6 +3725,269 @@ return [
                 'default' => 20,
                 'name' => 'plugins.admin.popularity.history.visitors',
                 'validation' => 'loose'
+            ],
+            'plugins.relatedpages' => [
+                'form' => [
+                    'validation' => 'loose'
+                ],
+                'type' => '_root',
+                'form_field' => false
+            ],
+            'plugins.relatedpages.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.relatedpages.enabled',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.basics_title' => [
+                'type' => 'section',
+                'underline' => true,
+                'name' => 'plugins.relatedpages.basics_title',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.limit' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'PLUGIN_REL_PAGES.LIMIT',
+                'validate' => [
+                    'type' => 'int',
+                    'min' => 0,
+                    'max' => 65536
+                ],
+                'name' => 'plugins.relatedpages.limit',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.show_score' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_REL_PAGES.SHOW_SCORE',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.relatedpages.show_score',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.filter' => [
+                'type' => '_parent',
+                'name' => 'plugins.relatedpages.filter',
+                'form_field' => false
+            ],
+            'plugins.relatedpages.filter.items' => [
+                'type' => 'text',
+                'yaml' => true,
+                'label' => 'PLUGIN_REL_PAGES.ITEMS',
+                'default' => '@page: /blog',
+                'name' => 'plugins.relatedpages.filter.items',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.filter.order' => [
+                'type' => '_parent',
+                'name' => 'plugins.relatedpages.filter.order',
+                'form_field' => false
+            ],
+            'plugins.relatedpages.filter.order.by' => [
+                'type' => 'select',
+                'label' => 'PLUGIN_REL_PAGES.ORDER_BY',
+                'default' => 'date',
+                'options' => [
+                    'folder' => 'Folder',
+                    'title' => 'Title',
+                    'date' => 'Date',
+                    'default' => 'Default'
+                ],
+                'name' => 'plugins.relatedpages.filter.order.by',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.filter.order.dir' => [
+                'type' => 'select',
+                'label' => 'PLUGIN_REL_PAGES.ORDER',
+                'default' => 'desc',
+                'options' => [
+                    'asc' => 'Ascending',
+                    'desc' => 'Descending'
+                ],
+                'name' => 'plugins.relatedpages.filter.order.dir',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.page_in_filter' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_REL_PAGES.PAGE_IN_FILTER',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.relatedpages.page_in_filter',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.explicit_pages' => [
+                'type' => '_parent',
+                'name' => 'plugins.relatedpages.explicit_pages',
+                'form_field' => false
+            ],
+            'plugins.relatedpages.explicit_pages.process' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_REL_PAGES.EXPLICIT_PROCESS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.relatedpages.explicit_pages.process',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.explicit_pages.score' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'PLUGIN_REL_PAGES.EXPLICIT_SCORE',
+                'validate' => [
+                    'type' => 'int',
+                    'min' => 0,
+                    'max' => 100
+                ],
+                'name' => 'plugins.relatedpages.explicit_pages.score',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.taxonomy_title' => [
+                'type' => 'section',
+                'underline' => true,
+                'name' => 'plugins.relatedpages.taxonomy_title',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.taxonomy_match' => [
+                'type' => '_parent',
+                'name' => 'plugins.relatedpages.taxonomy_match',
+                'form_field' => false
+            ],
+            'plugins.relatedpages.taxonomy_match.taxonomy' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'PLUGIN_REL_PAGES.TAXONOMY',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy' => [
+                'type' => '_parent',
+                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy',
+                'form_field' => false
+            ],
+            'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.process' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_REL_PAGES.TAXONOMY_TAXONOMY_PROCESS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.process',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.taxonomy_match.taxonomy_content' => [
+                'type' => '_parent',
+                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_content',
+                'form_field' => false
+            ],
+            'plugins.relatedpages.taxonomy_match.taxonomy_content.process' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_REL_PAGES.TAXONOMY_CONTENT_PROCESS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_content.process',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.content_title' => [
+                'type' => 'section',
+                'underline' => true,
+                'name' => 'plugins.relatedpages.content_title',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.content_match' => [
+                'type' => '_parent',
+                'name' => 'plugins.relatedpages.content_match',
+                'form_field' => false
+            ],
+            'plugins.relatedpages.content_match.process' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_REL_PAGES.CONTENT_PROCESS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.relatedpages.content_match.process',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.advanced_title' => [
+                'type' => 'section',
+                'underline' => true,
+                'name' => 'plugins.relatedpages.advanced_title',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.score_scale' => [
+                'type' => 'array',
+                'label' => 'PLUGIN_REL_PAGES.TAXONOMY_SCORE_SCALE',
+                'size' => 'large',
+                'default' => [
+                    0 => 50,
+                    1 => 75,
+                    2 => 100
+                ],
+                'value_only' => true,
+                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.score_scale',
+                'validation' => 'loose'
+            ],
+            'plugins.relatedpages.taxonomy_match.taxonomy_content.score_scale' => [
+                'type' => 'array',
+                'label' => 'PLUGIN_REL_PAGES.CONTENT_SCORE_SCALE',
+                'size' => 'large',
+                'default' => [
+                    0 => 50,
+                    1 => 75,
+                    2 => 100
+                ],
+                'value_only' => true,
+                'name' => 'plugins.relatedpages.taxonomy_match.taxonomy_content.score_scale',
+                'validation' => 'loose'
             ]
         ],
         'rules' => [
@@ -4176,6 +4176,20 @@ return [
                 'custom_base_url' => 'system.custom_base_url'
             ],
             'plugins' => [
+                'form' => [
+                    'enabled' => 'plugins.form.enabled',
+                    'general' => 'plugins.form.general',
+                    'built_in_css' => 'plugins.form.built_in_css',
+                    'files' => [
+                        'multiple' => 'plugins.form.files.multiple',
+                        'destination' => 'plugins.form.files.destination',
+                        'accept' => 'plugins.form.files.accept'
+                    ],
+                    'recaptcha' => [
+                        'site_key' => 'plugins.form.recaptcha.site_key',
+                        'secret_key' => 'plugins.form.recaptcha.secret_key'
+                    ]
+                ],
                 'youtube' => [
                     'enabled' => 'plugins.youtube.enabled',
                     'built_in_css' => 'plugins.youtube.built_in_css',
@@ -4200,59 +4214,40 @@ return [
                         'playsinline' => 'plugins.youtube.player_parameters.playsinline'
                     ]
                 ],
-                'relatedpages' => [
-                    'enabled' => 'plugins.relatedpages.enabled',
-                    'basics_title' => 'plugins.relatedpages.basics_title',
-                    'limit' => 'plugins.relatedpages.limit',
-                    'show_score' => 'plugins.relatedpages.show_score',
-                    'filter' => [
-                        'items' => 'plugins.relatedpages.filter.items',
-                        'order' => [
-                            'by' => 'plugins.relatedpages.filter.order.by',
-                            'dir' => 'plugins.relatedpages.filter.order.dir'
-                        ]
-                    ],
-                    'page_in_filter' => 'plugins.relatedpages.page_in_filter',
-                    'explicit_pages' => [
-                        'process' => 'plugins.relatedpages.explicit_pages.process',
-                        'score' => 'plugins.relatedpages.explicit_pages.score'
-                    ],
-                    'taxonomy_title' => 'plugins.relatedpages.taxonomy_title',
-                    'taxonomy_match' => [
-                        'taxonomy' => 'plugins.relatedpages.taxonomy_match.taxonomy',
-                        'taxonomy_taxonomy' => [
-                            'process' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.process',
-                            'score_scale' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.score_scale'
-                        ],
-                        'taxonomy_content' => [
-                            'process' => 'plugins.relatedpages.taxonomy_match.taxonomy_content.process',
-                            'score_scale' => 'plugins.relatedpages.taxonomy_match.taxonomy_content.score_scale'
-                        ]
-                    ],
-                    'content_title' => 'plugins.relatedpages.content_title',
-                    'content_match' => [
-                        'process' => 'plugins.relatedpages.content_match.process'
-                    ],
-                    'advanced_title' => 'plugins.relatedpages.advanced_title'
-                ],
-                'taxonomylist' => [
-                    'enabled' => 'plugins.taxonomylist.enabled',
-                    'route' => 'plugins.taxonomylist.route'
-                ],
-                'archives' => [
-                    'enabled' => 'plugins.archives.enabled',
-                    'built_in_css' => 'plugins.archives.built_in_css',
-                    'date_display_format' => 'plugins.archives.date_display_format',
-                    'show_count' => 'plugins.archives.show_count',
-                    'limit' => 'plugins.archives.limit',
-                    'order' => [
-                        'dir' => 'plugins.archives.order.dir',
-                        'by' => 'plugins.archives.order.by'
-                    ],
+                'simplesearch' => [
+                    'enabled' => 'plugins.simplesearch.enabled',
+                    'search_content' => 'plugins.simplesearch.search_content',
+                    'built_in_css' => 'plugins.simplesearch.built_in_css',
+                    'display_button' => 'plugins.simplesearch.display_button',
+                    'ignore_accented_characters' => 'plugins.simplesearch.ignore_accented_characters',
+                    'min_query_length' => 'plugins.simplesearch.min_query_length',
+                    'route' => 'plugins.simplesearch.route',
+                    'template' => 'plugins.simplesearch.template',
                     'filters' => [
-                        'category' => 'plugins.archives.filters.category'
+                        'category' => 'plugins.simplesearch.filters.category'
                     ],
-                    'filter_combinator' => 'plugins.archives.filter_combinator'
+                    'filter_combinator' => 'plugins.simplesearch.filter_combinator',
+                    'order' => [
+                        'by' => 'plugins.simplesearch.order.by',
+                        'dir' => 'plugins.simplesearch.order.dir'
+                    ]
+                ],
+                'comments' => [
+                    'enabled' => 'plugins.comments.enabled'
+                ],
+                'feed' => [
+                    'enabled' => 'plugins.feed.enabled',
+                    'limit' => 'plugins.feed.limit',
+                    'description' => 'plugins.feed.description',
+                    'lang' => 'plugins.feed.lang',
+                    'length' => 'plugins.feed.length',
+                    'enable_json_feed' => 'plugins.feed.enable_json_feed'
+                ],
+                'error' => [
+                    'enabled' => 'plugins.error.enabled',
+                    'routes' => [
+                        404 => 'plugins.error.routes.404'
+                    ]
                 ],
                 'problems' => [
                     'enabled' => 'plugins.problems.enabled',
@@ -4287,28 +4282,24 @@ return [
                     'body' => 'plugins.email.body',
                     'debug' => 'plugins.email.debug'
                 ],
-                'error' => [
-                    'enabled' => 'plugins.error.enabled',
-                    'routes' => [
-                        404 => 'plugins.error.routes.404'
-                    ]
-                ],
-                'form' => [
-                    'enabled' => 'plugins.form.enabled',
-                    'general' => 'plugins.form.general',
-                    'built_in_css' => 'plugins.form.built_in_css',
-                    'files' => [
-                        'multiple' => 'plugins.form.files.multiple',
-                        'destination' => 'plugins.form.files.destination',
-                        'accept' => 'plugins.form.files.accept'
+                'archives' => [
+                    'enabled' => 'plugins.archives.enabled',
+                    'built_in_css' => 'plugins.archives.built_in_css',
+                    'date_display_format' => 'plugins.archives.date_display_format',
+                    'show_count' => 'plugins.archives.show_count',
+                    'limit' => 'plugins.archives.limit',
+                    'order' => [
+                        'dir' => 'plugins.archives.order.dir',
+                        'by' => 'plugins.archives.order.by'
                     ],
-                    'recaptcha' => [
-                        'site_key' => 'plugins.form.recaptcha.site_key',
-                        'secret_key' => 'plugins.form.recaptcha.secret_key'
-                    ]
+                    'filters' => [
+                        'category' => 'plugins.archives.filters.category'
+                    ],
+                    'filter_combinator' => 'plugins.archives.filter_combinator'
                 ],
-                'comments' => [
-                    'enabled' => 'plugins.comments.enabled'
+                'taxonomylist' => [
+                    'enabled' => 'plugins.taxonomylist.enabled',
+                    'route' => 'plugins.taxonomylist.route'
                 ],
                 'login' => [
                     'tabs' => 'plugins.login.tabs',
@@ -4358,32 +4349,6 @@ return [
                     'max_pw_resets_interval' => 'plugins.login.max_pw_resets_interval',
                     'max_login_count' => 'plugins.login.max_login_count',
                     'max_login_interval' => 'plugins.login.max_login_interval'
-                ],
-                'simplesearch' => [
-                    'enabled' => 'plugins.simplesearch.enabled',
-                    'search_content' => 'plugins.simplesearch.search_content',
-                    'built_in_css' => 'plugins.simplesearch.built_in_css',
-                    'display_button' => 'plugins.simplesearch.display_button',
-                    'ignore_accented_characters' => 'plugins.simplesearch.ignore_accented_characters',
-                    'min_query_length' => 'plugins.simplesearch.min_query_length',
-                    'route' => 'plugins.simplesearch.route',
-                    'template' => 'plugins.simplesearch.template',
-                    'filters' => [
-                        'category' => 'plugins.simplesearch.filters.category'
-                    ],
-                    'filter_combinator' => 'plugins.simplesearch.filter_combinator',
-                    'order' => [
-                        'by' => 'plugins.simplesearch.order.by',
-                        'dir' => 'plugins.simplesearch.order.dir'
-                    ]
-                ],
-                'feed' => [
-                    'enabled' => 'plugins.feed.enabled',
-                    'limit' => 'plugins.feed.limit',
-                    'description' => 'plugins.feed.description',
-                    'lang' => 'plugins.feed.lang',
-                    'length' => 'plugins.feed.length',
-                    'enable_json_feed' => 'plugins.feed.enable_json_feed'
                 ],
                 'admin' => [
                     'Basics' => 'plugins.admin.Basics',
@@ -4438,6 +4403,41 @@ return [
                     'dashboard' => [
                         'days_of_stats' => 'plugins.admin.dashboard.days_of_stats'
                     ]
+                ],
+                'relatedpages' => [
+                    'enabled' => 'plugins.relatedpages.enabled',
+                    'basics_title' => 'plugins.relatedpages.basics_title',
+                    'limit' => 'plugins.relatedpages.limit',
+                    'show_score' => 'plugins.relatedpages.show_score',
+                    'filter' => [
+                        'items' => 'plugins.relatedpages.filter.items',
+                        'order' => [
+                            'by' => 'plugins.relatedpages.filter.order.by',
+                            'dir' => 'plugins.relatedpages.filter.order.dir'
+                        ]
+                    ],
+                    'page_in_filter' => 'plugins.relatedpages.page_in_filter',
+                    'explicit_pages' => [
+                        'process' => 'plugins.relatedpages.explicit_pages.process',
+                        'score' => 'plugins.relatedpages.explicit_pages.score'
+                    ],
+                    'taxonomy_title' => 'plugins.relatedpages.taxonomy_title',
+                    'taxonomy_match' => [
+                        'taxonomy' => 'plugins.relatedpages.taxonomy_match.taxonomy',
+                        'taxonomy_taxonomy' => [
+                            'process' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.process',
+                            'score_scale' => 'plugins.relatedpages.taxonomy_match.taxonomy_taxonomy.score_scale'
+                        ],
+                        'taxonomy_content' => [
+                            'process' => 'plugins.relatedpages.taxonomy_match.taxonomy_content.process',
+                            'score_scale' => 'plugins.relatedpages.taxonomy_match.taxonomy_content.score_scale'
+                        ]
+                    ],
+                    'content_title' => 'plugins.relatedpages.content_title',
+                    'content_match' => [
+                        'process' => 'plugins.relatedpages.content_match.process'
+                    ],
+                    'advanced_title' => 'plugins.relatedpages.advanced_title'
                 ]
             ]
         ],

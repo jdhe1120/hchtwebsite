@@ -1,126 +1,141 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1538157066,
-    'checksum' => '07ff3152c84b10e1aaf6cfa36cb45d84',
+    'timestamp' => 1538157695,
+    'checksum' => 'f59f160ee6dd122c2c6dde0159fef2df',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1498034870
+                'modified' => 1523972987
             ],
             'plugins/comments' => [
                 'file' => 'user/config/plugins/comments.yaml',
-                'modified' => 1498034870
+                'modified' => 1523972987
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1498034870
+                'modified' => 1523972987
             ],
             'plugins/feed' => [
                 'file' => 'user/config/plugins/feed.yaml',
-                'modified' => 1498034870
+                'modified' => 1523972987
             ],
             'plugins/jscomments' => [
                 'file' => 'user/config/plugins/jscomments.yaml',
-                'modified' => 1498034870
+                'modified' => 1523972987
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/config/plugins/simplesearch.yaml',
-                'modified' => 1502030252
+                'modified' => 1523972987
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1498034870
+                'modified' => 1523972987
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1538156972
+                'modified' => 1524286215
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1498034870
+                'modified' => 1523972987
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1498034870
+                'modified' => 1523972987
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ]
         ],
         'user/plugins' => [
-            'plugins/youtube' => [
-                'file' => 'user/plugins/youtube/youtube.yaml',
-                'modified' => 1498034884
-            ],
-            'plugins/relatedpages' => [
-                'file' => 'user/plugins/relatedpages/relatedpages.yaml',
-                'modified' => 1498034883
-            ],
-            'plugins/taxonomylist' => [
-                'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
-                'modified' => 1498034884
-            ],
-            'plugins/archives' => [
-                'file' => 'user/plugins/archives/archives.yaml',
-                'modified' => 1498034877
-            ],
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1498034883
-            ],
-            'plugins/email' => [
-                'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1498034878
-            ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1498034881
-            ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1498034881
+                'modified' => 1523972994
             ],
-            'plugins/comments' => [
-                'file' => 'user/plugins/comments/comments.yaml',
-                'modified' => 1498034877
-            ],
-            'plugins/login' => [
-                'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1498034882
+            'plugins/youtube' => [
+                'file' => 'user/plugins/youtube/youtube.yaml',
+                'modified' => 1523972995
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
-                'modified' => 1498034883
+                'modified' => 1523972995
+            ],
+            'plugins/comments' => [
+                'file' => 'user/plugins/comments/comments.yaml',
+                'modified' => 1523972991
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/feed.yaml',
-                'modified' => 1498034881
+                'modified' => 1523972994
+            ],
+            'plugins/error' => [
+                'file' => 'user/plugins/error/error.yaml',
+                'modified' => 1523972994
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/problems.yaml',
+                'modified' => 1523972995
+            ],
+            'plugins/email' => [
+                'file' => 'user/plugins/email/email.yaml',
+                'modified' => 1523972992
+            ],
+            'plugins/archives' => [
+                'file' => 'user/plugins/archives/archives.yaml',
+                'modified' => 1523972991
+            ],
+            'plugins/taxonomylist' => [
+                'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
+                'modified' => 1523972995
+            ],
+            'plugins/login' => [
+                'file' => 'user/plugins/login/login.yaml',
+                'modified' => 1523972994
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
+            ],
+            'plugins/relatedpages' => [
+                'file' => 'user/plugins/relatedpages/relatedpages.yaml',
+                'modified' => 1523972995
             ]
         ]
     ],
     'data' => [
         'plugins' => [
+            'form' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'files' => [
+                    'multiple' => false,
+                    'limit' => 10,
+                    'filesize' => 5,
+                    'destination' => 'self@',
+                    'avoid_overwriting' => false,
+                    'random_name' => false,
+                    'accept' => [
+                        0 => 'image/*'
+                    ]
+                ]
+            ],
             'youtube' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -145,121 +160,22 @@ return [
                 ],
                 'privacy_enhanced_mode' => false
             ],
-            'relatedpages' => [
-                'enabled' => true,
-                'limit' => 5,
-                'show_score' => true,
-                'score_threshold' => 20,
-                'filter' => [
-                    'items' => [
-                        '@page' => '/blog'
-                    ],
-                    'order' => [
-                        'by' => 'date',
-                        'dir' => 'desc'
-                    ]
-                ],
-                'page_in_filter' => true,
-                'explicit_pages' => [
-                    'process' => true,
-                    'score' => 100
-                ],
-                'taxonomy_match' => [
-                    'taxonomy' => 'tag',
-                    'taxonomy_taxonomy' => [
-                        'process' => true,
-                        'score_scale' => [
-                            1 => 50,
-                            2 => 75,
-                            3 => 100
-                        ]
-                    ],
-                    'taxonomy_content' => [
-                        'process' => true,
-                        'score_scale' => [
-                            1 => 20,
-                            2 => 30,
-                            3 => 45,
-                            4 => 60,
-                            5 => 70,
-                            6 => 80,
-                            7 => 90,
-                            8 => 100
-                        ]
-                    ]
-                ],
-                'content_match' => [
-                    'process' => false
-                ]
-            ],
-            'taxonomylist' => [
-                'enabled' => true,
-                'route' => '/blog'
-            ],
-            'archives' => [
+            'simplesearch' => [
                 'enabled' => true,
                 'built_in_css' => true,
-                'date_display_format' => 'F Y',
-                'show_count' => true,
-                'limit' => 12,
+                'display_button' => false,
+                'min_query_length' => 3,
+                'route' => '/search',
+                'search_content' => 'rendered',
+                'template' => 'simplesearch_results',
+                'filters' => [
+                    'category' => 'Blog'
+                ],
+                'filter_combinator' => 'and',
+                'ignore_accented_characters' => false,
                 'order' => [
                     'by' => 'date',
                     'dir' => 'desc'
-                ],
-                'filter_combinator' => 'and',
-                'filters' => [
-                    'category' => 'blog'
-                ],
-                'taxonomy_names' => [
-                    'month' => 'archives_month',
-                    'year' => 'archives_year'
-                ]
-            ],
-            'problems' => [
-                'enabled' => true,
-                'built_in_css' => true
-            ],
-            'email' => [
-                'enabled' => true,
-                'from' => 'your@email.here',
-                'from_name' => NULL,
-                'to' => 'your@email.here',
-                'to_name' => NULL,
-                'mailer' => [
-                    'engine' => 'mail',
-                    'smtp' => [
-                        'server' => 'localhost',
-                        'port' => 25,
-                        'encryption' => 'none',
-                        'user' => '',
-                        'password' => ''
-                    ],
-                    'sendmail' => [
-                        'bin' => '/usr/sbin/sendmail'
-                    ]
-                ],
-                'content_type' => 'text/html',
-                'debug' => false
-            ],
-            'error' => [
-                'enabled' => true,
-                'routes' => [
-                    404 => '/error'
-                ]
-            ],
-            'form' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'files' => [
-                    'multiple' => false,
-                    'limit' => 10,
-                    'filesize' => 5,
-                    'destination' => 'self@',
-                    'avoid_overwriting' => false,
-                    'random_name' => false,
-                    'accept' => [
-                        0 => 'image/*'
-                    ]
                 ]
             ],
             'comments' => [
@@ -350,6 +266,69 @@ return [
                     ]
                 ]
             ],
+            'feed' => [
+                'enabled' => false,
+                'limit' => 10,
+                'description' => 'My Feed Description',
+                'lang' => 'en-us',
+                'length' => 500,
+                'enable_json_feed' => false
+            ],
+            'error' => [
+                'enabled' => true,
+                'routes' => [
+                    404 => '/error'
+                ]
+            ],
+            'problems' => [
+                'enabled' => true,
+                'built_in_css' => true
+            ],
+            'email' => [
+                'enabled' => true,
+                'from' => 'your@email.here',
+                'from_name' => NULL,
+                'to' => 'your@email.here',
+                'to_name' => NULL,
+                'mailer' => [
+                    'engine' => 'mail',
+                    'smtp' => [
+                        'server' => 'localhost',
+                        'port' => 25,
+                        'encryption' => 'none',
+                        'user' => '',
+                        'password' => ''
+                    ],
+                    'sendmail' => [
+                        'bin' => '/usr/sbin/sendmail'
+                    ]
+                ],
+                'content_type' => 'text/html',
+                'debug' => false
+            ],
+            'archives' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'date_display_format' => 'F Y',
+                'show_count' => true,
+                'limit' => 12,
+                'order' => [
+                    'by' => 'date',
+                    'dir' => 'desc'
+                ],
+                'filter_combinator' => 'and',
+                'filters' => [
+                    'category' => 'blog'
+                ],
+                'taxonomy_names' => [
+                    'month' => 'archives_month',
+                    'year' => 'archives_year'
+                ]
+            ],
+            'taxonomylist' => [
+                'enabled' => true,
+                'route' => '/blog'
+            ],
             'login' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -394,32 +373,6 @@ return [
                 'max_pw_resets_interval' => 60,
                 'max_login_count' => 0,
                 'max_login_interval' => 2
-            ],
-            'simplesearch' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'display_button' => false,
-                'min_query_length' => 3,
-                'route' => '/search',
-                'search_content' => 'rendered',
-                'template' => 'simplesearch_results',
-                'filters' => [
-                    'category' => 'Blog'
-                ],
-                'filter_combinator' => 'and',
-                'ignore_accented_characters' => false,
-                'order' => [
-                    'by' => 'date',
-                    'dir' => 'desc'
-                ]
-            ],
-            'feed' => [
-                'enabled' => false,
-                'limit' => 10,
-                'description' => 'My Feed Description',
-                'lang' => 'en-us',
-                'length' => 500,
-                'enable_json_feed' => false
             ],
             'admin' => [
                 'enabled' => true,
@@ -471,6 +424,53 @@ return [
                         'monthly' => 12,
                         'visitors' => 20
                     ]
+                ]
+            ],
+            'relatedpages' => [
+                'enabled' => true,
+                'limit' => 5,
+                'show_score' => true,
+                'score_threshold' => 20,
+                'filter' => [
+                    'items' => [
+                        '@page' => '/blog'
+                    ],
+                    'order' => [
+                        'by' => 'date',
+                        'dir' => 'desc'
+                    ]
+                ],
+                'page_in_filter' => true,
+                'explicit_pages' => [
+                    'process' => true,
+                    'score' => 100
+                ],
+                'taxonomy_match' => [
+                    'taxonomy' => 'tag',
+                    'taxonomy_taxonomy' => [
+                        'process' => true,
+                        'score_scale' => [
+                            1 => 50,
+                            2 => 75,
+                            3 => 100
+                        ]
+                    ],
+                    'taxonomy_content' => [
+                        'process' => true,
+                        'score_scale' => [
+                            1 => 20,
+                            2 => 30,
+                            3 => 45,
+                            4 => 60,
+                            5 => 70,
+                            6 => 80,
+                            7 => 90,
+                            8 => 100
+                        ]
+                    ]
+                ],
+                'content_match' => [
+                    'process' => false
                 ]
             ],
             'jscomments' => [

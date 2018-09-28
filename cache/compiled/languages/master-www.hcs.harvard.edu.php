@@ -1,289 +1,289 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1498034921,
-    'checksum' => '5ba6b901340a7efdab07a28d635bdd89',
+    'timestamp' => 1538157695,
+    'checksum' => '195a4b442c888a4adbd8ab56fdf11f59',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1498034868
+                'modified' => 1523972986
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1498034869
+                'modified' => 1523972986
             ]
         ],
         'user/plugins' => [
-            'plugins/relatedpages' => [
-                'file' => 'user/plugins/relatedpages/languages.yaml',
-                'modified' => 1498034883
-            ],
-            'plugins/email' => [
-                'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1498034878
-            ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/languages.yaml',
-                'modified' => 1498034881
-            ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1498034882
-            ],
-            'plugins/comments' => [
-                'file' => 'user/plugins/comments/languages.yaml',
-                'modified' => 1498034877
-            ],
-            'plugins/login' => [
-                'file' => 'user/plugins/login/languages.yaml',
-                'modified' => 1498034882
+                'modified' => 1523972994
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/languages.yaml',
-                'modified' => 1498034883
+                'modified' => 1523972995
+            ],
+            'plugins/comments' => [
+                'file' => 'user/plugins/comments/languages.yaml',
+                'modified' => 1523972991
+            ],
+            'plugins/error' => [
+                'file' => 'user/plugins/error/languages.yaml',
+                'modified' => 1523972994
+            ],
+            'plugins/email' => [
+                'file' => 'user/plugins/email/languages.yaml',
+                'modified' => 1523972992
+            ],
+            'plugins/login' => [
+                'file' => 'user/plugins/login/languages.yaml',
+                'modified' => 1523972994
+            ],
+            'plugins/relatedpages' => [
+                'file' => 'user/plugins/relatedpages/languages.yaml',
+                'modified' => 1523972995
             ]
         ],
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'bg' => [
                 'file' => 'user/plugins/admin/languages/bg.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'br' => [
                 'file' => 'user/plugins/admin/languages/br.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'vi' => [
                 'file' => 'user/plugins/admin/languages/vi.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1498034871
+                'modified' => 1523972988
             ]
         ]
     ],
@@ -3341,13 +3341,13 @@ Ruta: `%2$s`
                 'NON_ROUTABLE' => 'Ikke tilgængelig',
                 'NON_MODULAR' => 'Ikke modulær'
             ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurere venligst en \'til\' email adresse i Email Plugin indstillingerne eller her i formularen',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurere venligst en \'fra\' email adresse i Email Plugin indstillingerne eller her i formularen'
-            ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Fejl',
                 'ERROR_MESSAGE' => 'Ups. Det ser ud til at siden ikke eksisterer.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurere venligst en \'til\' email adresse i Email Plugin indstillingerne eller her i formularen',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurere venligst en \'fra\' email adresse i Email Plugin indstillingerne eller her i formularen'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Titel: %1$s
@@ -4049,46 +4049,6 @@ Sti: `%2$s`
                 'ERROR_SIMPLE' => 'Einfacher Fehler',
                 'ERROR_SYSTEM' => 'Systemfehler'
             ],
-            'PLUGIN_REL_PAGES' => [
-                'PLUGIN_STATUS' => 'Plugin-Status',
-                'BASICS' => 'Grundeinstellungen',
-                'LIMIT' => 'Angezeigt',
-                'LIMIT_HELP' => 'Die Anzahl der angezeigten verwandten Seiten',
-                'ORDER' => 'Reihenfolge',
-                'ORDER_BY' => 'Sortiert nach',
-                'SHOW_SCORE' => 'Zeige Bewertung',
-                'SHOW_SCORE_HELP' => 'Umschalter, ob die Bewertung in der Ausgabe angezeigt werden soll',
-                'ITEMS' => 'Elemente',
-                'ITEMS_HELP' => 'Unterstützt `@self`, `@page`, und `@taxonomy` basierte Sammlungen (collections)',
-                'PAGE_IN_FILTER' => 'Seite \'drin\' Filter',
-                'PAGE_IN_FILTER_HELP' => 'Aktiviert, wenn die aktuelle Seite in der gefilterten Sammlung (collection) enthalten sein muss',
-                'EXPLICIT_PROCESS' => 'Verarbeite explizite Seiten',
-                'EXPLICIT_PROCESS_HELP' => 'Aktiviere diesen Abgleich der expliziten Seiten',
-                'EXPLICIT_SCORE' => 'Bewertung der expliziten Seiten',
-                'EXPLICIT_SCORE_HELP' => 'Eine Bewertung von (0 - 100) um expliziten Seiten eine Gewichtung zu geben',
-                'TAXONOMY_MATCH' => 'Abgleich der Taxonomie-Typen',
-                'TAXONOMY' => 'Taxonomie',
-                'TAXONOMY_HELP' => 'Welcher Taxonomie-Typ soll für den Seiten-Abgleich genutzt werden',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-Taxonomie',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Taxonomie-Abgleich',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-Inhalt',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Inhalts-Abgleich',
-                'CONTENT_MATCH' => 'Abgleich der Inhalts-Typen',
-                'CONTENT_PROCESS' => 'Inhalt-Inhalt',
-                'CONTENT_PROCESS_HELP' => 'Aktiviere den Inhalt-zu-Inhalt-Abgleich (Beachte: Deaktivieren bei viel Inhalt)',
-                'ADVANCED' => 'Erweitert',
-                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-Taxonomie Bewertungsskala',
-                'CONTENT_SCORE_SCALE' => 'Taxonomie-Inhalt Bewertungsskala'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Fehler',
-                'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularwerte nicht gültig. Für ein oder mehrere erforderliche Felder fehlen Werte.',
                 'NONCE_NOT_VALIDATED' => 'Ups, es gibt da ein Problem. Eingabewerte bitte noch mal prüfen und das Formular erneut absenden.',
@@ -4100,6 +4060,12 @@ Sti: `%2$s`
                 'ACCEPT' => 'Erlaube MIME-Typen',
                 'ACCEPT_HELP' => 'Eine Liste von MIME-Typen, die hochgeladen werden dürfen.',
                 'ERROR_VALIDATING_CAPTCHA' => 'Die Überprüfung des Captcha ist fehlgeschlagen.'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Suche...',
+                'SEARCH_RESULTS' => 'Suchergebnisse',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Suche: <strong>%s</strong> fand ein Ergebnis',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Suche: <strong>%s</strong> fand %s Ergebnisse'
             ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Kommentar hinzufügen',
@@ -4121,6 +4087,15 @@ Sti: `%2$s`
                 'SUBMIT_COMMENT_BUTTON_TEXT' => 'Absenden',
                 'EMAIL_NEW_COMMENT_SUBJECT' => '[Neuer Kommentar] von {{ form.value.name|e }}',
                 'THANK_YOU_MESSAGE' => 'Vielen Dank für den Kommentar!'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Fehler',
+                'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Benutzername',
@@ -4167,11 +4142,36 @@ Sti: `%2$s`
                 'OPTIONS' => 'Optionen',
                 'EMAIL_VALIDATION_MESSAGE' => 'Muss eine gültige E-Mail Adresse sein'
             ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Suche...',
-                'SEARCH_RESULTS' => 'Suchergebnisse',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Suche: <strong>%s</strong> fand ein Ergebnis',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Suche: <strong>%s</strong> fand %s Ergebnisse'
+            'PLUGIN_REL_PAGES' => [
+                'PLUGIN_STATUS' => 'Plugin-Status',
+                'BASICS' => 'Grundeinstellungen',
+                'LIMIT' => 'Angezeigt',
+                'LIMIT_HELP' => 'Die Anzahl der angezeigten verwandten Seiten',
+                'ORDER' => 'Reihenfolge',
+                'ORDER_BY' => 'Sortiert nach',
+                'SHOW_SCORE' => 'Zeige Bewertung',
+                'SHOW_SCORE_HELP' => 'Umschalter, ob die Bewertung in der Ausgabe angezeigt werden soll',
+                'ITEMS' => 'Elemente',
+                'ITEMS_HELP' => 'Unterstützt `@self`, `@page`, und `@taxonomy` basierte Sammlungen (collections)',
+                'PAGE_IN_FILTER' => 'Seite \'drin\' Filter',
+                'PAGE_IN_FILTER_HELP' => 'Aktiviert, wenn die aktuelle Seite in der gefilterten Sammlung (collection) enthalten sein muss',
+                'EXPLICIT_PROCESS' => 'Verarbeite explizite Seiten',
+                'EXPLICIT_PROCESS_HELP' => 'Aktiviere diesen Abgleich der expliziten Seiten',
+                'EXPLICIT_SCORE' => 'Bewertung der expliziten Seiten',
+                'EXPLICIT_SCORE_HELP' => 'Eine Bewertung von (0 - 100) um expliziten Seiten eine Gewichtung zu geben',
+                'TAXONOMY_MATCH' => 'Abgleich der Taxonomie-Typen',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Welcher Taxonomie-Typ soll für den Seiten-Abgleich genutzt werden',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-Taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Taxonomie-Abgleich',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-Inhalt',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Inhalts-Abgleich',
+                'CONTENT_MATCH' => 'Abgleich der Inhalts-Typen',
+                'CONTENT_PROCESS' => 'Inhalt-Inhalt',
+                'CONTENT_PROCESS_HELP' => 'Aktiviere den Inhalt-zu-Inhalt-Abgleich (Beachte: Deaktivieren bei viel Inhalt)',
+                'ADVANCED' => 'Erweitert',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-Taxonomie Bewertungsskala',
+                'CONTENT_SCORE_SCALE' => 'Taxonomie-Inhalt Bewertungsskala'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -5318,47 +5318,6 @@ Pfad: `%2$s`
                 'CONTENT_PADDING' => 'Content padding',
                 'CONTENT_PADDING_HELP' => 'Enable/Disable content padding around content area to provide more space'
             ],
-            'PLUGIN_REL_PAGES' => [
-                'BASICS' => 'Basic Settings',
-                'LIMIT' => 'Limit',
-                'LIMIT_HELP' => 'The number of related pages to display',
-                'ORDER' => 'Order',
-                'ORDER_BY' => 'Ordery by',
-                'SHOW_SCORE' => 'Show score',
-                'SHOW_SCORE_HELP' => 'Toggle to determine if scores should be displayed in output',
-                'ITEMS' => 'Items',
-                'ITEMS_HELP' => 'Supports `@self`, `@page`, and `@taxonomy` based collections',
-                'PAGE_IN_FILTER' => 'Page \'in\' filter',
-                'PAGE_IN_FILTER_HELP' => 'Enabled if the current page must be in the filtered collection',
-                'EXPLICIT_PROCESS' => 'Process explicit pages',
-                'EXPLICIT_PROCESS_HELP' => 'Enable this explicit page matching',
-                'EXPLICIT_SCORE' => 'Explicit page score',
-                'EXPLICIT_SCORE_HELP' => 'A score ranging from (0 - 100) to give explicit pages a weight',
-                'TAXONOMY_MATCH' => 'Taxonomy Type Matching',
-                'TAXONOMY' => 'Taxonomy',
-                'TAXONOMY_HELP' => 'Which taxonomy type to use for page matching',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomy-taxonomy',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Enable taxonomy to taxonomy matching',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomy-content',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Enable taxonomy to Content matching',
-                'CONTENT_MATCH' => 'Content Type Matching',
-                'CONTENT_PROCESS' => 'Content-content',
-                'CONTENT_PROCESS_HELP' => 'Enable content to content matching (NOTE: Disable if you have lots of content)',
-                'ADVANCED' => 'Advanced',
-                'TAXONOMY_SCORE_SCALE' => 'Taxonomy-taxonomy score scale',
-                'CONTENT_SCORE_SCALE' => 'Taxonomy-content score scale'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'Email not configured',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Please configure a \'to\' address in the Email Plugin settings, or in the form',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Please configure a \'from\' address in the Email Plugin settings, or in the form',
-                'TEST_EMAIL_BODY' => '<h1>Testing Email</h1><p>This test email has been sent based on the following configuration:</p>  <p><pre>%1$s</pre></p>',
-                'EMAIL_FOOTER' => 'GetGrav.org'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Error',
-                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.',
                 'NONCE_NOT_VALIDATED' => 'Oops there was a problem, please check your input and submit the form again.',
@@ -5396,6 +5355,13 @@ Pfad: `%2$s`
                 'YES' => 'Yes',
                 'NO' => 'No'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Search...',
+                'SEARCH_RESULTS' => 'Search Results',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> found one result',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> found %s results',
+                'SEARCH_FIELD_MINIUMUM_CHARACTERS' => 'Please add at least %s characters'
+            ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Add a comment',
                 'COMMENTS' => 'Comments',
@@ -5416,6 +5382,17 @@ Pfad: `%2$s`
                 'SUBMIT_COMMENT_BUTTON_TEXT' => 'Submit',
                 'EMAIL_NEW_COMMENT_SUBJECT' => '[New Comment] from {{ form.value.name|e }}',
                 'THANK_YOU_MESSAGE' => 'Thank you for writing your comment!'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Error',
+                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Email not configured',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Please configure a \'to\' address in the Email Plugin settings, or in the form',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Please configure a \'from\' address in the Email Plugin settings, or in the form',
+                'TEST_EMAIL_BODY' => '<h1>Testing Email</h1><p>This test email has been sent based on the following configuration:</p>  <p><pre>%1$s</pre></p>',
+                'EMAIL_FOOTER' => 'GetGrav.org'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Username',
@@ -5526,12 +5503,35 @@ Pfad: `%2$s`
                 'ROUTE_PROFILE' => 'User profile route',
                 'ROUTE_ACTIVATE' => 'User activation route'
             ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Search...',
-                'SEARCH_RESULTS' => 'Search Results',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> found one result',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> found %s results',
-                'SEARCH_FIELD_MINIUMUM_CHARACTERS' => 'Please add at least %s characters'
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Basic Settings',
+                'LIMIT' => 'Limit',
+                'LIMIT_HELP' => 'The number of related pages to display',
+                'ORDER' => 'Order',
+                'ORDER_BY' => 'Ordery by',
+                'SHOW_SCORE' => 'Show score',
+                'SHOW_SCORE_HELP' => 'Toggle to determine if scores should be displayed in output',
+                'ITEMS' => 'Items',
+                'ITEMS_HELP' => 'Supports `@self`, `@page`, and `@taxonomy` based collections',
+                'PAGE_IN_FILTER' => 'Page \'in\' filter',
+                'PAGE_IN_FILTER_HELP' => 'Enabled if the current page must be in the filtered collection',
+                'EXPLICIT_PROCESS' => 'Process explicit pages',
+                'EXPLICIT_PROCESS_HELP' => 'Enable this explicit page matching',
+                'EXPLICIT_SCORE' => 'Explicit page score',
+                'EXPLICIT_SCORE_HELP' => 'A score ranging from (0 - 100) to give explicit pages a weight',
+                'TAXONOMY_MATCH' => 'Taxonomy Type Matching',
+                'TAXONOMY' => 'Taxonomy',
+                'TAXONOMY_HELP' => 'Which taxonomy type to use for page matching',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomy-taxonomy',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Enable taxonomy to taxonomy matching',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomy-content',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Enable taxonomy to Content matching',
+                'CONTENT_MATCH' => 'Content Type Matching',
+                'CONTENT_PROCESS' => 'Content-content',
+                'CONTENT_PROCESS_HELP' => 'Enable content to content matching (NOTE: Disable if you have lots of content)',
+                'ADVANCED' => 'Advanced',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomy-taxonomy score scale',
+                'CONTENT_SCORE_SCALE' => 'Taxonomy-content score scale'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -6317,10 +6317,6 @@ Path: `%2$s`
                 'ALLOW_WEBSERVER_GZIP_HELP' => 'Desactivado de forma predeterminada. Cuando esté activado, Webserver-configured compresión Gzip/Deflate funcionará, pero las conexiones http no serán cerradas antes del evento onShutDown() causando una carga más lenta de la página',
                 'OFFLINE_WARNING' => 'No se puede establecer la conexión con GPM'
             ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Falló la validación del formulario. Uno o más campos obligatorios no fueron cubiertos.',
                 'NONCE_NOT_VALIDATED' => 'Oops, hay un problema, por favor revise la información e intente enviar el formulario otra vez.',
@@ -6337,6 +6333,12 @@ Path: `%2$s`
                 'RECAPTCHA_SITE_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha',
                 'RECAPTCHA_SECRET_KEY' => 'Secret key',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Buscar...',
+                'SEARCH_RESULTS' => 'Resultados de la búsqueda',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Consulta: <strong>%s</strong> se encontró 1 resultado',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Consulta: <strong>%s</strong> se encontraron %s resultados'
             ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Agregar un comentario',
@@ -6359,11 +6361,9 @@ Path: `%2$s`
                 'EMAIL_NEW_COMMENT_SUBJECT' => '[Nuevo comentario] de {{ form.value.name|e }}',
                 'THANK_YOU_MESSAGE' => 'Gracias por escribir su comentario!'
             ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Buscar...',
-                'SEARCH_RESULTS' => 'Resultados de la búsqueda',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Consulta: <strong>%s</strong> se encontró 1 resultado',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Consulta: <strong>%s</strong> se encontraron %s resultados'
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -7697,47 +7697,6 @@ Ruta: `%2$s`
                 'NEVER_CACHE_TWIG' => 'Ne jamais mettre en cache Twig',
                 'ALLOW_WEBSERVER_GZIP' => 'Autorisé Gzip WebServer'
             ],
-            'PLUGIN_REL_PAGES' => [
-                'BASICS' => 'Réglages de base',
-                'LIMIT' => 'Limite',
-                'LIMIT_HELP' => 'Le nombre de pages en relation à afficher',
-                'ORDER' => 'Classement',
-                'ORDER_BY' => 'Classement par',
-                'SHOW_SCORE' => 'Afficher le score',
-                'SHOW_SCORE_HELP' => 'Activer/désactiver afin de déterminer si les scores doivent être affichés en sortie',
-                'ITEMS' => 'Éléments',
-                'ITEMS_HELP' => 'Prise en charge des collections basées sur `@self`, `@page` et `@taxonomy`',
-                'PAGE_IN_FILTER' => 'Page \'dans\' le filtre',
-                'PAGE_IN_FILTER_HELP' => 'Activer si la page actuelle doit être présente dans la collection filtrée',
-                'EXPLICIT_PROCESS' => 'Traiter les pages explicites',
-                'EXPLICIT_PROCESS_HELP' => 'Activer la correspondance explicite pour cette page',
-                'EXPLICIT_SCORE' => 'Score explicite de la page',
-                'EXPLICIT_SCORE_HELP' => 'Un score compris entre (0 - 100) pour rendre une page explicite',
-                'TAXONOMY_MATCH' => 'Correspondance par type de taxonomie',
-                'TAXONOMY' => 'Taxonomie',
-                'TAXONOMY_HELP' => 'Quel type de taxonomie utiliser pour la correspondance des pages',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de taxonomie',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-contenu',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de contenu',
-                'CONTENT_MATCH' => 'Correspondance par type de contenu',
-                'CONTENT_PROCESS' => 'Contenu-contenu',
-                'CONTENT_PROCESS_HELP' => 'Activer la correspondance de contenu (NOTE : désactivez si vous avez beaucoup de contenu)',
-                'ADVANCED' => 'Avancés',
-                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-niveau de score de taxonomie',
-                'CONTENT_SCORE_SCALE' => 'Taxonomie-niveau de score de contenu'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'L’e-mail n’est pas configuré',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Veuillez configurer une adresse de \'destinataire\' dans les paramètres du Plugin ou dans le formulaire.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Veuillez configurer une adresse \'d\'expéditeur\' dans les paramètres du Plugin ou dans le formulaire.',
-                'TEST_EMAIL_BODY' => '<h1>E-mail de test</h1><p>Cet e-mail de test est basé sur la configuration suivante :</p>  <p><pre>%1$s</pre></p>',
-                'EMAIL_FOOTER' => 'GetGrav.org'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Erreur',
-                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulaire non validé. Un ou plusieurs champs obligatoires sont manquants.',
                 'NONCE_NOT_VALIDATED' => 'Oups, un problème est survenu. Veuillez vérifier votre saisie et soumettre à nouveau le formulaire.',
@@ -7773,6 +7732,12 @@ Ruta: `%2$s`
                 'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Êtes-vous sûr de vouloir supprimer ce fichier ?',
                 'DROPZONE_RESPONSE_ERROR' => 'Le serveur a répondu avec le code {{statusCode}}.'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Recherche...',
+                'SEARCH_RESULTS' => 'Résultats de la recherche',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Recherche : Un résultat trouvé pour <strong>%s</strong>',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Recherche : %s résultats trouvés pour <strong>%s</strong>'
+            ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Ajouter un commentaire',
                 'COMMENTS' => 'Commentaires',
@@ -7793,6 +7758,17 @@ Ruta: `%2$s`
                 'SUBMIT_COMMENT_BUTTON_TEXT' => 'Envoyer',
                 'EMAIL_NEW_COMMENT_SUBJECT' => '[Nouveau commentaire] de {{ form.value.name|e }}',
                 'THANK_YOU_MESSAGE' => 'Merci d\'avoir rédigé votre commentaire !'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Erreur',
+                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'L’e-mail n’est pas configuré',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Veuillez configurer une adresse de \'destinataire\' dans les paramètres du Plugin ou dans le formulaire.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Veuillez configurer une adresse \'d\'expéditeur\' dans les paramètres du Plugin ou dans le formulaire.',
+                'TEST_EMAIL_BODY' => '<h1>E-mail de test</h1><p>Cet e-mail de test est basé sur la configuration suivante :</p>  <p><pre>%1$s</pre></p>',
+                'EMAIL_FOOTER' => 'GetGrav.org'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Nom d’utilisateur',
@@ -7884,11 +7860,35 @@ Ruta: `%2$s`
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => 'Protéger le média d\'une page par une protection par connexion',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Si activé, les médias d\'une page protégée par connexion sera également protégé par un système de connexion et ne pourra pas être visible à moins d\'être connecté.'
             ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Recherche...',
-                'SEARCH_RESULTS' => 'Résultats de la recherche',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Recherche : Un résultat trouvé pour <strong>%s</strong>',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Recherche : %s résultats trouvés pour <strong>%s</strong>'
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Réglages de base',
+                'LIMIT' => 'Limite',
+                'LIMIT_HELP' => 'Le nombre de pages en relation à afficher',
+                'ORDER' => 'Classement',
+                'ORDER_BY' => 'Classement par',
+                'SHOW_SCORE' => 'Afficher le score',
+                'SHOW_SCORE_HELP' => 'Activer/désactiver afin de déterminer si les scores doivent être affichés en sortie',
+                'ITEMS' => 'Éléments',
+                'ITEMS_HELP' => 'Prise en charge des collections basées sur `@self`, `@page` et `@taxonomy`',
+                'PAGE_IN_FILTER' => 'Page \'dans\' le filtre',
+                'PAGE_IN_FILTER_HELP' => 'Activer si la page actuelle doit être présente dans la collection filtrée',
+                'EXPLICIT_PROCESS' => 'Traiter les pages explicites',
+                'EXPLICIT_PROCESS_HELP' => 'Activer la correspondance explicite pour cette page',
+                'EXPLICIT_SCORE' => 'Score explicite de la page',
+                'EXPLICIT_SCORE_HELP' => 'Un score compris entre (0 - 100) pour rendre une page explicite',
+                'TAXONOMY_MATCH' => 'Correspondance par type de taxonomie',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Quel type de taxonomie utiliser pour la correspondance des pages',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de taxonomie',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-contenu',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de contenu',
+                'CONTENT_MATCH' => 'Correspondance par type de contenu',
+                'CONTENT_PROCESS' => 'Contenu-contenu',
+                'CONTENT_PROCESS_HELP' => 'Activer la correspondance de contenu (NOTE : désactivez si vous avez beaucoup de contenu)',
+                'ADVANCED' => 'Avancés',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-niveau de score de taxonomie',
+                'CONTENT_SCORE_SCALE' => 'Taxonomie-niveau de score de contenu'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -8579,15 +8579,6 @@ Path: `%2$s`
                 'ALL' => 'Sve',
                 'FROM' => 'od'
             ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Greška',
-                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formular nije validiran. Jedan ili više traženih polja nedostaju.',
                 'NONCE_NOT_VALIDATED' => 'Ups, došlo je do problema, molimo provjerite svoj unos i pokušajte opet.',
@@ -8598,6 +8589,12 @@ Path: `%2$s`
                 'ACCEPT' => 'Dopušteni MIME Tipovi',
                 'ACCEPT_HELP' => 'Lista dopuštenih MIME Tipova koji su dozvoljeni za upload',
                 'ERROR_VALIDATING_CAPTCHA' => 'Greška pri validiranju Captcha'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Traži...',
+                'SEARCH_RESULTS' => 'Rezultati pretrage',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Upit: <strong>%s</strong> je pronašao jedan rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Upit: <strong>%s</strong> je pronašao %s rezultata'
             ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Dodaj komentar',
@@ -8619,6 +8616,15 @@ Path: `%2$s`
                 'SUBMIT_COMMENT_BUTTON_TEXT' => 'Pošalji',
                 'EMAIL_NEW_COMMENT_SUBJECT' => '[Novi komentar] od {{ form.value.name|e }}',
                 'THANK_YOU_MESSAGE' => 'Hvala Vam što ste napisali svoj komentar!'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Greška',
+                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
             ],
             'PLUGIN_LOGIN' => [
                 'ACCESS_DENIED' => 'Pristup odbijen...',
@@ -8661,12 +8667,6 @@ Path: `%2$s`
                 'REGISTRATION_FIELDS_HELP' => 'Add the fields that will be added to the user yaml file. Fields not listed here will not be added even if present in the registration form',
                 'REGISTRATION_FIELD_KEY' => 'Ime polja',
                 'OPTIONS' => 'Opcije'
-            ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Traži...',
-                'SEARCH_RESULTS' => 'Rezultati pretrage',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Upit: <strong>%s</strong> je pronašao jedan rezultat',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Upit: <strong>%s</strong> je pronašao %s rezultata'
             ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'oprema',
@@ -10174,14 +10174,6 @@ Elérési út: `%2$s`
                 'ALLOW_WEBSERVER_GZIP_HELP' => 'Disattivata per impostazione predefinita. Quando attivata, la compressione configurata Gzip/Deflate WebServer, funzionerà ma la connessione http non verrà chiusa prima dell\'evento onShutDown() rallentando il caricamento della pagina',
                 'OFFLINE_WARNING' => 'Non è possibile stabilire la connessione con il GPM'
             ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Errore',
-                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
                 'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
@@ -10195,6 +10187,13 @@ Elérési út: `%2$s`
                 'ERROR_VALIDATING_CAPTCHA' => 'Errore durante la validazione del Captcha',
                 'YES' => 'Si',
                 'NO' => 'No'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Cerca...',
+                'SEARCH_RESULTS' => 'Risultati della ricerca',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Ricerca: <strong>%s</strong>. Trovato un risultato',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Ricerca: <strong>%s</strong>. Trovati %s risultati',
+                'SEARCH_FIELD_MINIUMUM_CHARACTERS' => 'Inserisci almeno %s caratteri'
             ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Aggiungi un commento',
@@ -10217,12 +10216,13 @@ Elérési út: `%2$s`
                 'EMAIL_NEW_COMMENT_SUBJECT' => '[Nuovo commento] da {{ form.value.name|e }}',
                 'THANK_YOU_MESSAGE' => 'Grazie per il tuo commento!'
             ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Cerca...',
-                'SEARCH_RESULTS' => 'Risultati della ricerca',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Ricerca: <strong>%s</strong>. Trovato un risultato',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Ricerca: <strong>%s</strong>. Trovati %s risultati',
-                'SEARCH_FIELD_MINIUMUM_CHARACTERS' => 'Inserisci almeno %s caratteri'
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Errore',
+                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---Titolo: %1$s---# Errore: Frontmatter non valido: \'%2$s\' * *%3$s * * \' \'%4$s \' \'',
             'NICETIME' => [
@@ -10776,6 +10776,12 @@ Elérési út: `%2$s`
                 'PACKAGES_SUCCESSFULLY_UPDATED' => 'パッケージは正常に更新されました。',
                 'UPDATING' => '更新中'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => '検索する...',
+                'SEARCH_RESULTS' => '検索結果',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => '検索 : <strong>%s</strong> に一つの結果があります。',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => '検索 : <strong>%s</strong> に %s の結果があります。'
+            ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'コメントを追加する',
                 'COMMENTS' => 'コメント',
@@ -10796,12 +10802,6 @@ Elérési út: `%2$s`
                 'SUBMIT_COMMENT_BUTTON_TEXT' => '送信する',
                 'EMAIL_NEW_COMMENT_SUBJECT' => '[新しいコメント]、 {{ form.value.name|e }}から',
                 'THANK_YOU_MESSAGE' => 'コメントを書いてくださいましてありがとうございました！'
-            ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => '検索する...',
-                'SEARCH_RESULTS' => '検索結果',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => '検索 : <strong>%s</strong> に一つの結果があります。',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => '検索 : <strong>%s</strong> に %s の結果があります。'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -14137,45 +14137,6 @@ Caminho: `%2$s`
                 'ALLOW_WEBSERVER_GZIP_HELP' => 'Dezactivată în mod implicit. Dacă este activată, compresia Gzip/Defflate configurată pe WebServer va funcționa dar conexiunile Http nu vor fi închise cu evenimentul onShutDown() astfel paginile se vor încarca mai greu',
                 'OFFLINE_WARNING' => 'Conexiunea la GPM nu poate fi stabilită'
             ],
-            'PLUGIN_REL_PAGES' => [
-                'BASICS' => 'Setări de bază',
-                'LIMIT' => 'Limită',
-                'LIMIT_HELP' => 'Numărul afișat al paginilor legate',
-                'ORDER' => 'Ordinea',
-                'ORDER_BY' => 'Ordonează după',
-                'SHOW_SCORE' => 'Arată scorul',
-                'SHOW_SCORE_HELP' => 'Comutați pentru afișarea scorurilor',
-                'ITEMS' => 'Articole',
-                'ITEMS_HELP' => 'Acceptă colecții bazate pe `@self`, `@page` și `@taxonomy`',
-                'PAGE_IN_FILTER' => 'Filtru \'in\' pagină',
-                'PAGE_IN_FILTER_HELP' => 'Activează dacă pagina curentă trebuie să fie în colecția filtrată',
-                'EXPLICIT_PROCESS' => 'Procesează anumite pagini specifice',
-                'EXPLICIT_PROCESS_HELP' => 'Activează pentru procesarea anumitor pagini specifice',
-                'EXPLICIT_SCORE' => 'Scorul paginilor specifice',
-                'EXPLICIT_SCORE_HELP' => 'Un scor între (0 - 100) pentru a da unor pagini specifice greutate',
-                'TAXONOMY_MATCH' => 'Potrivire după Taxonomie',
-                'TAXONOMY' => 'Taxonomie',
-                'TAXONOMY_HELP' => 'Ce fel de taxonomie să fie folosită la potrivirea paginilor',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activeazā potrivirea între taxonomii',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-conținut',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activează potrivirea după taxonomie - conținut',
-                'CONTENT_MATCH' => 'Potrivirea după conținut',
-                'CONTENT_PROCESS' => 'Conținut-conținut',
-                'CONTENT_PROCESS_HELP' => 'Activează pentru potrivire după conținut (Notă: dezactivați dacă aveți conținut mult)',
-                'ADVANCED' => 'Avansat',
-                'TAXONOMY_SCORE_SCALE' => 'Scorul scalei Taxonomie-taxonomie',
-                'CONTENT_SCORE_SCALE' => 'Scorul scalei Taxonomie-conținut'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Eroare',
-                'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularul nu a fost validat. Unul sau mai multe câmpuri sunt goale.',
                 'NONCE_NOT_VALIDATED' => 'Oops a apărut o problemă, vă rugăm verificați datele introduse și trimiteți formularul din nou.',
@@ -14194,6 +14155,12 @@ Caminho: `%2$s`
                 'RECAPTCHA_SITE_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați https://developers.google.com/recaptcha',
                 'RECAPTCHA_SECRET_KEY' => 'Cheia secretă pentru Site',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați  https://developers.google.com/recaptcha'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Caută...',
+                'SEARCH_RESULTS' => 'Rezultatele căutării',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Căutarea: <strong>%s</strong> a găsit un rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Căutarea: <strong>%s</strong> a găsit %s rezultate'
             ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Adăugați un comentariu',
@@ -14215,6 +14182,15 @@ Caminho: `%2$s`
                 'SUBMIT_COMMENT_BUTTON_TEXT' => 'Trimiteți',
                 'EMAIL_NEW_COMMENT_SUBJECT' => '[Comentariu nou] from {{ form.value.name|e }}',
                 'THANK_YOU_MESSAGE' => 'Vă mulțumim pentru comentariu!'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Eroare',
+                'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Nume utilizator',
@@ -14303,11 +14279,35 @@ Caminho: `%2$s`
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => ' Protejează media ce aparține paginii de logare ',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Dacă este activată, media ce aparține unei pagini de logare este protejată și nu poate fi accesată decât după logare.'
             ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Caută...',
-                'SEARCH_RESULTS' => 'Rezultatele căutării',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Căutarea: <strong>%s</strong> a găsit un rezultat',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Căutarea: <strong>%s</strong> a găsit %s rezultate'
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Setări de bază',
+                'LIMIT' => 'Limită',
+                'LIMIT_HELP' => 'Numărul afișat al paginilor legate',
+                'ORDER' => 'Ordinea',
+                'ORDER_BY' => 'Ordonează după',
+                'SHOW_SCORE' => 'Arată scorul',
+                'SHOW_SCORE_HELP' => 'Comutați pentru afișarea scorurilor',
+                'ITEMS' => 'Articole',
+                'ITEMS_HELP' => 'Acceptă colecții bazate pe `@self`, `@page` și `@taxonomy`',
+                'PAGE_IN_FILTER' => 'Filtru \'in\' pagină',
+                'PAGE_IN_FILTER_HELP' => 'Activează dacă pagina curentă trebuie să fie în colecția filtrată',
+                'EXPLICIT_PROCESS' => 'Procesează anumite pagini specifice',
+                'EXPLICIT_PROCESS_HELP' => 'Activează pentru procesarea anumitor pagini specifice',
+                'EXPLICIT_SCORE' => 'Scorul paginilor specifice',
+                'EXPLICIT_SCORE_HELP' => 'Un scor între (0 - 100) pentru a da unor pagini specifice greutate',
+                'TAXONOMY_MATCH' => 'Potrivire după Taxonomie',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Ce fel de taxonomie să fie folosită la potrivirea paginilor',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activeazā potrivirea între taxonomii',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-conținut',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activează potrivirea după taxonomie - conținut',
+                'CONTENT_MATCH' => 'Potrivirea după conținut',
+                'CONTENT_PROCESS' => 'Conținut-conținut',
+                'CONTENT_PROCESS_HELP' => 'Activează pentru potrivire după conținut (Notă: dezactivați dacă aveți conținut mult)',
+                'ADVANCED' => 'Avansat',
+                'TAXONOMY_SCORE_SCALE' => 'Scorul scalei Taxonomie-taxonomie',
+                'CONTENT_SCORE_SCALE' => 'Scorul scalei Taxonomie-conținut'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Titlu: %1$s
@@ -15031,13 +15031,11 @@ Calea: `%2$s`
                 'ERROR_SYSTEM' => 'Системная ошибка',
                 'OFFLINE_WARNING' => 'Невозможно установить подключение к GPM'
             ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Ошибка',
-                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Найти...',
+                'SEARCH_RESULTS' => 'Результат поиска',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'По запросу: <strong>%s</strong> результатов найдено 1',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'По запросу: <strong>%s</strong> результатов найдено %s'
             ],
             'PLUGIN_COMMENTS' => [
                 'ADD_COMMENT' => 'Добавить комментарий',
@@ -15051,11 +15049,13 @@ Calea: `%2$s`
                 'WRITTEN_ON' => 'Написан в',
                 'BY' => 'от'
             ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Найти...',
-                'SEARCH_RESULTS' => 'Результат поиска',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'По запросу: <strong>%s</strong> результатов найдено 1',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'По запросу: <strong>%s</strong> результатов найдено %s'
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Ошибка',
+                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -18070,15 +18070,15 @@ Path: `%2$s`
                 'ERROR_SIMPLE' => '簡易錯誤',
                 'ERROR_SYSTEM' => '出現系統錯誤'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => '错误',
-                'ERROR_MESSAGE' => '呃，似乎这个页面不存在。'
-            ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => '搜索...',
                 'SEARCH_RESULTS' => '搜索结果',
                 'SEARCH_RESULTS_SUMMARY_SINGULAR' => '查询: <strong>%s</strong> 找到 1 个结果',
                 'SEARCH_RESULTS_SUMMARY_PLURAL' => '查询: <strong>%s</strong> 找到 %s 个结果'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => '错误',
+                'ERROR_MESSAGE' => '呃，似乎这个页面不存在。'
             ]
         ],
         'pt-br' => [
@@ -18129,6 +18129,6 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '5ba6b901340a7efdab07a28d635bdd89'
+        'checksum' => '195a4b442c888a4adbd8ab56fdf11f59'
     ]
 ];
