@@ -53,7 +53,7 @@ class __TwigTemplate_61a8e50de2b3e73a664d7b74e68f5661c231deb8ee706dcfb1336f64f88
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Jennifer Bi</h2>
                     <p class=\"title\">Co-President</p>
-                    <p>Jennifer is a senior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Harvard College Healing Thoughts, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
+                    <p>Jennifer is a senior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Students in Mental Health Research, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
                   </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ class __TwigTemplate_61a8e50de2b3e73a664d7b74e68f5661c231deb8ee706dcfb1336f64f88
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Jeffrey Ding He</h2>
                     <p class=\"title\">Web Administrator</p>
-                    <p>I’m a sophomore in Mather interested in computer science and economics. I’m very excited to be part of the HCHT team and hope to learn from and contribute to the research in mental health. In my free time, I play basketball, chess, and violin.</p>
+                    <p>I’m a sophomore in Mather interested in computer science and economics. I’m very excited to be part of the SIMHR team and hope to learn from and contribute to the research in mental health. In my free time, I play basketball, chess, and violin.</p>
                   </div>
               </div>
             </div>
@@ -219,7 +219,7 @@ class __TwigTemplate_61a8e50de2b3e73a664d7b74e68f5661c231deb8ee706dcfb1336f64f88
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Jennifer Bi</h2>
                     <p class=\"title\">Co-President</p>
-                    <p>Jennifer is a senior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Harvard College Healing Thoughts, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
+                    <p>Jennifer is a senior studying Neurobiology, and lives in Dunster House. She is originally from Beijing, China, and currently resides in Arizona. She is specifically interested in mental health in regards to body/self image. Through Students in Mental Health Research, she hopes to relay the importance of mental health to others, and learn about pertinent mental health topics in our society. In her spare time, she enjoys reading aesthetic study blogs and learning Korean.</p>
                   </div>
               </div>
             </div>
@@ -303,7 +303,7 @@ class __TwigTemplate_61a8e50de2b3e73a664d7b74e68f5661c231deb8ee706dcfb1336f64f88
                   <div class=\"container\">
                     <h2 style=\"padding-top: 15px\">Jeffrey Ding He</h2>
                     <p class=\"title\">Web Administrator</p>
-                    <p>I’m a sophomore in Mather interested in computer science and economics. I’m very excited to be part of the HCHT team and hope to learn from and contribute to the research in mental health. In my free time, I play basketball, chess, and violin.</p>
+                    <p>I’m a sophomore in Mather interested in computer science and economics. I’m very excited to be part of the SIMHR team and hope to learn from and contribute to the research in mental health. In my free time, I play basketball, chess, and violin.</p>
                   </div>
               </div>
             </div>

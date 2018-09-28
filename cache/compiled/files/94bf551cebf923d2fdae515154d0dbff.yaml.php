@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/mnt/tank/home/groups/hcht/web/user/config/site.yaml',
-    'modified' => 1520009823,
+    'modified' => 1538156972,
     'data' => [
         'title' => 'Students in Mental Health Research',
         'default_lang' => 'en',
@@ -56,7 +56,7 @@ return [
                 'icon' => 'envelope'
             ],
             2 => [
-                'url' => 'www.hcs.harvard.edu/~hcht/',
+                'url' => 'www.hcs.harvard.edu/~simhr/',
                 'icon' => 'info-circle'
             ]
         ],

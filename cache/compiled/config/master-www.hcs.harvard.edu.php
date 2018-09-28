@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1520009826,
-    'checksum' => '92ac0c01ba536ae13997c99f42a5ded6',
+    'timestamp' => 1538157066,
+    'checksum' => '07ff3152c84b10e1aaf6cfa36cb45d84',
     'files' => [
         'user/config' => [
             'media' => [
@@ -35,7 +35,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1520009823
+                'modified' => 1538156972
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -815,7 +815,7 @@ return [
                     'icon' => 'envelope'
                 ],
                 2 => [
-                    'url' => 'www.hcs.harvard.edu/~hcht/',
+                    'url' => 'www.hcs.harvard.edu/~simhr/',
                     'icon' => 'info-circle'
                 ]
             ],
