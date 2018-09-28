@@ -20,5 +20,4 @@ pagination: true
 ---
 
 ## Latest Blog Posts
-### Harvard College Healing Thoughts: A Global Mental Health Initiative (HCHT) is a student run organization dedicated to building a community of student learners devoted to raising awareness about global mental health issues. Through the Healing Thoughts blog, we hope to share informative, thought-provoking, and personal pieces that will bring new perspective to the campus dialogue about mental health. Head on over to the 'Submit' tab if you are interested in writing for us, and enjoy our blog!
-
+### Students in Mental Health Research: A Global Mental Health Initiative (SIMHR) is a student run organization dedicated to building a community of student learners devoted to raising awareness about global mental health issues. Through the SIMHR blog, we hope to share informative, thought-provoking, and personal pieces that will bring new perspective to the campus dialogue about mental health. Head on over to the 'Submit' tab if you are interested in writing for us, and enjoy our blog!
